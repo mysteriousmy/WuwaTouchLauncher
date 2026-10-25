@@ -1,0 +1,9 @@
+{
+  "version": "12.1.4",
+  "packageVersion": "12.1.4.1",
+  "commit": "2d79ba55fae1b1e71c69f93a668080c9029e6a31",
+  "url": "https://codeload.github.com/AvaloniaUI/Avalonia/tar.gz/2d79ba55fae1b1e71c69f93a668080c9029e6a31",
+  "sha256": "9e9ee6ee270bfdc02fbc34296da51ee6242325156d2b67cbed92d2ccbc2e2029",
+  "archive": "Avalonia-2d79ba55fae1b1e71c69f93a668080c9029e6a31.tar.gz",
+  "patch": "avalonia-12.1.4-linux-overlay.patch"
+}

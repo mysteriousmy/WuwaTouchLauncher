@@ -1,0 +1,29 @@
+<Project>
+  <!-- The adapter owns a Kestrel listener; it is never loaded into IIS.
+       The ASP.NET shared framework's in-process IIS host is an unused native asset. -->
+  <Target Name="WuwaWindowsExcludeIisHost" AfterTargets="ComputeFilesToPublish"
+          Condition="'$(RuntimeIdentifier)' == 'win-x64' and '$(WuwaWindowsNative)' == 'true'">
+    <ItemGroup>
+      <ResolvedFileToPublish Remove="@(ResolvedFileToPublish)" Condition="'%(ResolvedFileToPublish.Filename)%(ResolvedFileToPublish.Extension)' == 'aspnetcorev2_inprocess.dll'" />
+    </ItemGroup>
+  </Target>
+  <!-- AotAnywhere owns cross-ILC; the static graphics libraries use the MSVC ABI.
+       The publish entry point disables only AotAnywhere's MinGW direct-link task. -->
+  <Target Name="WuwaWindowsNativeLink" BeforeTargets="LinkNative"
+          DependsOnTargets="SetupOSSpecificProps;OverwriteTargetTriple;StaticLinkAvaloniaUseLldCompatibleArguments"
+          Condition="'$(PublishAot)' == 'true' and '$(RuntimeIdentifier)' == 'win-x64' and '$(WuwaWindowsNative)' == 'true'">
+    <Error Condition="'$(_AotAnywhereWinDirectLinkActive)' != 'false'" Text="KOTO_WIN001: The Windows MSVC profile requires _AotAnywhereWinDirectLinkActive=false as a global property." />
+    <Error Condition="'$(WuwaCompactLinux)' == 'true' or '$(StaticICULinking)' == 'true' or '$(StaticOpenSslLinking)' == 'true'"
+           Text="KOTO_WIN002: Linux static runtime properties cannot be used for Windows." />
+    <Error Condition="!Exists('$(WuwaWindowsNativeRoot)/link') or !Exists('$(WuwaWindowsNativeRoot)/static-longjmp.obj')"
+           Text="KOTO_WIN003: Run scripts/publish-windows.py to prepare the Windows SDK and linker." />
+    <PropertyGroup><CppLinker>$(WuwaWindowsNativeRoot)/link</CppLinker></PropertyGroup>
+    <ItemGroup>
+      <LinkerArg Remove="--target=x86_64-windows-gnu" />
+      <LinkerArg Include="/vfsoverlay:&quot;$(WuwaWindowsNativeRoot)/sdk-casefold.json&quot;;/nodefaultlib:vcruntime.lib" />
+      <NativeLibrary Include="$(WuwaWindowsNativeRoot)/static-longjmp.obj" />
+      <LinkerArg Include="&quot;$(WuwaWindowsNativeRoot)/static-longjmp.obj&quot;" />
+      <AdditionalNativeLibraryDirectories Include="$(WuwaWindowsSdkRoot)/sdk/lib/um/x86_64;$(WuwaWindowsSdkRoot)/sdk/lib/ucrt/x86_64;$(WuwaWindowsSdkRoot)/crt/lib/x86_64" />
+    </ItemGroup>
+  </Target>
+</Project>

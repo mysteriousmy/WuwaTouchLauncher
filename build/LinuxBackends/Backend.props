@@ -1,0 +1,27 @@
+<Project>
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Version>12.1.4.1</Version>
+    <AssemblyVersion>12.1.4.0</AssemblyVersion>
+    <FileVersion>12.1.4.1</FileVersion>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <EnableRuntimeMarshalling>true</EnableRuntimeMarshalling>
+    <AvaloniaAccessUnstablePrivateApis>true</AvaloniaAccessUnstablePrivateApis>
+    <Avalonia_I_Want_To_Use_Private_Apis_In_Nuget_Package_And_Promise_To_Pin_The_Exact_Avalonia_Version_In_Package_Dependency>true</Avalonia_I_Want_To_Use_Private_Apis_In_Nuget_Package_And_Promise_To_Pin_The_Exact_Avalonia_Version_In_Package_Dependency>
+    <IsAotCompatible>true</IsAotCompatible>
+    <SignAssembly>true</SignAssembly>
+    <AssemblyOriginatorKeyFile>$(AvaloniaSourceRoot)/build/avalonia.snk</AssemblyOriginatorKeyFile>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <Authors>Avalonia Team; WuwaTouchLauncher contributors</Authors>
+    <Description>Avalonia 12.1.4 with the repository-maintained Wuwa Linux overlay patch.</Description>
+    <RepositoryUrl>https://github.com/AvaloniaUI/Avalonia</RepositoryUrl>
+    <RepositoryCommit>2d79ba55fae1b1e71c69f93a668080c9029e6a31</RepositoryCommit>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="$(MSBuildThisFileDirectory)README.md" Pack="true" PackagePath="/" />
+    <PackageReference Include="Avalonia" Version="[12.1.4]" />
+    <ProjectReference Include="../Generators/Wuwa.Avalonia.Generators.csproj" OutputItemType="Analyzer" ReferenceOutputAssembly="false" PrivateAssets="all" />
+    <Compile Include="$(AvaloniaSourceRoot)/src/Shared/RawEventGrouping.cs" />
+  </ItemGroup>
+</Project>

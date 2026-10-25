@@ -1,0 +1,122 @@
+[
+  {
+    "file": "fontconfig-2.18.3.tar.xz",
+    "url": "https://gitlab.freedesktop.org/api/v4/projects/fontconfig%2Ffontconfig/packages/generic/fontconfig/2.18.3/fontconfig-2.18.3.tar.xz",
+    "sha256": "4f7b554a38cdf78c033f666c8871f3749e14a094f65a07f630c91ed0b43d35e3",
+    "bytes": 1172016,
+    "group": "fonts",
+    "extract": "fonts/src"
+  },
+  {
+    "file": "freetype-2.15.0.tar.xz",
+    "url": "https://download.savannah.gnu.org/releases/freetype/freetype-2.15.0.tar.xz",
+    "sha256": "93cd47eb719c325107f2d3cf087d06299e944c3b48a40b55537302304dea1dd5",
+    "bytes": 2716928,
+    "group": "fonts",
+    "extract": "fonts/src"
+  },
+  {
+    "file": "expat-2.9.0.tar.bz2",
+    "url": "https://github.com/libexpat/libexpat/releases/download/R_2_9_0/expat-2.9.0.tar.bz2",
+    "sha256": "775e8a68f81a748a401dc3168318d4a39484eb4f954726f21517c8f42c0ba984",
+    "bytes": 685975,
+    "group": "fonts",
+    "extract": "fonts/src"
+  },
+  {
+    "file": "libpng-1.6.59.tar.xz",
+    "url": "https://download.sourceforge.net/libpng/libpng-1.6.59.tar.xz",
+    "sha256": "d80dd2a38a37f803cb9b6ac7b14bd6e74ddc3b654780a8380bdf93523fdb4389",
+    "bytes": 1074540,
+    "group": "fonts",
+    "extract": "fonts/src"
+  },
+  {
+    "file": "brotli-1.2.0.tar.gz",
+    "url": "https://codeload.github.com/google/brotli/tar.gz/refs/tags/v1.2.0",
+    "sha256": "816c96e8e8f193b40151dad7e8ff37b1221d019dbcb9c35cd3fadbfe6477dfec",
+    "bytes": 646315,
+    "group": "fonts",
+    "extract": "fonts/src"
+  },
+  {
+    "file": "zlib-ng-2.3.3.tar.gz",
+    "url": "https://codeload.github.com/zlib-ng/zlib-ng/tar.gz/refs/tags/2.3.3",
+    "sha256": "f9c65aa9c852eb8255b636fd9f07ce1c406f061ec19a2e7d508b318ca0c907d1",
+    "bytes": 2447397,
+    "group": "fonts",
+    "extract": "fonts/src"
+  },
+  {
+    "file": "bzip2-1.0.8.tar.gz",
+    "url": "https://sourceware.org/pub/bzip2/bzip2-1.0.8.tar.gz",
+    "sha256": "ab5a03176ee106d3f0fa90e381da478ddae405918153cca248e682cd0c4a2269",
+    "bytes": 810029,
+    "group": "fonts",
+    "extract": "fonts/src"
+  },
+  {
+    "file": "sqlite-amalgamation-3540100.zip",
+    "url": "https://sqlite.org/2026/sqlite-amalgamation-3540100.zip",
+    "sha256": "0a9c8e34352dad46006aa82836d5383bff9dc6bc9ce5a60553c05aa30e6ad1f9",
+    "bytes": 2990966,
+    "group": "fonts",
+    "extract": "fonts/src"
+  },
+  {
+    "file": "harfbuzz-14.6.0.tar.xz",
+    "url": "https://github.com/harfbuzz/harfbuzz/releases/download/14.6.0/harfbuzz-14.6.0.tar.xz",
+    "sha256": "d07a007327277708a2a73ae437887cdbaf282937f6d03ca5467723e9099af586",
+    "bytes": 20295260,
+    "group": "fonts",
+    "extract": "fonts/src"
+  },
+  {
+    "file": "icu4c-78.3-sources.tgz",
+    "url": "https://github.com/unicode-org/icu/releases/download/release-78.3/icu4c-78.3-sources.tgz",
+    "sha256": "3a2e7a47604ba702f345878308e6fefeca612ee895cf4a5f222e7955fabfe0c0",
+    "bytes": 27977255,
+    "group": "runtime",
+    "extract": "runtime/src"
+  },
+  {
+    "file": "openssl-3.6.5.tar.gz",
+    "url": "https://github.com/openssl/openssl/releases/download/openssl-3.6.5/openssl-3.6.5.tar.gz",
+    "sha256": "a2157c2830efdec3788939b00c9b0638306d3f0bbb76dc4832ee503bb397df98",
+    "bytes": 55078161,
+    "group": "runtime",
+    "extract": "runtime/src"
+  },
+  {
+    "file": "gcc-16.2.0.tar.xz",
+    "url": "https://ftp.gnu.org/gnu/gcc/gcc-16.2.0/gcc-16.2.0.tar.xz",
+    "sha256": "e6738e29597f733270731aa90600f37ffdc045079dfc27ec7e8192cc81085c3e",
+    "bytes": 107200820,
+    "group": "unwind",
+    "extract": "unwind"
+  },
+  {
+    "file": "libc6_2.31-0ubuntu9.18_amd64.deb",
+    "url": "https://archive.ubuntu.com/ubuntu/pool/main/g/glibc/libc6_2.31-0ubuntu9.18_amd64.deb",
+    "sha256": "1b2281aac4935dfea1f89dfc19e445fdbb45303202af60679ccb8bf035f081a0",
+    "bytes": 2720364,
+    "group": "unwind",
+    "extract": "unwind/sysroot"
+  },
+  {
+    "file": "libc6-dev_2.31-0ubuntu9.18_amd64.deb",
+    "url": "https://archive.ubuntu.com/ubuntu/pool/main/g/glibc/libc6-dev_2.31-0ubuntu9.18_amd64.deb",
+    "sha256": "11029900f2315b93ce487792ae1bf15f0927e5e50880c091e6a440b14d4e164a",
+    "bytes": 2519636,
+    "group": "unwind",
+    "extract": "unwind/sysroot"
+  },
+  {
+    "file": "linux-libc-dev_5.4.0-216.236_amd64.deb",
+    "url": "https://archive.ubuntu.com/ubuntu/pool/main/l/linux/linux-libc-dev_5.4.0-216.236_amd64.deb",
+    "sha256": "70c9addd36aabd2d031d5ea0fc444f8b193027aef79ff3d8275d25800aed8ede",
+    "bytes": 1110608,
+    "group": "unwind",
+    "extract": "unwind/sysroot"
+  }
+]

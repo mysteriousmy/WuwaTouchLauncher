@@ -1,0 +1,75 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <Import Project="Sdk.props" Sdk="StuDev.AotAnywhere" Version="1.1.0" Condition="'$(UseAotAnywhere)' == 'true'" />
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net10.0</TargetFramework>
+    <AssemblyName>wuwa-touch-launcher</AssemblyName>
+    <EnableGui Condition="'$(EnableGui)' == ''">true</EnableGui>
+    <AssemblyName Condition="'$(EnableGui)' != 'true'">wuwa-touch-cli</AssemblyName>
+    <DefineConstants Condition="'$(EnableGui)' != 'true'">$(DefineConstants);HEADLESS</DefineConstants>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <PublishAot>true</PublishAot>
+    <OptimizationPreference>Size</OptimizationPreference>
+    <IsAotCompatible>true</IsAotCompatible>
+    <InvariantGlobalization Condition="'$(EnableGui)' == 'true'">false</InvariantGlobalization>
+    <InvariantGlobalization Condition="'$(EnableGui)' != 'true'">true</InvariantGlobalization>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <Version>0.6.0</Version>
+    <AvaloniaUseCompiledBindingsByDefault>true</AvaloniaUseCompiledBindingsByDefault>
+    <AotAnywhereUpxCompress>false</AotAnywhereUpxCompress>
+    <StaticGraphics Condition="'$(StaticGraphics)' == ''">true</StaticGraphics>
+    <JsonSerializerIsReflectionEnabledByDefault>false</JsonSerializerIsReflectionEnabledByDefault>
+    <WindowsBuild Condition="$(RuntimeIdentifier.StartsWith('win-')) Or ('$(RuntimeIdentifier)' == '' And '$(OS)' == 'Windows_NT')">true</WindowsBuild>
+    <DefineConstants Condition="'$(WindowsBuild)' == 'true'">$(DefineConstants);WINDOWS</DefineConstants>
+    <OutputType Condition="'$(WindowsBuild)' == 'true'">WinExe</OutputType>
+    <ApplicationIcon Condition="'$(WindowsBuild)' == 'true'">../assets/wuwa-touch-launcher.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup Condition="'$(WindowsBuild)' != 'true'">
+    <PackageReference Include="YamlDotNet" Version="18.1.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="../assets/touch-bridge.exe" LogicalName="Wuwa.TouchBridge" />
+    <EmbeddedResource Include="../assets/ww_ulk_plugin_base.dll" LogicalName="Wuwa.FpsUnlockPlugin" />
+  </ItemGroup>
+  <ItemGroup Condition="'$(EnableGui)' == 'true'">
+    <PackageReference Include="Avalonia" Version="12.1.4" />
+    <PackageReference Include="Avalonia.Desktop" Version="12.1.4" />
+    <PackageReference Include="Avalonia.Fonts.Inter" Version="12.1.4" />
+    <PackageReference Include="Avalonia.Skia" Version="[12.1.4.1]" />
+    <PackageReference Include="Avalonia.X11" Version="[12.1.4.1]" />
+    <PackageReference Include="Avalonia.Wayland" Version="[12.1.4.1]" />
+    <PackageReference Include="AtomUI.Desktop.Controls" Version="6.2.7" />
+    <AvaloniaResource Include="../assets/fonts/*.otf" Link="Assets/Fonts/%(Filename)%(Extension)" />
+    <AvaloniaResource Include="../assets/wuwa-touch-launcher.ico" Link="Assets/launcher.ico" />
+  </ItemGroup>
+  <ItemGroup Condition="'$(EnableGui)' == 'true' And '$(StaticGraphics)' == 'true'">
+    <PackageReference Include="StaticLink.Avalonia" Version="[12.1.4.1]" />
+    <PackageReference Include="StaticLink.Avalonia.Native" Version="[12.1.4.1]" />
+    <DirectPInvoke Include="libsqlite3.so.0" Condition="'$(RuntimeIdentifier)' == 'linux-x64'" />
+  </ItemGroup>
+  <ItemGroup Condition="'$(EnableGui)' != 'true'">
+    <Compile Remove="LauncherWindow.cs;TouchSelect.cs;LauncherApplication.cs;UiStyle.cs;UiSmoke.cs;AppearanceWindow.cs;WindowsMemoryReclaimer.cs" />
+  </ItemGroup>
+  <ItemGroup Condition="'$(EnableGui)' == 'true'">
+    <Compile Remove="LauncherWindow.Headless.cs" />
+  </ItemGroup>
+  <Import Project="Sdk.targets" Sdk="StuDev.AotAnywhere" Version="1.1.0" Condition="'$(UseAotAnywhere)' == 'true'" />
+  <Import Project="../build/StaticLink.Compatibility.targets" Condition="'$(EnableGui)' == 'true' And '$(StaticGraphics)' == 'true'" />
+  <Import Project="../build/LinuxNative/LinuxNative.targets" Condition="'$(EnableGui)' == 'true' And '$(StaticGraphics)' == 'true'" />
+  <Import Project="../build/LinuxSize/LinuxSize.targets" Condition="'$(EnableGui)' == 'true' And '$(StaticGraphics)' == 'true'" />
+  <Import Project="../build/WindowsNative/WindowsNative.targets" Condition="'$(EnableGui)' == 'true' And '$(StaticGraphics)' == 'true'" />
+  <PropertyGroup Condition="'$(StaticExecutable)' == 'true'">
+    <StaticOpenSslLinking>true</StaticOpenSslLinking>
+    <SqliteStaticLibrary Condition="'$(SqliteStaticLibrary)' == ''">/usr/lib/libsqlite3.a</SqliteStaticLibrary>
+  </PropertyGroup>
+  <ItemGroup Condition="'$(StaticExecutable)' == 'true'">
+    <DirectPInvoke Include="libc" />
+    <DirectPInvoke Include="libsqlite3.so.0" />
+    <NativeLibrary Include="$(SqliteStaticLibrary)" />
+  </ItemGroup>
+  <Target Name="ValidateStaticTarget" BeforeTargets="PrepareForBuild" Condition="'$(StaticExecutable)' == 'true'">
+    <Error Condition="'$(RuntimeIdentifier)' != 'linux-musl-x64'" Text="静态构建目前仅支持 linux-musl-x64；请使用 build-linux-static.sh。" />
+  </Target>
+</Project>

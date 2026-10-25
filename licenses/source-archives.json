@@ -1,0 +1,38 @@
+[
+  {
+    "name": "AtomUI",
+    "version": "6.2.7",
+    "commit": "4021b4ed7ab49e12fa047fa8ad8cc42870937222",
+    "url": "https://codeload.github.com/AtomUI/AtomUI/tar.gz/4021b4ed7ab49e12fa047fa8ad8cc42870937222",
+    "file": "AtomUI-4021b4ed7ab49e12fa047fa8ad8cc42870937222.tar.gz",
+    "sha256": "0c42eaf12e178c09b592bc9adecc6148d12ea68a937ef387675fc725fa4105c0"
+  },
+  {
+    "name": "StaticLink.Avalonia",
+    "commit": "88fdb15a7f3608196a4322fa4099dcb962d5e7a1",
+    "url": "https://codeload.github.com/greepar/StaticLink.Avalonia/tar.gz/88fdb15a7f3608196a4322fa4099dcb962d5e7a1",
+    "file": "StaticLink.Avalonia-88fdb15a7f3608196a4322fa4099dcb962d5e7a1.tar.gz",
+    "sha256": "50f84d08ced52cdb11b48d8fb7702364d12a60af560477c8542fa9d837a6a6ea"
+  },
+  {
+    "name": "Avalonia",
+    "commit": "2d79ba55fae1b1e71c69f93a668080c9029e6a31",
+    "url": "https://codeload.github.com/AvaloniaUI/Avalonia/tar.gz/2d79ba55fae1b1e71c69f93a668080c9029e6a31",
+    "file": "Avalonia-2d79ba55fae1b1e71c69f93a668080c9029e6a31.tar.gz",
+    "sha256": "9e9ee6ee270bfdc02fbc34296da51ee6242325156d2b67cbed92d2ccbc2e2029"
+  },
+  {
+    "name": "NWayland",
+    "commit": "eec3112551ed2bc02bce88b5429304fcfda52671",
+    "url": "https://codeload.github.com/AvaloniaUI/NWayland/tar.gz/eec3112551ed2bc02bce88b5429304fcfda52671",
+    "file": "NWayland-eec3112551ed2bc02bce88b5429304fcfda52671.tar.gz",
+    "sha256": "084fc4d11e5c02f2e4218c53fd1257b57539ae74eaa4b3e308ed2b90fdbc225f"
+  },
+  {
+    "name": "wlr-protocols",
+    "commit": "bf4fc79abc359eea5a0edec0ac6d4a2b2955f82a",
+    "url": "https://gitlab.freedesktop.org/wlroots/wlr-protocols/-/archive/bf4fc79abc359eea5a0edec0ac6d4a2b2955f82a/wlr-protocols-bf4fc79abc359eea5a0edec0ac6d4a2b2955f82a.tar.gz",
+    "file": "wlr-protocols-bf4fc79abc359eea5a0edec0ac6d4a2b2955f82a.tar.gz",
+    "sha256": "9e0fd2be5ba7c84b81acdd086f84c2da2c2b5e4946a17bda3e9850c62e14057f"
+  }
+]

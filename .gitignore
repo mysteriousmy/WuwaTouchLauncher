@@ -1,0 +1,23 @@
+# Build outputs and local development tools
+**/bin/
+**/obj/
+**/__pycache__/
+*.pyc
+.tools/
+artifacts/
+dist/
+releases/
+.vs/
+.idea/
+# Personal profiles and recovery state
+profiles.json
+profiles.json.bak
+config.json
+*.binlog
+*.pdb
+*.dbg
+*.user
+# Source examples and vendored notices remain tracked
+docs/LOCAL-HISTORY.md
+inspect-graphics.py
+install-uhd-resources.py

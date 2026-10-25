@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+  <ItemGroup>
+    <!-- Build the generator shipped with this exact Avalonia source revision. -->
+    <PackageReference Include="Microsoft.CodeAnalysis.CSharp" Version="[5.9.0]" PrivateAssets="all" />
+    <Compile Include="$(AvaloniaSourceRoot)/src/tools/DevGenerators/**/*.cs" Exclude="$(AvaloniaSourceRoot)/src/tools/DevGenerators/obj/**" />
+    <Compile Include="$(AvaloniaSourceRoot)/src/Shared/SourceGeneratorAttributes.cs" />
+    <Compile Include="$(AvaloniaSourceRoot)/src/Shared/IsExternalInit.cs" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,1390 @@
+{
+  "schema": 1,
+  "packages": [
+    {
+      "package": "AtomUI.Controls",
+      "version": "6.2.7",
+      "nugetContentHash": "Q42XEV5SKYWXZpzh2ejrYSQ/6CG/qN+9dYNyaqBD6b1E98UBynzZ/uF1xtws2K7KsQq6FzxbXzWmiaJStxysaQ==",
+      "license": "LICENSE",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/AtomUI/AtomUI",
+        "commit": "4021b4ed7ab49e12fa047fa8ad8cc42870937222"
+      },
+      "notices": [
+        {
+          "file": "licenses/third-party/AtomUI.Controls-6.2.7/LICENSE",
+          "sha256": "e3a994d82e644b03a792a930f574002658412f62407f5fee083f2555c5f23118",
+          "source": "nuget:AtomUI.Controls/6.2.7/LICENSE"
+        }
+      ]
+    },
+    {
+      "package": "AtomUI.Controls.Shared",
+      "version": "6.2.7",
+      "nugetContentHash": "Ngvg2JMfK8DPc8LMZaNIC4Twdihu2R2BkiFWV2zQ3SnrnLW+1NqAl0BfR8WZ5Xg+mFsxDbzGP9Iu2/ayXpjV8A==",
+      "license": "LICENSE",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/AtomUI/AtomUI",
+        "commit": "4021b4ed7ab49e12fa047fa8ad8cc42870937222"
+      },
+      "notices": [
+        {
+          "file": "licenses/third-party/AtomUI.Controls.Shared-6.2.7/LICENSE",
+          "sha256": "e3a994d82e644b03a792a930f574002658412f62407f5fee083f2555c5f23118",
+          "source": "nuget:AtomUI.Controls.Shared/6.2.7/LICENSE"
+        }
+      ]
+    },
+    {
+      "package": "AtomUI.Core",
+      "version": "6.2.7",
+      "nugetContentHash": "TH+X1tDFAgKhv2tKvgLKIT5lCPeOe0Z7pIWhRV3WifzN4JiNIgF8QKYBxkGQBI75mHU7z8PMuVyTgg4vpqmI6g==",
+      "license": "LICENSE",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/AtomUI/AtomUI",
+        "commit": "4021b4ed7ab49e12fa047fa8ad8cc42870937222"
+      },
+      "notices": [
+        {
+          "file": "licenses/third-party/AtomUI.Core-6.2.7/LICENSE",
+          "sha256": "e3a994d82e644b03a792a930f574002658412f62407f5fee083f2555c5f23118",
+          "source": "nuget:AtomUI.Core/6.2.7/LICENSE"
+        }
+      ]
+    },
+    {
+      "package": "AtomUI.Desktop.Controls",
+      "version": "6.2.7",
+      "nugetContentHash": "zu6z+A2Y2o8fkTjky8wnYqCjskbmgjpxfMCrmod219XzsTmpB04XxRbz/FAQGTgyvF3BfhcWaS03xsMTy3uq8g==",
+      "license": "LICENSE",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/AtomUI/AtomUI",
+        "commit": "4021b4ed7ab49e12fa047fa8ad8cc42870937222"
+      },
+      "notices": [
+        {
+          "file": "licenses/third-party/AtomUI.Desktop.Controls-6.2.7/LICENSE",
+          "sha256": "e3a994d82e644b03a792a930f574002658412f62407f5fee083f2555c5f23118",
+          "source": "nuget:AtomUI.Desktop.Controls/6.2.7/LICENSE"
+        }
+      ]
+    },
+    {
+      "package": "AtomUI.Fonts.AlibabaSans",
+      "version": "6.2.7",
+      "nugetContentHash": "i5DzagCXb5wwRTRYRAUMMHIR2X+HWxTxDlKbtUmfZo7MYYlG15k3mvbb5Uoktyj57xMit2au2KG/qyh+nNKEZg==",
+      "license": "LICENSE",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/AtomUI/AtomUI",
+        "commit": "4021b4ed7ab49e12fa047fa8ad8cc42870937222"
+      },
+      "notices": [
+        {
+          "file": "licenses/third-party/AtomUI.Fonts.AlibabaSans-6.2.7/LICENSE",
+          "sha256": "e3a994d82e644b03a792a930f574002658412f62407f5fee083f2555c5f23118",
+          "source": "nuget:AtomUI.Fonts.AlibabaSans/6.2.7/LICENSE"
+        }
+      ]
+    },
+    {
+      "package": "AtomUI.Icons.AntDesign",
+      "version": "6.2.7",
+      "nugetContentHash": "RPsegY1mSToZnncfxp21tUvWmtr9PvNuA6DNDQxOdSVglkhR6oLfQ+yRCbvr7DI2LYBsgX2lm5XnxN4m0amEkw==",
+      "license": "LICENSE",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/AtomUI/AtomUI",
+        "commit": "4021b4ed7ab49e12fa047fa8ad8cc42870937222"
+      },
+      "notices": [
+        {
+          "file": "licenses/third-party/AtomUI.Icons.AntDesign-6.2.7/LICENSE",
+          "sha256": "e3a994d82e644b03a792a930f574002658412f62407f5fee083f2555c5f23118",
+          "source": "nuget:AtomUI.Icons.AntDesign/6.2.7/LICENSE"
+        }
+      ]
+    },
+    {
+      "package": "AtomUI.Localization",
+      "version": "6.2.7",
+      "nugetContentHash": "iGqSEjw7OghEvFktqVkGdmGXixteviheYABEzDkUFx0FwliMP26IBj9T45rlif3LLSEzWdIs8LrJv/PWS97DJg==",
+      "license": "LICENSE",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/AtomUI/AtomUI",
+        "commit": "4021b4ed7ab49e12fa047fa8ad8cc42870937222"
+      },
+      "notices": [
+        {
+          "file": "licenses/third-party/AtomUI.Localization-6.2.7/LICENSE",
+          "sha256": "e3a994d82e644b03a792a930f574002658412f62407f5fee083f2555c5f23118",
+          "source": "nuget:AtomUI.Localization/6.2.7/LICENSE"
+        }
+      ]
+    },
+    {
+      "package": "AtomUI.Native",
+      "version": "6.2.7",
+      "nugetContentHash": "yxNwsKwgWZcrOtzPPVvMYsaBOxMe99ijZmoA42MZiPFS5XXuQgv4lh48nDKiUVUo3hUdU79tH20wpB7Mjh9ShA==",
+      "license": "LICENSE",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/AtomUI/AtomUI",
+        "commit": "4021b4ed7ab49e12fa047fa8ad8cc42870937222"
+      },
+      "notices": [
+        {
+          "file": "licenses/third-party/AtomUI.Native-6.2.7/LICENSE",
+          "sha256": "e3a994d82e644b03a792a930f574002658412f62407f5fee083f2555c5f23118",
+          "source": "nuget:AtomUI.Native/6.2.7/LICENSE"
+        }
+      ]
+    },
+    {
+      "package": "Avalonia",
+      "version": "12.1.4",
+      "nugetContentHash": "Vlz+ebY0PBVsTFXAPIpM+7ySgezMtyJ3GMMGmccHwxXXjgLF2x5+NMwO4AqrdM/lrUPZremnYNO6MSg1r1vuxw==",
+      "locks": [
+        "src/packages.linux-x64.lock.json",
+        "src/packages.win-x64.lock.json"
+      ],
+      "license": "MIT",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/AvaloniaUI/Avalonia/",
+        "branch": "refs/heads/release/12.1.4",
+        "commit": "2d79ba55fae1b1e71c69f93a668080c9029e6a31"
+      },
+      "notices": [
+        {
+          "file": "licenses/third-party/AvaloniaUI-Avalonia-2d79ba55fae1/licence.md",
+          "sha256": "213814d306090074d234d760239ff0f67eb9b8d20eefb4d5631bb39dbe0b769b",
+          "source": "https://raw.githubusercontent.com/AvaloniaUI/Avalonia/2d79ba55fae1b1e71c69f93a668080c9029e6a31/licence.md"
+        },
+        {
+          "file": "licenses/third-party/AvaloniaUI-Avalonia-2d79ba55fae1/NOTICE.md",
+          "sha256": "dd6f80852d16320c865a2e403ffd1a8b07a0e34c5b37122c0bc2343639ff68e6",
+          "source": "https://raw.githubusercontent.com/AvaloniaUI/Avalonia/2d79ba55fae1b1e71c69f93a668080c9029e6a31/NOTICE.md"
+        }
+      ]
+    },
+    {
+      "package": "Avalonia.Angle.Windows.Natives",
+      "version": "2.1.27548.20260419",
+      "nugetContentHash": "l17nI3XVDN3oMnpjf2pnmJg0YTwK4m6NLsn/itAjDMdObTFxN77D5F1M9sRMSfViSY3KKcse1ROczwgoWLJsnA==",
+      "locks": [
+        "src/packages.linux-x64.lock.json",
+        "src/packages.win-x64.lock.json"
+      ],
+      "license": "LICENSE",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/AvaloniaUI/angle/",
+        "commit": "1c89805903c1482166356d3b950d474973180e61"
+      },
+      "notices": [
+        {
+          "file": "licenses/third-party/Avalonia.Angle.Windows.Natives-2.1.27548.20260419/LICENSE",
+          "sha256": "54aff7276217df9f6b5181613999d208c9e40d2b1d51bf55217837e6871a4a63",
+          "source": "nuget:Avalonia.Angle.Windows.Natives/2.1.27548.20260419/LICENSE"
+        }
+      ]
+    },
+    {
+      "package": "Avalonia.BuildServices",
+      "version": "11.3.2",
+      "nugetContentHash": "qHDToxto1e3hci5YqbG9n0Ty8mlp3zBUN5wT66wKqaDVzXyQ0do3EnRILd4Ke9jpvsktaPpgE0YjEk7hornryQ==",
+      "locks": [
+        "src/packages.linux-x64.lock.json",
+        "src/packages.win-x64.lock.json"
+      ],
+      "license": "MIT",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/AvaloniaUI/Avalonia.BuildServices",
+        "commit": "777f975b0a0cecf0311273711d56697212c558c0"
+      },
+      "notices": [
+        {
+          "file": "licenses/third-party/AvaloniaUI-Avalonia.BuildServices-777f975b0a0c/LICENSE",
+          "sha256": "94162c40c663bd96ec1b870e6aba6ef0a43f44c9eb500807e7965e7078f6dc47",
+          "source": "https://raw.githubusercontent.com/AvaloniaUI/Avalonia.BuildServices/777f975b0a0cecf0311273711d56697212c558c0/LICENSE"
+        }
+      ]
+    },
+    {
+      "package": "Avalonia.Desktop",
+      "version": "12.1.4",
+      "nugetContentHash": "2vrr0Ao77r3BoZSZ5BTg6rEb8N0987hw5H6lxtZkR8tpagiOTaL9a31Pi02jJha8es7Y+jJR8Qwis7PMQRjytg==",
+      "locks": [
+        "src/packages.linux-x64.lock.json",
+        "src/packages.win-x64.lock.json"
+      ],
+      "license": "MIT",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/AvaloniaUI/Avalonia/",
+        "branch": "refs/heads/release/12.1.4",
+        "commit": "2d79ba55fae1b1e71c69f93a668080c9029e6a31"
+      },
+      "notices": [
+        {
+          "file": "licenses/third-party/AvaloniaUI-Avalonia-2d79ba55fae1/licence.md",
+          "sha256": "213814d306090074d234d760239ff0f67eb9b8d20eefb4d5631bb39dbe0b769b",
+          "source": "https://raw.githubusercontent.com/AvaloniaUI/Avalonia/2d79ba55fae1b1e71c69f93a668080c9029e6a31/licence.md"
+        },
+        {
+          "file": "licenses/third-party/AvaloniaUI-Avalonia-2d79ba55fae1/NOTICE.md",
+          "sha256": "dd6f80852d16320c865a2e403ffd1a8b07a0e34c5b37122c0bc2343639ff68e6",
+          "source": "https://raw.githubusercontent.com/AvaloniaUI/Avalonia/2d79ba55fae1b1e71c69f93a668080c9029e6a31/NOTICE.md"
+        }
+      ]
+    },
+    {
+      "package": "Avalonia.Fonts.Inter",
+      "version": "12.1.4",
+      "nugetContentHash": "PqzIALObVJ3ZUpfYDkoNNkijaVBUGVrHqAyWPkE39aJrPukbMv49aGMhS+c5HiW1s+/iuo3fW+ISOk34GOc0iw==",
+      "locks": [
+        "src/packages.linux-x64.lock.json",
+        "src/packages.win-x64.lock.json"
+      ],
+      "license": "MIT",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/AvaloniaUI/Avalonia/",
+        "branch": "refs/heads/release/12.1.4",
+        "commit": "2d79ba55fae1b1e71c69f93a668080c9029e6a31"
+      },
+      "notices": [
+        {
+          "file": "licenses/third-party/AvaloniaUI-Avalonia-2d79ba55fae1/licence.md",
+          "sha256": "213814d306090074d234d760239ff0f67eb9b8d20eefb4d5631bb39dbe0b769b",
+          "source": "https://raw.githubusercontent.com/AvaloniaUI/Avalonia/2d79ba55fae1b1e71c69f93a668080c9029e6a31/licence.md"
+        },
+        {
+          "file": "licenses/third-party/AvaloniaUI-Avalonia-2d79ba55fae1/NOTICE.md",
+          "sha256": "dd6f80852d16320c865a2e403ffd1a8b07a0e34c5b37122c0bc2343639ff68e6",
+          "source": "https://raw.githubusercontent.com/AvaloniaUI/Avalonia/2d79ba55fae1b1e71c69f93a668080c9029e6a31/NOTICE.md"
+        }
+      ]
+    },
+    {
+      "package": "Avalonia.FreeDesktop",
+      "version": "12.1.4",
+      "nugetContentHash": "EDM2mqO+eU7/0gLrIyObkt/q6DiBRbGSbzZ72J87K2JHTYEXtOT/quOpWv6bOKsDQGBPBkjI+s0OwFUxPmCP2A==",
+      "locks": [
+        "src/packages.linux-x64.lock.json",
+        "src/packages.win-x64.lock.json"
+      ],
+      "license": "MIT",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/AvaloniaUI/Avalonia/",
+        "branch": "refs/heads/release/12.1.4",
+        "commit": "2d79ba55fae1b1e71c69f93a668080c9029e6a31"
+      },
+      "notices": [
+        {
+          "file": "licenses/third-party/AvaloniaUI-Avalonia-2d79ba55fae1/licence.md",
+          "sha256": "213814d306090074d234d760239ff0f67eb9b8d20eefb4d5631bb39dbe0b769b",
+          "source": "https://raw.githubusercontent.com/AvaloniaUI/Avalonia/2d79ba55fae1b1e71c69f93a668080c9029e6a31/licence.md"
+        },
+        {
+          "file": "licenses/third-party/AvaloniaUI-Avalonia-2d79ba55fae1/NOTICE.md",
+          "sha256": "dd6f80852d16320c865a2e403ffd1a8b07a0e34c5b37122c0bc2343639ff68e6",
+          "source": "https://raw.githubusercontent.com/AvaloniaUI/Avalonia/2d79ba55fae1b1e71c69f93a668080c9029e6a31/NOTICE.md"
+        }
+      ]
+    },
+    {
+      "package": "Avalonia.FreeDesktop.AtSpi",
+      "version": "12.1.4",
+      "nugetContentHash": "ulmTyv+D8euk4n4qFXTP9vyScNbRz+/SuMrdDeoGFLQW00Me1MGA1vBbaiDcdp8VgyfoeRDlq7tQGtwWOf8ZJg==",
+      "locks": [
+        "src/packages.linux-x64.lock.json",
+        "src/packages.win-x64.lock.json"
+      ],
+      "license": "MIT",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/AvaloniaUI/Avalonia/",
+        "branch": "refs/heads/release/12.1.4",
+        "commit": "2d79ba55fae1b1e71c69f93a668080c9029e6a31"
+      },
+      "notices": [
+        {
+          "file": "licenses/third-party/AvaloniaUI-Avalonia-2d79ba55fae1/licence.md",
+          "sha256": "213814d306090074d234d760239ff0f67eb9b8d20eefb4d5631bb39dbe0b769b",
+          "source": "https://raw.githubusercontent.com/AvaloniaUI/Avalonia/2d79ba55fae1b1e71c69f93a668080c9029e6a31/licence.md"
+        },
+        {
+          "file": "licenses/third-party/AvaloniaUI-Avalonia-2d79ba55fae1/NOTICE.md",
+          "sha256": "dd6f80852d16320c865a2e403ffd1a8b07a0e34c5b37122c0bc2343639ff68e6",
+          "source": "https://raw.githubusercontent.com/AvaloniaUI/Avalonia/2d79ba55fae1b1e71c69f93a668080c9029e6a31/NOTICE.md"
+        }
+      ]
+    },
+    {
+      "package": "Avalonia.HarfBuzz",
+      "version": "12.1.4",
+      "nugetContentHash": "PxaJL9P/Zn6w89kLokuLcWDnj+w4erpfp57SiDN4JhX4NI2qPLJEmxgogTwyXjCUE8vq7Jg7kjH/z5D2jeGAhA==",
+      "locks": [
+        "src/packages.linux-x64.lock.json",
+        "src/packages.win-x64.lock.json"
+      ],
+      "license": "MIT",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/AvaloniaUI/Avalonia/",
+        "branch": "refs/heads/release/12.1.4",
+        "commit": "2d79ba55fae1b1e71c69f93a668080c9029e6a31"
+      },
+      "notices": [
+        {
+          "file": "licenses/third-party/AvaloniaUI-Avalonia-2d79ba55fae1/licence.md",
+          "sha256": "213814d306090074d234d760239ff0f67eb9b8d20eefb4d5631bb39dbe0b769b",
+          "source": "https://raw.githubusercontent.com/AvaloniaUI/Avalonia/2d79ba55fae1b1e71c69f93a668080c9029e6a31/licence.md"
+        },
+        {
+          "file": "licenses/third-party/AvaloniaUI-Avalonia-2d79ba55fae1/NOTICE.md",
+          "sha256": "dd6f80852d16320c865a2e403ffd1a8b07a0e34c5b37122c0bc2343639ff68e6",
+          "source": "https://raw.githubusercontent.com/AvaloniaUI/Avalonia/2d79ba55fae1b1e71c69f93a668080c9029e6a31/NOTICE.md"
+        }
+      ]
+    },
+    {
+      "package": "Avalonia.Native",
+      "version": "12.1.4",
+      "nugetContentHash": "to73yCbFWzRNs3gyuBG2QkRsrpjnGrEVwkhtAsJLbPAKFjP/M0YDeb4MPMN3wGlpwCFdz9L8R8iAivyNet5+5g==",
+      "locks": [
+        "src/packages.linux-x64.lock.json",
+        "src/packages.win-x64.lock.json"
+      ],
+      "license": "MIT",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/AvaloniaUI/Avalonia/",
+        "branch": "refs/heads/release/12.1.4",
+        "commit": "2d79ba55fae1b1e71c69f93a668080c9029e6a31"
+      },
+      "notices": [
+        {
+          "file": "licenses/third-party/AvaloniaUI-Avalonia-2d79ba55fae1/licence.md",
+          "sha256": "213814d306090074d234d760239ff0f67eb9b8d20eefb4d5631bb39dbe0b769b",
+          "source": "https://raw.githubusercontent.com/AvaloniaUI/Avalonia/2d79ba55fae1b1e71c69f93a668080c9029e6a31/licence.md"
+        },
+        {
+          "file": "licenses/third-party/AvaloniaUI-Avalonia-2d79ba55fae1/NOTICE.md",
+          "sha256": "dd6f80852d16320c865a2e403ffd1a8b07a0e34c5b37122c0bc2343639ff68e6",
+          "source": "https://raw.githubusercontent.com/AvaloniaUI/Avalonia/2d79ba55fae1b1e71c69f93a668080c9029e6a31/NOTICE.md"
+        }
+      ]
+    },
+    {
+      "package": "Avalonia.Remote.Protocol",
+      "version": "12.1.4",
+      "nugetContentHash": "9ajC+Ff+U9S21JJKGbJgnwp9fY+zwJG+bSEC//o/vJU2M6IEMRGp+D1+AUoqTR79FAA/iDYgf4f4EF4PZKhZsg==",
+      "locks": [
+        "src/packages.linux-x64.lock.json",
+        "src/packages.win-x64.lock.json"
+      ],
+      "license": "MIT",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/AvaloniaUI/Avalonia/",
+        "branch": "refs/heads/release/12.1.4",
+        "commit": "2d79ba55fae1b1e71c69f93a668080c9029e6a31"
+      },
+      "notices": [
+        {
+          "file": "licenses/third-party/AvaloniaUI-Avalonia-2d79ba55fae1/licence.md",
+          "sha256": "213814d306090074d234d760239ff0f67eb9b8d20eefb4d5631bb39dbe0b769b",
+          "source": "https://raw.githubusercontent.com/AvaloniaUI/Avalonia/2d79ba55fae1b1e71c69f93a668080c9029e6a31/licence.md"
+        },
+        {
+          "file": "licenses/third-party/AvaloniaUI-Avalonia-2d79ba55fae1/NOTICE.md",
+          "sha256": "dd6f80852d16320c865a2e403ffd1a8b07a0e34c5b37122c0bc2343639ff68e6",
+          "source": "https://raw.githubusercontent.com/AvaloniaUI/Avalonia/2d79ba55fae1b1e71c69f93a668080c9029e6a31/NOTICE.md"
+        }
+      ]
+    },
+    {
+      "package": "Avalonia.Skia",
+      "version": "12.1.4.1",
+      "nugetContentHash": "YUIx6FdH3ruDmGmAqzrtXM2zETXNYQ3bdWCRrGv/yzTxJeFudCigpunN6Wl+bS+mZ8UX9Wfu731GDf8J4c/wOg==",
+      "locks": [
+        "src/packages.linux-x64.lock.json",
+        "src/packages.win-x64.lock.json"
+      ],
+      "license": "MIT",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/AvaloniaUI/Avalonia/",
+        "branch": "refs/heads/release/12.1.4",
+        "commit": "2d79ba55fae1b1e71c69f93a668080c9029e6a31"
+      },
+      "notices": [
+        {
+          "file": "licenses/third-party/AvaloniaUI-Avalonia-2d79ba55fae1/licence.md",
+          "sha256": "213814d306090074d234d760239ff0f67eb9b8d20eefb4d5631bb39dbe0b769b",
+          "source": "https://raw.githubusercontent.com/AvaloniaUI/Avalonia/2d79ba55fae1b1e71c69f93a668080c9029e6a31/licence.md"
+        },
+        {
+          "file": "licenses/third-party/AvaloniaUI-Avalonia-2d79ba55fae1/NOTICE.md",
+          "sha256": "dd6f80852d16320c865a2e403ffd1a8b07a0e34c5b37122c0bc2343639ff68e6",
+          "source": "https://raw.githubusercontent.com/AvaloniaUI/Avalonia/2d79ba55fae1b1e71c69f93a668080c9029e6a31/NOTICE.md"
+        }
+      ],
+      "modifications": "Repository patch and additions: build/LinuxBackends; deterministic local packages, not an official Avalonia release."
+    },
+    {
+      "package": "Avalonia.Wayland",
+      "version": "12.1.4.1",
+      "nugetContentHash": "baOoTUSVxm1dloZ5curuA/d+tNt/y7hRe5ghKqYzKufMPbibpPD9r7Nwo5tEV+IU08JqCHKOO98p5CzbLTidbw==",
+      "locks": [
+        "src/packages.linux-x64.lock.json",
+        "src/packages.win-x64.lock.json"
+      ],
+      "license": "MIT",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/AvaloniaUI/Avalonia/",
+        "branch": "refs/heads/release/12.1.4",
+        "commit": "2d79ba55fae1b1e71c69f93a668080c9029e6a31"
+      },
+      "notices": [
+        {
+          "file": "licenses/third-party/AvaloniaUI-Avalonia-2d79ba55fae1/licence.md",
+          "sha256": "213814d306090074d234d760239ff0f67eb9b8d20eefb4d5631bb39dbe0b769b",
+          "source": "https://raw.githubusercontent.com/AvaloniaUI/Avalonia/2d79ba55fae1b1e71c69f93a668080c9029e6a31/licence.md"
+        },
+        {
+          "file": "licenses/third-party/AvaloniaUI-Avalonia-2d79ba55fae1/NOTICE.md",
+          "sha256": "dd6f80852d16320c865a2e403ffd1a8b07a0e34c5b37122c0bc2343639ff68e6",
+          "source": "https://raw.githubusercontent.com/AvaloniaUI/Avalonia/2d79ba55fae1b1e71c69f93a668080c9029e6a31/NOTICE.md"
+        }
+      ],
+      "modifications": "Repository patch and additions: build/LinuxBackends; deterministic local packages, not an official Avalonia release."
+    },
+    {
+      "package": "Avalonia.Win32",
+      "version": "12.1.4",
+      "nugetContentHash": "N/Ra73KLQBoQOcnpROWdCA49vCFij8MSyU7MFv8JWMxcQvkG98K19/hmdcyiqB/B1sBahyZuHgIsoO8ryajC0g==",
+      "locks": [
+        "src/packages.linux-x64.lock.json",
+        "src/packages.win-x64.lock.json"
+      ],
+      "license": "MIT",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/AvaloniaUI/Avalonia/",
+        "branch": "refs/heads/release/12.1.4",
+        "commit": "2d79ba55fae1b1e71c69f93a668080c9029e6a31"
+      },
+      "notices": [
+        {
+          "file": "licenses/third-party/AvaloniaUI-Avalonia-2d79ba55fae1/licence.md",
+          "sha256": "213814d306090074d234d760239ff0f67eb9b8d20eefb4d5631bb39dbe0b769b",
+          "source": "https://raw.githubusercontent.com/AvaloniaUI/Avalonia/2d79ba55fae1b1e71c69f93a668080c9029e6a31/licence.md"
+        },
+        {
+          "file": "licenses/third-party/AvaloniaUI-Avalonia-2d79ba55fae1/NOTICE.md",
+          "sha256": "dd6f80852d16320c865a2e403ffd1a8b07a0e34c5b37122c0bc2343639ff68e6",
+          "source": "https://raw.githubusercontent.com/AvaloniaUI/Avalonia/2d79ba55fae1b1e71c69f93a668080c9029e6a31/NOTICE.md"
+        }
+      ]
+    },
+    {
+      "package": "Avalonia.X11",
+      "version": "12.1.4.1",
+      "nugetContentHash": "081Tfv85vAgn88dHlv3NTO2ZvKtkvfLbnMHNqjlpGVpwAOoUwbkNVlvN6RzsBnk0CcYLyi7JTOdrmMGogbDgEA==",
+      "locks": [
+        "src/packages.linux-x64.lock.json",
+        "src/packages.win-x64.lock.json"
+      ],
+      "license": "MIT",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/AvaloniaUI/Avalonia/",
+        "branch": "refs/heads/release/12.1.4",
+        "commit": "2d79ba55fae1b1e71c69f93a668080c9029e6a31"
+      },
+      "notices": [
+        {
+          "file": "licenses/third-party/AvaloniaUI-Avalonia-2d79ba55fae1/licence.md",
+          "sha256": "213814d306090074d234d760239ff0f67eb9b8d20eefb4d5631bb39dbe0b769b",
+          "source": "https://raw.githubusercontent.com/AvaloniaUI/Avalonia/2d79ba55fae1b1e71c69f93a668080c9029e6a31/licence.md"
+        },
+        {
+          "file": "licenses/third-party/AvaloniaUI-Avalonia-2d79ba55fae1/NOTICE.md",
+          "sha256": "dd6f80852d16320c865a2e403ffd1a8b07a0e34c5b37122c0bc2343639ff68e6",
+          "source": "https://raw.githubusercontent.com/AvaloniaUI/Avalonia/2d79ba55fae1b1e71c69f93a668080c9029e6a31/NOTICE.md"
+        }
+      ],
+      "modifications": "Repository patch and additions: build/LinuxBackends; deterministic local packages, not an official Avalonia release."
+    },
+    {
+      "package": "DynamicData",
+      "version": "9.4.31",
+      "nugetContentHash": "w2bT92Z5ADtnmtKiC9mzk21h7MtXtZEQKWFyytuHqhPBo7rKPWnvFk/xy1M/VA6XQTbCjRWMNV795w+RizFn4g==",
+      "locks": [
+        "src/packages.linux-x64.lock.json",
+        "src/packages.win-x64.lock.json"
+      ],
+      "license": "MIT",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/reactiveui/DynamicData",
+        "branch": "refs/heads/main",
+        "commit": "8db480674d0971c46e4ea872c74f3973e2496e2b"
+      },
+      "notices": [
+        {
+          "file": "licenses/third-party/DynamicData-9.4.31/LICENSE/LICENSE",
+          "sha256": "88dd54b77277ded126c167e6d0be4d63c3b8614b52c52d55ea2812d95c646bb3",
+          "source": "nuget:DynamicData/9.4.31/LICENSE/LICENSE"
+        }
+      ]
+    },
+    {
+      "package": "ExCSS",
+      "version": "4.3.1",
+      "nugetContentHash": "A8UtcghHQlWxPJhJF5bsfEYO7068JHGTuJ7tzyyMjd5fE/N/xY1cVOUhzuLLFwMOCJVnM4mqSQc93W9fGfZ1kA==",
+      "locks": [
+        "src/packages.linux-x64.lock.json",
+        "src/packages.win-x64.lock.json"
+      ],
+      "license": "MIT",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/TylerBrinks/ExCSS",
+        "commit": "c97e84d6126bb2e42658cf5af627d52e697c8779"
+      },
+      "notices": [
+        {
+          "file": "licenses/third-party/TylerBrinks-ExCSS-c97e84d6126b/license.txt",
+          "sha256": "fe201d8ad7c9f2122b4813fe0811075b63fbac9f4fb0c9075f49f38718a728ad",
+          "source": "https://raw.githubusercontent.com/TylerBrinks/ExCSS/c97e84d6126bb2e42658cf5af627d52e697c8779/license.txt"
+        }
+      ]
+    },
+    {
+      "package": "HarfBuzzSharp",
+      "version": "8.3.1.3",
+      "nugetContentHash": "NGZ2+ZVNPM+NdHB/asW0/ykWngyHWwcqjrbN2nDeH1B/aptPGlCUl8wkQ2cSJxw5fdWgdmIPmNuTPWpLwNVXWg==",
+      "locks": [
+        "src/packages.linux-x64.lock.json",
+        "src/packages.win-x64.lock.json"
+      ],
+      "license": "MIT",
+      "repository": {
+        "type": "git",
+        "url": "https://go.microsoft.com/fwlink/?linkid=868515",
+        "branch": "release/3.119.2",
+        "commit": "2888c737ad016d584c74525e2d35db5097ea8576"
+      },
+      "notices": [
+        {
+          "file": "licenses/third-party/HarfBuzzSharp-8.3.1.3/LICENSE.txt",
+          "sha256": "89101e35a8c66fd4d6dffc1763259161d35cb564c169714ec227a768c89f2938",
+          "source": "nuget:HarfBuzzSharp/8.3.1.3/LICENSE.txt"
+        }
+      ]
+    },
+    {
+      "package": "HarfBuzzSharp.NativeAssets.Linux",
+      "version": "8.3.1.3",
+      "nugetContentHash": "RI6A1LgmooU30+4QIyFt5rmBCzP0VzTR+587IJSGvYIsHHWlahFufihYxtraLfsIhW7I8dn6+xX+DZGygOPKWQ==",
+      "locks": [
+        "src/packages.linux-x64.lock.json",
+        "src/packages.win-x64.lock.json"
+      ],
+      "license": "MIT",
+      "repository": {
+        "type": "git",
+        "url": "https://go.microsoft.com/fwlink/?linkid=868515",
+        "branch": "release/3.119.2",
+        "commit": "2888c737ad016d584c74525e2d35db5097ea8576"
+      },
+      "notices": [
+        {
+          "file": "licenses/third-party/HarfBuzzSharp.NativeAssets.Linux-8.3.1.3/THIRD-PARTY-NOTICES.txt",
+          "sha256": "21504c46c4c58aa64c1055bd2dcbc5f9a136b4b8c412ed3cc6740e22c5b127f5",
+          "source": "nuget:HarfBuzzSharp.NativeAssets.Linux/8.3.1.3/THIRD-PARTY-NOTICES.txt"
+        },
+        {
+          "file": "licenses/third-party/HarfBuzzSharp.NativeAssets.Linux-8.3.1.3/LICENSE.txt",
+          "sha256": "89101e35a8c66fd4d6dffc1763259161d35cb564c169714ec227a768c89f2938",
+          "source": "nuget:HarfBuzzSharp.NativeAssets.Linux/8.3.1.3/LICENSE.txt"
+        }
+      ]
+    },
+    {
+      "package": "HarfBuzzSharp.NativeAssets.WebAssembly",
+      "version": "8.3.1.3",
+      "nugetContentHash": "w2QfdNm9Uz/sUa0B5D+OnVQhyq3G/fBq6ibQMdWBlQqqwh0g0/5j3RFvYqZAmRZ5+RzvjVe8o8SFFnWYUSkuxA==",
+      "locks": [
+        "src/packages.linux-x64.lock.json",
+        "src/packages.win-x64.lock.json"
+      ],
+      "license": "MIT",
+      "repository": {
+        "type": "git",
+        "url": "https://go.microsoft.com/fwlink/?linkid=868515",
+        "branch": "release/3.119.2",
+        "commit": "2888c737ad016d584c74525e2d35db5097ea8576"
+      },
+      "notices": [
+        {
+          "file": "licenses/third-party/HarfBuzzSharp.NativeAssets.WebAssembly-8.3.1.3/THIRD-PARTY-NOTICES.txt",
+          "sha256": "21504c46c4c58aa64c1055bd2dcbc5f9a136b4b8c412ed3cc6740e22c5b127f5",
+          "source": "nuget:HarfBuzzSharp.NativeAssets.WebAssembly/8.3.1.3/THIRD-PARTY-NOTICES.txt"
+        },
+        {
+          "file": "licenses/third-party/HarfBuzzSharp.NativeAssets.WebAssembly-8.3.1.3/LICENSE.txt",
+          "sha256": "89101e35a8c66fd4d6dffc1763259161d35cb564c169714ec227a768c89f2938",
+          "source": "nuget:HarfBuzzSharp.NativeAssets.WebAssembly/8.3.1.3/LICENSE.txt"
+        }
+      ]
+    },
+    {
+      "package": "HarfBuzzSharp.NativeAssets.Win32",
+      "version": "8.3.1.3",
+      "nugetContentHash": "bx8CE8Js+XGX8PUxAHCBDEORt5aaBYtMN4Hr9QFs57Xithh6yjUyYqksizH6eRDhJkwsGI+SXWmPmMm8lZC9Pw==",
+      "locks": [
+        "src/packages.linux-x64.lock.json",
+        "src/packages.win-x64.lock.json"
+      ],
+      "license": "MIT",
+      "repository": {
+        "type": "git",
+        "url": "https://go.microsoft.com/fwlink/?linkid=868515",
+        "branch": "release/3.119.2",
+        "commit": "2888c737ad016d584c74525e2d35db5097ea8576"
+      },
+      "notices": [
+        {
+          "file": "licenses/third-party/HarfBuzzSharp.NativeAssets.Win32-8.3.1.3/THIRD-PARTY-NOTICES.txt",
+          "sha256": "21504c46c4c58aa64c1055bd2dcbc5f9a136b4b8c412ed3cc6740e22c5b127f5",
+          "source": "nuget:HarfBuzzSharp.NativeAssets.Win32/8.3.1.3/THIRD-PARTY-NOTICES.txt"
+        },
+        {
+          "file": "licenses/third-party/HarfBuzzSharp.NativeAssets.Win32-8.3.1.3/LICENSE.txt",
+          "sha256": "89101e35a8c66fd4d6dffc1763259161d35cb564c169714ec227a768c89f2938",
+          "source": "nuget:HarfBuzzSharp.NativeAssets.Win32/8.3.1.3/LICENSE.txt"
+        }
+      ]
+    },
+    {
+      "package": "HarfBuzzSharp.NativeAssets.macOS",
+      "version": "8.3.1.3",
+      "nugetContentHash": "KPTq0xnslkI6nAo0jh3ptcQPJvZZr7MWYXa2jUe4SnHc9q+JlHElmNXp0sfFoiTgoCX7WOYpYsurypuH9Gehxw==",
+      "locks": [
+        "src/packages.linux-x64.lock.json",
+        "src/packages.win-x64.lock.json"
+      ],
+      "license": "MIT",
+      "repository": {
+        "type": "git",
+        "url": "https://go.microsoft.com/fwlink/?linkid=868515",
+        "branch": "release/3.119.2",
+        "commit": "2888c737ad016d584c74525e2d35db5097ea8576"
+      },
+      "notices": [
+        {
+          "file": "licenses/third-party/HarfBuzzSharp.NativeAssets.macOS-8.3.1.3/LICENSE.txt",
+          "sha256": "89101e35a8c66fd4d6dffc1763259161d35cb564c169714ec227a768c89f2938",
+          "source": "nuget:HarfBuzzSharp.NativeAssets.macOS/8.3.1.3/LICENSE.txt"
+        },
+        {
+          "file": "licenses/third-party/HarfBuzzSharp.NativeAssets.macOS-8.3.1.3/THIRD-PARTY-NOTICES.txt",
+          "sha256": "21504c46c4c58aa64c1055bd2dcbc5f9a136b4b8c412ed3cc6740e22c5b127f5",
+          "source": "nuget:HarfBuzzSharp.NativeAssets.macOS/8.3.1.3/THIRD-PARTY-NOTICES.txt"
+        }
+      ]
+    },
+    {
+      "package": "MicroCom.Runtime",
+      "version": "0.11.6",
+      "nugetContentHash": "NdNWGDiZ6eS/Mf/9+QHR91cj1K7Hy+PX9yrHI/zM7xFYuj9IWT2uxtB6sCHjrnxAeLV9fut1R6zHDUGKX6f9lQ==",
+      "locks": [
+        "src/packages.linux-x64.lock.json",
+        "src/packages.win-x64.lock.json"
+      ],
+      "license": "MIT",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/kekekeks/MicroCom",
+        "commit": "76785efcafd91b5902fd19dd11145f6dd655b7b4"
+      },
+      "notices": [
+        {
+          "file": "licenses/third-party/kekekeks-MicroCom-76785efcafd9/LICENSE",
+          "sha256": "6ee769c9ac4dac9abb16b98b1341e9528ff9f4ab685481410d3376d14148f3a9",
+          "source": "https://raw.githubusercontent.com/kekekeks/MicroCom/76785efcafd91b5902fd19dd11145f6dd655b7b4/LICENSE"
+        }
+      ]
+    },
+    {
+      "package": "Microsoft.DotNet.ILCompiler",
+      "version": "10.0.13",
+      "nugetContentHash": "MnT222WlxhelguLZTQx9soBHKW7TeY6A9YUwVaprjUd+ARlhLAkfsXGFNX9w6kRq89/yxUcAQ/lzvmgndSFfOw==",
+      "locks": [
+        "src/packages.linux-x64.lock.json",
+        "src/packages.win-x64.lock.json"
+      ],
+      "license": "MIT",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/dotnet/dotnet",
+        "commit": "4099f83977f4d29604a9aeb971fb0a7bc1d5f699"
+      },
+      "notices": [
+        {
+          "file": "licenses/third-party/Microsoft.DotNet.ILCompiler-10.0.13/THIRD-PARTY-NOTICES.TXT",
+          "sha256": "6d15e10a101c6bfff2ab4429ed061bf76c456fc4b23ad6b03e0d0f8377148a21",
+          "source": "nuget:Microsoft.DotNet.ILCompiler/10.0.13/THIRD-PARTY-NOTICES.TXT"
+        }
+      ]
+    },
+    {
+      "package": "Microsoft.NET.ILLink.Tasks",
+      "version": "10.0.13",
+      "nugetContentHash": "40yrBMsLEcjixBR4G+FiUaBPvxXIPSKJ2OgSrbOZcmSDBda4Sb0k7BWrfDpIvn3IvvDzwOL/tEPa6gDQfh6aRw==",
+      "locks": [
+        "src/packages.linux-x64.lock.json",
+        "src/packages.win-x64.lock.json"
+      ],
+      "license": "MIT",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/dotnet/dotnet",
+        "commit": "4099f83977f4d29604a9aeb971fb0a7bc1d5f699"
+      },
+      "notices": [
+        {
+          "file": "licenses/third-party/Microsoft.NET.ILLink.Tasks-10.0.13/THIRD-PARTY-NOTICES.TXT",
+          "sha256": "6d15e10a101c6bfff2ab4429ed061bf76c456fc4b23ad6b03e0d0f8377148a21",
+          "source": "nuget:Microsoft.NET.ILLink.Tasks/10.0.13/THIRD-PARTY-NOTICES.TXT"
+        }
+      ]
+    },
+    {
+      "package": "NWayland",
+      "version": "0.12.5",
+      "license": "MIT",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/AvaloniaUI/NWayland",
+        "commit": "eec3112551ed2bc02bce88b5429304fcfda52671"
+      },
+      "notices": [
+        {
+          "file": "licenses/third-party/AvaloniaUI-NWayland-eec3112551ed/licence.md",
+          "sha256": "0cecedf0e29de5fd9ec3fc17926e2de31385924742359253f1e4a28069ad79f6",
+          "source": "https://raw.githubusercontent.com/AvaloniaUI/NWayland/eec3112551ed2bc02bce88b5429304fcfda52671/licence.md"
+        }
+      ],
+      "nugetContentHash": "UJgOe3WNh+Qf51CgrENL+Fx6k/6viUx/9DZ4vQFpqlNE8SCNo7PHk2ItOEdo7p1C25GPVNkhtdQ4p5TNOOkWag==",
+      "locks": [
+        "src/packages.linux-x64.lock.json",
+        "src/packages.win-x64.lock.json"
+      ]
+    },
+    {
+      "package": "NWayland.Protocols.Wlr",
+      "version": "0.12.5",
+      "license": "MIT",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/AvaloniaUI/NWayland",
+        "commit": "eec3112551ed2bc02bce88b5429304fcfda52671"
+      },
+      "notices": [
+        {
+          "file": "licenses/third-party/AvaloniaUI-NWayland-eec3112551ed/licence.md",
+          "sha256": "0cecedf0e29de5fd9ec3fc17926e2de31385924742359253f1e4a28069ad79f6",
+          "source": "https://raw.githubusercontent.com/AvaloniaUI/NWayland/eec3112551ed2bc02bce88b5429304fcfda52671/licence.md"
+        },
+        {
+          "file": "licenses/third-party/wlr-protocols-copyrights.txt",
+          "sha256": "5304352b0b506e584fa616ef7d999369918c94bdfd5003a61700bc753774b70c",
+          "source": "https://gitlab.freedesktop.org/wlroots/wlr-protocols/-/tree/bf4fc79abc359eea5a0edec0ac6d4a2b2955f82a"
+        }
+      ],
+      "nugetContentHash": "UFfWnEBEI4h6vT0/NdsNZ34wpqVDwGdNanv4gfw2N9+f1beNR6LxzQuNtNTR/OyqpKEcjKsKW86tcjHrZpBJ+w==",
+      "locks": [
+        "src/packages.linux-x64.lock.json",
+        "src/packages.win-x64.lock.json"
+      ]
+    },
+    {
+      "package": "ReactiveUI",
+      "version": "23.2.28",
+      "nugetContentHash": "9sSuHnMcLTLhgMTQpQO6Jhz9Cbub3Pg44i6FS4Ot4UtbV8dpwMH3JGzGjT72oav4aSrJlmzbFyI87gX55oPzLA==",
+      "locks": [
+        "src/packages.linux-x64.lock.json",
+        "src/packages.win-x64.lock.json"
+      ],
+      "license": "MIT",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/reactiveui/reactiveui",
+        "branch": "refs/heads/release/23.2.28-splat19.4.1",
+        "commit": "7c1ab24d9c84ed225c738bdb9f1a2f2586c6a5bc"
+      },
+      "notices": [
+        {
+          "file": "licenses/third-party/ReactiveUI-23.2.28/LICENSE/LICENSE",
+          "sha256": "d7a68596ab69b06f51ca278a6545148e4269a9381c26d597c13df5d88e08cf5b",
+          "source": "nuget:ReactiveUI/23.2.28/LICENSE/LICENSE"
+        }
+      ]
+    },
+    {
+      "package": "ReactiveUI.Avalonia",
+      "version": "12.0.3",
+      "nugetContentHash": "mmUZb8I+0dN7DlJ1Y8KmrB3AK7QH377GjBug1mcbVbMVMlqnokjXVUE0KThn1H0eKpnyjY9CHzrjIf0rCgRgFg==",
+      "locks": [
+        "src/packages.linux-x64.lock.json",
+        "src/packages.win-x64.lock.json"
+      ],
+      "license": "MIT",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/reactiveui/reactiveui",
+        "branch": "refs/heads/main",
+        "commit": "b1fed26cb7fe84fb2799391040660fad7927486f"
+      },
+      "notices": [
+        {
+          "file": "licenses/third-party/ReactiveUI.Avalonia-12.0.3/LICENSE/LICENSE",
+          "sha256": "634de0f7d3782c038cd174efe112fda8e48c4c4e998f670b5961908419621adc",
+          "source": "nuget:ReactiveUI.Avalonia/12.0.3/LICENSE/LICENSE"
+        }
+      ]
+    },
+    {
+      "package": "ShimSkiaSharp",
+      "version": "5.2.1",
+      "nugetContentHash": "mUPSMxfW+vjtwDPrbhK3ILQg8D7aud7JO7p2Y5cqPmKf+s2erTyfEWohlVHCjSSDPvpT5L4aKLqnW02JCfGvag==",
+      "license": "MIT",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/wieslawsoltes/Svg.Skia",
+        "commit": "9ccef3e0d10edfdc01e01efd7198387da6bb7564"
+      },
+      "notices": [
+        {
+          "file": "licenses/third-party/wieslawsoltes-Svg.Skia-9ccef3e0d10e/LICENSE.TXT",
+          "sha256": "31fdac60ff94d9cab3afef9794905df38c47e82b6879819c025d703d3aebd953",
+          "source": "https://raw.githubusercontent.com/wieslawsoltes/Svg.Skia/9ccef3e0d10edfdc01e01efd7198387da6bb7564/LICENSE.TXT"
+        }
+      ]
+    },
+    {
+      "package": "SkiaSharp",
+      "version": "3.119.4",
+      "nugetContentHash": "53NOSUZ1Us+91Sm0uCkIivh/k7jOowRErZT2sIWwPFN9mLUvdxnE6rS4sWo4255+Rd2MWUSF+j0NMZHD6Cke+Q==",
+      "locks": [
+        "src/packages.linux-x64.lock.json",
+        "src/packages.win-x64.lock.json"
+      ],
+      "license": "MIT",
+      "repository": {
+        "type": "git",
+        "url": "https://go.microsoft.com/fwlink/?linkid=868515",
+        "branch": "release/3.119.4",
+        "commit": "f568ac94dd768ef9a2f593537cfde2dd0d348ef5"
+      },
+      "notices": [
+        {
+          "file": "licenses/third-party/SkiaSharp-3.119.4/LICENSE.txt",
+          "sha256": "89101e35a8c66fd4d6dffc1763259161d35cb564c169714ec227a768c89f2938",
+          "source": "nuget:SkiaSharp/3.119.4/LICENSE.txt"
+        }
+      ]
+    },
+    {
+      "package": "SkiaSharp.NativeAssets.Linux",
+      "version": "3.119.4",
+      "nugetContentHash": "UAyVzbqNfZsZbKbzj68zXLyUyF/SbTKmzTfOO6qDu++dtIUMMTzPBe8oOuzU/DiewpfKoUUlOSsJmqWc6blxBw==",
+      "locks": [
+        "src/packages.linux-x64.lock.json",
+        "src/packages.win-x64.lock.json"
+      ],
+      "license": "MIT",
+      "repository": {
+        "type": "git",
+        "url": "https://go.microsoft.com/fwlink/?linkid=868515",
+        "branch": "release/3.119.4",
+        "commit": "f568ac94dd768ef9a2f593537cfde2dd0d348ef5"
+      },
+      "notices": [
+        {
+          "file": "licenses/third-party/SkiaSharp.NativeAssets.Linux-3.119.4/LICENSE.txt",
+          "sha256": "89101e35a8c66fd4d6dffc1763259161d35cb564c169714ec227a768c89f2938",
+          "source": "nuget:SkiaSharp.NativeAssets.Linux/3.119.4/LICENSE.txt"
+        },
+        {
+          "file": "licenses/third-party/SkiaSharp.NativeAssets.Linux-3.119.4/THIRD-PARTY-NOTICES.txt",
+          "sha256": "21504c46c4c58aa64c1055bd2dcbc5f9a136b4b8c412ed3cc6740e22c5b127f5",
+          "source": "nuget:SkiaSharp.NativeAssets.Linux/3.119.4/THIRD-PARTY-NOTICES.txt"
+        }
+      ]
+    },
+    {
+      "package": "SkiaSharp.NativeAssets.WebAssembly",
+      "version": "3.119.4",
+      "nugetContentHash": "S1HOxtBbD4bYDtA2e9WH5TX+lxqRrTPvKjrjttRhxnHNNu7YY8VFo/LeCP7tNqoTA6PV+8vsvNbmRUEC2ip8RQ==",
+      "locks": [
+        "src/packages.linux-x64.lock.json",
+        "src/packages.win-x64.lock.json"
+      ],
+      "license": "MIT",
+      "repository": {
+        "type": "git",
+        "url": "https://go.microsoft.com/fwlink/?linkid=868515",
+        "branch": "release/3.119.4",
+        "commit": "f568ac94dd768ef9a2f593537cfde2dd0d348ef5"
+      },
+      "notices": [
+        {
+          "file": "licenses/third-party/SkiaSharp.NativeAssets.WebAssembly-3.119.4/THIRD-PARTY-NOTICES.txt",
+          "sha256": "21504c46c4c58aa64c1055bd2dcbc5f9a136b4b8c412ed3cc6740e22c5b127f5",
+          "source": "nuget:SkiaSharp.NativeAssets.WebAssembly/3.119.4/THIRD-PARTY-NOTICES.txt"
+        },
+        {
+          "file": "licenses/third-party/SkiaSharp.NativeAssets.WebAssembly-3.119.4/LICENSE.txt",
+          "sha256": "89101e35a8c66fd4d6dffc1763259161d35cb564c169714ec227a768c89f2938",
+          "source": "nuget:SkiaSharp.NativeAssets.WebAssembly/3.119.4/LICENSE.txt"
+        }
+      ]
+    },
+    {
+      "package": "SkiaSharp.NativeAssets.Win32",
+      "version": "3.119.4",
+      "nugetContentHash": "XOpbx/4CReO2wYsq2s6rbvdauc6dntG4Zv499sHGTJ87bwZaFXszFkwql3+FIZMc8kUPeaj3Mx2ezIJmo8a1Kg==",
+      "locks": [
+        "src/packages.linux-x64.lock.json",
+        "src/packages.win-x64.lock.json"
+      ],
+      "license": "MIT",
+      "repository": {
+        "type": "git",
+        "url": "https://go.microsoft.com/fwlink/?linkid=868515",
+        "branch": "release/3.119.4",
+        "commit": "f568ac94dd768ef9a2f593537cfde2dd0d348ef5"
+      },
+      "notices": [
+        {
+          "file": "licenses/third-party/SkiaSharp.NativeAssets.Win32-3.119.4/LICENSE.txt",
+          "sha256": "89101e35a8c66fd4d6dffc1763259161d35cb564c169714ec227a768c89f2938",
+          "source": "nuget:SkiaSharp.NativeAssets.Win32/3.119.4/LICENSE.txt"
+        },
+        {
+          "file": "licenses/third-party/SkiaSharp.NativeAssets.Win32-3.119.4/THIRD-PARTY-NOTICES.txt",
+          "sha256": "21504c46c4c58aa64c1055bd2dcbc5f9a136b4b8c412ed3cc6740e22c5b127f5",
+          "source": "nuget:SkiaSharp.NativeAssets.Win32/3.119.4/THIRD-PARTY-NOTICES.txt"
+        }
+      ]
+    },
+    {
+      "package": "SkiaSharp.NativeAssets.macOS",
+      "version": "3.119.4",
+      "nugetContentHash": "fgBOWEqbY012x7gMfJU4ezgz6dfhJb30Z6YdW35h85Zoe39+a8YNbAAwL29ihPfWoppg5AjvyKNzD1oCvlqWwA==",
+      "locks": [
+        "src/packages.linux-x64.lock.json",
+        "src/packages.win-x64.lock.json"
+      ],
+      "license": "MIT",
+      "repository": {
+        "type": "git",
+        "url": "https://go.microsoft.com/fwlink/?linkid=868515",
+        "branch": "release/3.119.4",
+        "commit": "f568ac94dd768ef9a2f593537cfde2dd0d348ef5"
+      },
+      "notices": [
+        {
+          "file": "licenses/third-party/SkiaSharp.NativeAssets.macOS-3.119.4/LICENSE.txt",
+          "sha256": "89101e35a8c66fd4d6dffc1763259161d35cb564c169714ec227a768c89f2938",
+          "source": "nuget:SkiaSharp.NativeAssets.macOS/3.119.4/LICENSE.txt"
+        },
+        {
+          "file": "licenses/third-party/SkiaSharp.NativeAssets.macOS-3.119.4/THIRD-PARTY-NOTICES.txt",
+          "sha256": "21504c46c4c58aa64c1055bd2dcbc5f9a136b4b8c412ed3cc6740e22c5b127f5",
+          "source": "nuget:SkiaSharp.NativeAssets.macOS/3.119.4/THIRD-PARTY-NOTICES.txt"
+        }
+      ]
+    },
+    {
+      "package": "SkiaSharp.QrCode",
+      "version": "0.12.0",
+      "nugetContentHash": "DTSyBl/rJXcGbSuIzkv20pkTTPUaZbFmouWrOtHG0a2Ide0IsbU9o1mUJb1HsiOgUEK6aAX2+MzP0n7GPssiSA==",
+      "locks": [
+        "src/packages.linux-x64.lock.json",
+        "src/packages.win-x64.lock.json"
+      ],
+      "license": "MIT",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/guitarrapc/Skia.QrCode",
+        "commit": "39e635620da05ac9fb52d6c85095e20bbc17e3c5"
+      },
+      "notices": [
+        {
+          "file": "licenses/third-party/guitarrapc-Skia.QrCode-39e635620da0/LICENSE",
+          "sha256": "4d64e52d36d9c7fb89898931c5677074b5312a2c8a6da9ed51f9af0ac1bfd48f",
+          "source": "https://raw.githubusercontent.com/guitarrapc/Skia.QrCode/39e635620da05ac9fb52d6c85095e20bbc17e3c5/LICENSE"
+        }
+      ]
+    },
+    {
+      "package": "Splat",
+      "version": "19.4.1",
+      "nugetContentHash": "3VJOloRQA3bgbAxyNAi4mvLAR/mKH3h1agN5pIrUXvp9lAA2/rvUgxOYjt+GZ4suouLfXxkeKcS/bRjSclo1LQ==",
+      "locks": [
+        "src/packages.linux-x64.lock.json",
+        "src/packages.win-x64.lock.json"
+      ],
+      "license": "MIT",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/reactiveui/splat",
+        "commit": "a5cfc26bfcff525831952f0c8b2f2ec2c6fbc003"
+      },
+      "notices": [
+        {
+          "file": "licenses/third-party/Splat-19.4.1/LICENSE/LICENSE",
+          "sha256": "01886b971b765ce453648dfefb8f83a545628c035576cc7397fa9afbec4c6294",
+          "source": "nuget:Splat/19.4.1/LICENSE/LICENSE"
+        }
+      ]
+    },
+    {
+      "package": "Splat.Builder",
+      "version": "19.4.1",
+      "nugetContentHash": "9i0RLWEwfheI8aI17WaW8AJmNlFVi7LaX3XQwAavGqUaJJi7Vp5Eh9umWqVQYBLjs87ztVLmax/OMzMyW2igKQ==",
+      "locks": [
+        "src/packages.linux-x64.lock.json",
+        "src/packages.win-x64.lock.json"
+      ],
+      "license": "MIT",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/reactiveui/splat",
+        "commit": "a5cfc26bfcff525831952f0c8b2f2ec2c6fbc003"
+      },
+      "notices": [
+        {
+          "file": "licenses/third-party/Splat.Builder-19.4.1/LICENSE/LICENSE",
+          "sha256": "01886b971b765ce453648dfefb8f83a545628c035576cc7397fa9afbec4c6294",
+          "source": "nuget:Splat.Builder/19.4.1/LICENSE/LICENSE"
+        }
+      ]
+    },
+    {
+      "package": "Splat.Core",
+      "version": "19.4.1",
+      "nugetContentHash": "fOjcUDP9YzJPZnSDI2eBO+NwRoEJVFEkTGlh/tFa7GUXc5mtMcQdwak60Ju4DWvPSAfsxlu2geObmhZAQe1VLg==",
+      "locks": [
+        "src/packages.linux-x64.lock.json",
+        "src/packages.win-x64.lock.json"
+      ],
+      "license": "MIT",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/reactiveui/splat",
+        "commit": "a5cfc26bfcff525831952f0c8b2f2ec2c6fbc003"
+      },
+      "notices": [
+        {
+          "file": "licenses/third-party/Splat.Core-19.4.1/LICENSE/LICENSE",
+          "sha256": "01886b971b765ce453648dfefb8f83a545628c035576cc7397fa9afbec4c6294",
+          "source": "nuget:Splat.Core/19.4.1/LICENSE/LICENSE"
+        }
+      ]
+    },
+    {
+      "package": "Splat.Logging",
+      "version": "19.4.1",
+      "nugetContentHash": "bvudJQxxMnHIa9dtZaUUCpvmd96rQxA0yjrZLoB4OSiAJpIxMCDCwnDmG6RhDyW2pS3O0xef2e1STY/oL1PqRw==",
+      "locks": [
+        "src/packages.linux-x64.lock.json",
+        "src/packages.win-x64.lock.json"
+      ],
+      "license": "MIT",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/reactiveui/splat",
+        "commit": "a5cfc26bfcff525831952f0c8b2f2ec2c6fbc003"
+      },
+      "notices": [
+        {
+          "file": "licenses/third-party/Splat.Logging-19.4.1/LICENSE/LICENSE",
+          "sha256": "01886b971b765ce453648dfefb8f83a545628c035576cc7397fa9afbec4c6294",
+          "source": "nuget:Splat.Logging/19.4.1/LICENSE/LICENSE"
+        }
+      ]
+    },
+    {
+      "package": "StaticLink.Avalonia",
+      "version": "12.1.4.1",
+      "nugetContentHash": "7gE4/e0icSvOYhA7y932328MRfhFIiX6WHloSnGQgFINjB04oBMqlCObfRrO7rGZSg1TTcR/S8MmbkvZzSITpQ==",
+      "locks": [
+        "src/packages.linux-x64.lock.json",
+        "src/packages.win-x64.lock.json"
+      ],
+      "license": "MIT",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/greepar/StaticLink.Avalonia",
+        "commit": "88fdb15a7f3608196a4322fa4099dcb962d5e7a1"
+      },
+      "notices": [
+        {
+          "file": "licenses/third-party/greepar-StaticLink.Avalonia-88fdb15a7f36/LICENSE",
+          "sha256": "1706af5a5ebf25ff9b03b10cf4bd09e98a82087a9f989d650892f22b9f575572",
+          "source": "https://raw.githubusercontent.com/greepar/StaticLink.Avalonia/88fdb15a7f3608196a4322fa4099dcb962d5e7a1/LICENSE"
+        }
+      ]
+    },
+    {
+      "package": "StaticLink.Avalonia.Native",
+      "version": "12.1.4.1",
+      "nugetContentHash": "4PMIhA3eWfnNYJIR7fv4xZ2FL833mP/PCo5AGNjhwreoMU61yBOBDK9hdDMbd6VTO20+zw0murFjmgbqaQs8PQ==",
+      "locks": [
+        "src/packages.linux-x64.lock.json",
+        "src/packages.win-x64.lock.json"
+      ],
+      "license": "MIT",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/greepar/StaticLink.Avalonia",
+        "commit": "88fdb15a7f3608196a4322fa4099dcb962d5e7a1"
+      },
+      "notices": [
+        {
+          "file": "licenses/third-party/greepar-StaticLink.Avalonia-88fdb15a7f36/LICENSE",
+          "sha256": "1706af5a5ebf25ff9b03b10cf4bd09e98a82087a9f989d650892f22b9f575572",
+          "source": "https://raw.githubusercontent.com/greepar/StaticLink.Avalonia/88fdb15a7f3608196a4322fa4099dcb962d5e7a1/LICENSE"
+        }
+      ]
+    },
+    {
+      "package": "StuDev.AotAnywhere",
+      "version": "1.1.0",
+      "nugetContentHash": "2k8QJthywJ/lr4FsnG8ugk6dF+q+7Zy4pBHO74U3mzscASzr2ySZfOxDlfjCg7xPzoY9r+4EeB8IwB1i5+iuUg==",
+      "locks": [
+        "src/packages.linux-x64.lock.json",
+        "src/packages.win-x64.lock.json"
+      ],
+      "license": "MIT",
+      "repository": {
+        "type": "git",
+        "commit": "d0a20c5668faa08a726f7d029260dc313da24606"
+      },
+      "notices": [
+        {
+          "file": "licenses/third-party/StuDevLabs-AotAnywhere-d0a20c5668fa/LICENSE.TXT",
+          "sha256": "9890f1d49da3bf4cb98bf1dae07447c1cffbad8734513c3725a1d515ba2c4682",
+          "source": "https://raw.githubusercontent.com/StuDevLabs/AotAnywhere/d0a20c5668faa08a726f7d029260dc313da24606/LICENSE.TXT"
+        }
+      ]
+    },
+    {
+      "package": "Svg.Controls.Avalonia",
+      "version": "12.0.0.15",
+      "nugetContentHash": "rnjler0s1shLJ9f6EQn1k9HYEXTjlytR8nP/1tq27tW1nJEPND5TSG+oIAneMF2LBJtV7kt969zKQKhglzW/wg==",
+      "license": "MIT",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/wieslawsoltes/Svg.Skia",
+        "commit": "9ccef3e0d10edfdc01e01efd7198387da6bb7564"
+      },
+      "notices": [
+        {
+          "file": "licenses/third-party/wieslawsoltes-Svg.Skia-9ccef3e0d10e/LICENSE.TXT",
+          "sha256": "31fdac60ff94d9cab3afef9794905df38c47e82b6879819c025d703d3aebd953",
+          "source": "https://raw.githubusercontent.com/wieslawsoltes/Svg.Skia/9ccef3e0d10edfdc01e01efd7198387da6bb7564/LICENSE.TXT"
+        }
+      ]
+    },
+    {
+      "package": "Svg.Custom",
+      "version": "5.2.1",
+      "nugetContentHash": "7qAG1I0FGlMwOJk0Js41TmvRJ0eLJPpz8Edd8DOzsotLikUhYGDZZlwXV+6sKvsApfIZEfarH0KwI38T9OHsmw==",
+      "license": "MS-PL",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/wieslawsoltes/Svg.Skia",
+        "commit": "9ccef3e0d10edfdc01e01efd7198387da6bb7564"
+      },
+      "notices": [
+        {
+          "file": "licenses/third-party/wieslawsoltes-Svg.Skia-9ccef3e0d10e/src/Svg.Custom/LICENSE.TXT",
+          "sha256": "d0ab1d6a97c328acf658b57141b6f2863d7eaf0066e42a9fd0792df0c4fd2521",
+          "source": "https://raw.githubusercontent.com/wieslawsoltes/Svg.Skia/9ccef3e0d10edfdc01e01efd7198387da6bb7564/src/Svg.Custom/LICENSE.TXT"
+        }
+      ]
+    },
+    {
+      "package": "Svg.Model",
+      "version": "5.2.1",
+      "nugetContentHash": "0+fG1BFw3QoXj+4sxpaXpLDZXz+Snb289epyP3HKjEjUUoWVsErMZb6teo4dVj8KElRJIeXjX6jD1C0B1vLRXw==",
+      "license": "MIT",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/wieslawsoltes/Svg.Skia",
+        "commit": "9ccef3e0d10edfdc01e01efd7198387da6bb7564"
+      },
+      "notices": [
+        {
+          "file": "licenses/third-party/wieslawsoltes-Svg.Skia-9ccef3e0d10e/LICENSE.TXT",
+          "sha256": "31fdac60ff94d9cab3afef9794905df38c47e82b6879819c025d703d3aebd953",
+          "source": "https://raw.githubusercontent.com/wieslawsoltes/Svg.Skia/9ccef3e0d10edfdc01e01efd7198387da6bb7564/LICENSE.TXT"
+        }
+      ]
+    },
+    {
+      "package": "Svg.SceneGraph",
+      "version": "5.2.1",
+      "nugetContentHash": "vm2QxbPv5MraL7T2+1dh0m8lGQqtW37RK4iOHvBsJQHQzcuDlCR+uX/Oiun77kS2US2OC23zfaIFEYWGwocXLw==",
+      "license": "MIT",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/wieslawsoltes/Svg.Skia",
+        "commit": "9ccef3e0d10edfdc01e01efd7198387da6bb7564"
+      },
+      "notices": [
+        {
+          "file": "licenses/third-party/wieslawsoltes-Svg.Skia-9ccef3e0d10e/LICENSE.TXT",
+          "sha256": "31fdac60ff94d9cab3afef9794905df38c47e82b6879819c025d703d3aebd953",
+          "source": "https://raw.githubusercontent.com/wieslawsoltes/Svg.Skia/9ccef3e0d10edfdc01e01efd7198387da6bb7564/LICENSE.TXT"
+        }
+      ]
+    },
+    {
+      "package": "System.Reactive",
+      "version": "6.1.0",
+      "nugetContentHash": "M5cCC1ZMkZr9jbSQGTHnVkb5TDN67qWCV7AP8TAHdGkvDlu0puT5NzemESNn9+HkYIDpWpocP68/i+/ame2/2w==",
+      "license": "MIT",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/dotnet/reactive",
+        "commit": "f4da16f15a3cde97f178396ea6e3489cc893651f"
+      },
+      "notices": [
+        {
+          "file": "licenses/third-party/dotnet-reactive-f4da16f15a3c/LICENSE",
+          "sha256": "cfc21f5e8bd655ae997eec916138b707b1d290b83272c02a95c9f821b8c87310",
+          "source": "https://raw.githubusercontent.com/dotnet/reactive/f4da16f15a3cde97f178396ea6e3489cc893651f/LICENSE"
+        }
+      ]
+    },
+    {
+      "package": "Tmds.DBus.Protocol",
+      "version": "0.94.1",
+      "nugetContentHash": "11YMr7FnAbL83bQmVxlhbIKHvSLxjO81D12Ej0QMSGXMDTxNA9MTOa4MQxx43nv5el/efuPHwzyrj6a5ha2gug==",
+      "license": "MIT",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/tmds/Tmds.DBus.git",
+        "branch": "refs/heads/main",
+        "commit": "b4a7fed0b878f74cb54f7cca84d2889af4e596ba"
+      },
+      "notices": [
+        {
+          "file": "licenses/third-party/tmds-Tmds.DBus-b4a7fed0b878/COPYING",
+          "sha256": "aca3b49277abcc7886ccb2f115603a9f5b15fc3f96019a10c00f2974098b210c",
+          "source": "https://raw.githubusercontent.com/tmds/Tmds.DBus/b4a7fed0b878f74cb54f7cca84d2889af4e596ba/COPYING"
+        }
+      ]
+    },
+    {
+      "package": "Vezel.Zig.Toolsets.linux-x64",
+      "version": "0.17.0.1",
+      "nugetContentHash": "qOyjD5eoGKPklmzPM2VHwEJMg4IabjiKosW5WeHO4d6UPDZrdOTDp/h6ZEftedTxh5qGhGCKzhbIbGJkNRvxpA==",
+      "locks": [
+        "src/packages.linux-x64.lock.json",
+        "src/packages.win-x64.lock.json"
+      ],
+      "license": "MIT",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/vezel-dev/zig-toolsets.git",
+        "branch": "v0.17.0.1",
+        "commit": "41dc56465a12757d3de41428133c2afdb41fb56b"
+      },
+      "notices": [
+        {
+          "file": "licenses/third-party/Vezel.Zig.Toolsets.linux-x64-0.17.0.1/tools/LICENSE",
+          "sha256": "5c537d6853e005298a285d508cff9ac7192cea23576c840d485b2b586a7ff177",
+          "source": "nuget:Vezel.Zig.Toolsets.linux-x64/0.17.0.1/tools/LICENSE"
+        }
+      ]
+    },
+    {
+      "package": "YamlDotNet",
+      "version": "18.1.0",
+      "nugetContentHash": "5K+9KFg2TdTl7VXv88Qzi/0lqK6JFoNP3lRuImPYGRV7K/QYklDyTrj4+A+KAki1JsQi6qKY+hDyY7d6WRqjrw==",
+      "license": "MIT",
+      "notices": [
+        {
+          "file": "licenses/YamlDotNet.txt",
+          "sha256": "daea8b7f1b2bab48ea12ad50b0ce91634669d99d7dd0cb64aed8dffeeef69ed3",
+          "source": "https://github.com/aaubry/YamlDotNet/blob/v18.1.0/LICENSE.txt"
+        }
+      ]
+    },
+    {
+      "package": "runtime.linux-x64.Microsoft.DotNet.ILCompiler",
+      "version": "10.0.13",
+      "nugetContentHash": "cyR6nLIi+teN7+T6pYDeeoVRTzz4RQYimON6CxqvRVTylz0XVCWj/wcfa1IsI4yR/3zKkX6hfR4E2cEuAit49A==",
+      "locks": [
+        "src/packages.linux-x64.lock.json",
+        "src/packages.win-x64.lock.json"
+      ],
+      "license": "MIT",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/dotnet/dotnet",
+        "commit": "4099f83977f4d29604a9aeb971fb0a7bc1d5f699"
+      },
+      "notices": [
+        {
+          "file": "licenses/third-party/runtime.linux-x64.Microsoft.DotNet.ILCompiler-10.0.13/THIRD-PARTY-NOTICES.TXT",
+          "sha256": "66f1d4e44973185519bb4aa8a9718eb22fc7af2cc532e3ae9cfc4c127ee7fc54",
+          "source": "nuget:runtime.linux-x64.Microsoft.DotNet.ILCompiler/10.0.13/THIRD-PARTY-NOTICES.TXT"
+        }
+      ]
+    },
+    {
+      "package": "runtime.win-x64.Microsoft.DotNet.ILCompiler",
+      "version": "10.0.13",
+      "nugetContentHash": "L85cXCLA3BMnFyf6xtFczYVstkmMqlJk4pP8cpsvz86V6Gqn885K9rg+aJdoYGCEF7I01ptCYcwujtMmqkezsA==",
+      "locks": [
+        "src/packages.linux-x64.lock.json",
+        "src/packages.win-x64.lock.json"
+      ],
+      "license": "MIT",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/dotnet/dotnet",
+        "commit": "4099f83977f4d29604a9aeb971fb0a7bc1d5f699"
+      },
+      "notices": [
+        {
+          "file": "licenses/third-party/runtime.win-x64.Microsoft.DotNet.ILCompiler-10.0.13/THIRD-PARTY-NOTICES.TXT",
+          "sha256": "6d15e10a101c6bfff2ab4429ed061bf76c456fc4b23ad6b03e0d0f8377148a21",
+          "source": "nuget:runtime.win-x64.Microsoft.DotNet.ILCompiler/10.0.13/THIRD-PARTY-NOTICES.TXT"
+        }
+      ]
+    }
+  ]
+}

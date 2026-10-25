@@ -1,0 +1,40 @@
+<Project>
+  <!-- Pinned glibc 2.31 profile used by the Linux release scripts. -->
+  <PropertyGroup Condition="'$(WuwaCompactLinux)' == 'true' and '$(RuntimeIdentifier)' == 'linux-x64'">
+    <StaticICULinking>true</StaticICULinking>
+    <EmbedIcuDataPath>$(WuwaLinuxNativeRoot)/runtime/prefix/share/icu/78.3/icudt78l.dat</EmbedIcuDataPath>
+    <StaticOpenSslLinking>true</StaticOpenSslLinking>
+  </PropertyGroup>
+  <ItemGroup Condition="'$(WuwaCompactLinux)' == 'true' and '$(RuntimeIdentifier)' == 'linux-x64'">
+    <DirectPInvoke Include="sqlite3" />
+  </ItemGroup>
+  <Target Name="WuwaReleaseNativeLibraries" DependsOnTargets="WuwaStaticLinuxRuntime" BeforeTargets="SetupOSSpecificProps" Condition="'$(WuwaCompactLinux)' == 'true' and '$(RuntimeIdentifier)' == 'linux-x64'">
+    <ItemGroup>
+      <!-- These optional ANGLE libraries are dlopened at runtime; no live static symbol uses them.
+           Do not resolve their unused link arguments against the newer build host. -->
+      <NativeSystemLibrary Remove="fontconfig;X11;Xext;xcb;wayland-client;wayland-egl;ffi" />
+      <NativeLibrary Remove="$(WuwaLinuxSystemLibraryDir)/libgcc_s.so.1" />
+      <NativeLibrary Include="$(WuwaLinuxNativeRoot)/unwind/libgcc_eh.a" />
+      <NativeLibrary Include="$(WuwaLinuxNativeRoot)/fonts/isolated/libfontconfig.a" />
+      <NativeLibrary Include="$(WuwaLinuxNativeRoot)/fonts/isolated/libfreetype.a" />
+      <NativeLibrary Include="$(WuwaLinuxNativeRoot)/fonts/isolated/libharfbuzz.a" />
+      <NativeLibrary Include="$(WuwaLinuxNativeRoot)/fonts/isolated/libpng16.a" />
+      <NativeLibrary Include="$(WuwaLinuxNativeRoot)/fonts/isolated/libz.a" />
+      <NativeLibrary Include="$(WuwaLinuxNativeRoot)/fonts/isolated/libbz2.a" />
+      <NativeLibrary Include="$(WuwaLinuxNativeRoot)/fonts/isolated/libbrotlidec.a" />
+      <NativeLibrary Include="$(WuwaLinuxNativeRoot)/fonts/isolated/libbrotlicommon.a" />
+      <NativeLibrary Include="$(WuwaLinuxNativeRoot)/fonts/isolated/libexpat.a" />
+      <NativeLibrary Include="$(WuwaLinuxNativeRoot)/fonts/isolated/libsqlite3.a" />
+    </ItemGroup>
+  </Target>
+  <Target Name="WuwaReleaseRuntimeCompiler" BeforeTargets="SetupOSSpecificProps" DependsOnTargets="PointLinkerToZig;WuwaReleaseNativeLibraries" Condition="'$(WuwaCompactLinux)' == 'true' and '$(RuntimeIdentifier)' == 'linux-x64'">
+    <PropertyGroup><CppLinker>$(WuwaLinuxNativeRoot)/fonts/cc</CppLinker></PropertyGroup>
+  </Target>
+  <Target Name="WuwaReleaseRuntimeArchives" AfterTargets="SetupOSSpecificProps" Condition="'$(WuwaCompactLinux)' == 'true' and '$(RuntimeIdentifier)' == 'linux-x64'">
+    <ItemGroup>
+      <!-- ICU was compiled with the same libc++ as Skia; do not also add libstdc++. -->
+      <LinkerArg Remove="-licuio -licutu -licui18n -licuuc -licudata -lstdc++;-lssl -lcrypto" />
+      <LinkerArg Include="$(WuwaLinuxNativeRoot)/runtime/prefix/lib/libicuio.a;$(WuwaLinuxNativeRoot)/runtime/prefix/lib/libicutu.a;$(WuwaLinuxNativeRoot)/runtime/prefix/lib/libicui18n.a;$(WuwaLinuxNativeRoot)/runtime/prefix/lib/libicuuc.a;$(WuwaLinuxNativeRoot)/runtime/prefix/lib/libicudata.a;$(WuwaLinuxNativeRoot)/runtime/openssl36-prefix/lib/libssl.a;$(WuwaLinuxNativeRoot)/runtime/openssl36-prefix/lib/libcrypto.a" />
+    </ItemGroup>
+  </Target>
+</Project>

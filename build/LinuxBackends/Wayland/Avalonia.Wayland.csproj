@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <Import Project="../Backend.props" />
+  <ItemGroup>
+    <PackageReference Include="Avalonia.FreeDesktop" Version="[12.1.4]" />
+    <PackageReference Include="NWayland" Version="[0.12.5]" />
+    <PackageReference Include="NWayland.Protocols.Wlr" Version="[0.12.5]" />
+    <Compile Include="$(AvaloniaSourceRoot)/src/Avalonia.Wayland/**/*.cs" Exclude="$(AvaloniaSourceRoot)/src/Avalonia.Wayland/obj/**" />
+    <Compile Include="$(AvaloniaSourceRoot)/src/Avalonia.X11/X11IconLoader.cs" />
+    <Compile Include="$(AvaloniaSourceRoot)/src/Avalonia.X11/Selections/UriListHelper.cs" />
+    <Compile Include="$(AvaloniaSourceRoot)/src/Avalonia.X11/Interop/Glib.cs" />
+    <Compile Include="$(AvaloniaSourceRoot)/src/Avalonia.X11/Dispatching/GlibDispatcherImplBase.cs" />
+  </ItemGroup>
+</Project>

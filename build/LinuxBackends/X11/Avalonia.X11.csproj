@@ -1,0 +1,9 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <Import Project="../Backend.props" />
+  <ItemGroup>
+    <PackageReference Include="Avalonia.Skia" Version="[12.1.4.1]" />
+    <PackageReference Include="Avalonia.FreeDesktop" Version="[12.1.4]" />
+    <PackageReference Include="Avalonia.FreeDesktop.AtSpi" Version="[12.1.4]" />
+    <Compile Include="$(AvaloniaSourceRoot)/src/Avalonia.X11/**/*.cs" Exclude="$(AvaloniaSourceRoot)/src/Avalonia.X11/obj/**" />
+  </ItemGroup>
+</Project>

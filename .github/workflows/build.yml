@@ -1,0 +1,58 @@
+name: NativeAOT packages
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    tags: ['v*']
+  pull_request:
+
+permissions:
+  contents: read
+  actions: read
+
+jobs:
+  linux:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-dotnet@v6
+        with:
+          dotnet-version: '10.0.402'
+      - name: Install native build dependencies
+        run: sudo apt-get update && sudo apt-get install -y clang lld llvm cmake ninja-build build-essential pkg-config autoconf automake libtool patch meson gperf bison flex texinfo libgmp-dev libmpfr-dev libmpc-dev python3-venv libwine-dev wine64 wine zlib1g-dev libglib2.0-bin xvfb xdotool xclip libgl1 libxrandr2 libxi6 libfontconfig1 libfreetype6 libharfbuzz0b fonts-noto-cjk python3-fonttools
+      - name: Install pinned Python build dependency
+        run: python3 -m venv .tools/python && .tools/python/bin/pip install Brotli==1.2.0 pefile==2024.8.26
+      - name: Publish static Linux GUI
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: PATH="$PWD/.tools/python/bin:$PATH" bash build.sh
+      - run: python3 test-product.py && python3 test-lifecycle.py
+      - run: python3 test-gui.py && python3 test-ui-fonts.py
+      - name: Exercise graphics memory and FPS protocol with fixture processes
+        run: |
+          WUWA_TEST_WINE=/usr/bin/wine xvfb-run -a .tools/python/bin/python test-memory-wine.py
+          WUWA_TEST_WINE=/usr/bin/wine xvfb-run -a python3 test-fps-wine.py
+      - run: bash package-linux.sh
+      - uses: actions/upload-artifact@v7
+        with:
+          name: wuwa-linux-x64-nativeaot
+          path: releases/*.tar.gz
+          if-no-files-found: error
+  windows:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-dotnet@v6
+        with:
+          dotnet-version: '10.0.402'
+      - name: Publish Windows NativeAOT
+        shell: pwsh
+        run: ./build-windows.ps1
+      - name: Exercise Windows CLI and shortcuts
+        shell: pwsh
+        run: ./test-windows.ps1
+      - uses: actions/upload-artifact@v7
+        with:
+          name: wuwa-win-x64-native-dev
+          path: releases/*.zip
+          if-no-files-found: error

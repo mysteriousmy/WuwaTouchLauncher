@@ -1,0 +1,18 @@
+<Project>
+  <Import Project="../../Directory.Build.props" />
+  <PropertyGroup>
+    <BackendBuildRoot>$(MSBuildThisFileDirectory)../../artifacts/linux-overlay/</BackendBuildRoot>
+    <AvaloniaSourceRoot>$(BackendBuildRoot)Avalonia-source/Avalonia-2d79ba55fae1b1e71c69f93a668080c9029e6a31</AvaloniaSourceRoot>
+    <BaseIntermediateOutputPath>$(BackendBuildRoot)obj/$(MSBuildProjectName)/</BaseIntermediateOutputPath>
+    <BaseOutputPath>$(BackendBuildRoot)bin/$(MSBuildProjectName)/</BaseOutputPath>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <LangVersion>14</LangVersion>
+    <RestorePackagesWithLockFile>true</RestorePackagesWithLockFile>
+    <!-- Source archives have no Git checkout. Do not make the PDB (and its
+         assembly checksum) depend on whether local additions are Git-tracked. -->
+    <EnableSourceControlManagerQueries>false</EnableSourceControlManagerQueries>
+    <EnableSourceLink>false</EnableSourceLink>
+    <EmbedUntrackedSources>false</EmbedUntrackedSources>
+    <PathMap>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)../..'))=/_/wuwa</PathMap>
+  </PropertyGroup>
+</Project>

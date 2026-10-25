@@ -1,0 +1,6 @@
+<Project><PropertyGroup>
+  <RestorePackagesPath>$(MSBuildThisFileDirectory)artifacts/p0/static-packages</RestorePackagesPath>
+  <RestorePackagesWithLockFile>true</RestorePackagesWithLockFile>
+  <Deterministic>true</Deterministic>
+  <LinkerFlavor Condition="'$(RuntimeIdentifier)' == 'linux-x64' and '$(UseAotAnywhere)' == 'true'">bfd</LinkerFlavor>
+</PropertyGroup></Project>

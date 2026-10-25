@@ -1,0 +1,104 @@
+[
+  {
+    "destination": "artifacts/p0/staticlink-avalonia-nuget.zip",
+    "sha256": "75c33cf5e280bc4745b7798049348171000e15da57bfea8ea77c8e28837746d8",
+    "parts": [
+      {
+        "path": "vendor/build-inputs/staticlink-avalonia-nuget.zip.part01",
+        "sha256": "4db3c50554b9bb3039ccf641806b752ce9b505d431955e6b55ab2a1229bcc34a"
+      },
+      {
+        "path": "vendor/build-inputs/staticlink-avalonia-nuget.zip.part02",
+        "sha256": "d56043a06fc0d7e1eaeec5837fca73b0644c3922a4f2c8353aa9866bfa98f197"
+      },
+      {
+        "path": "vendor/build-inputs/staticlink-avalonia-nuget.zip.part03",
+        "sha256": "289ec0174977942a8093938bcf9fc1c0ec3b5557bae9bdb572879d0f488a557c"
+      }
+    ]
+  },
+  {
+    "destination": "artifacts/relink-sources/AtomUI-4021b4ed7ab49e12fa047fa8ad8cc42870937222.tar.gz",
+    "sha256": "0c42eaf12e178c09b592bc9adecc6148d12ea68a937ef387675fc725fa4105c0",
+    "parts": [
+      {
+        "path": "vendor/build-inputs/AtomUI-4021b4ed7ab49e12fa047fa8ad8cc42870937222.tar.gz",
+        "sha256": "0c42eaf12e178c09b592bc9adecc6148d12ea68a937ef387675fc725fa4105c0"
+      }
+    ]
+  },
+  {
+    "destination": "artifacts/relink-sources/StaticLink.Avalonia-88fdb15a7f3608196a4322fa4099dcb962d5e7a1.tar.gz",
+    "sha256": "50f84d08ced52cdb11b48d8fb7702364d12a60af560477c8542fa9d837a6a6ea",
+    "parts": [
+      {
+        "path": "vendor/build-inputs/StaticLink.Avalonia-88fdb15a7f3608196a4322fa4099dcb962d5e7a1.tar.gz",
+        "sha256": "50f84d08ced52cdb11b48d8fb7702364d12a60af560477c8542fa9d837a6a6ea"
+      }
+    ]
+  },
+  {
+    "destination": "artifacts/relink-sources/Avalonia-2d79ba55fae1b1e71c69f93a668080c9029e6a31.tar.gz",
+    "sha256": "9e9ee6ee270bfdc02fbc34296da51ee6242325156d2b67cbed92d2ccbc2e2029",
+    "parts": [
+      {
+        "path": "vendor/build-inputs/Avalonia-2d79ba55fae1b1e71c69f93a668080c9029e6a31.tar.gz.part01",
+        "sha256": "cf82fbdba9fd59aedf9374b74e1600a41a537993da13155f1e6c803dfb70dba1"
+      },
+      {
+        "path": "vendor/build-inputs/Avalonia-2d79ba55fae1b1e71c69f93a668080c9029e6a31.tar.gz.part02",
+        "sha256": "7a9131f054a18fbd7ac2789ce1dbdda0b3ef2b81b5fefe72ee95a99033c43e3a"
+      }
+    ]
+  },
+  {
+    "destination": "artifacts/relink-sources/NWayland-eec3112551ed2bc02bce88b5429304fcfda52671.tar.gz",
+    "sha256": "084fc4d11e5c02f2e4218c53fd1257b57539ae74eaa4b3e308ed2b90fdbc225f",
+    "parts": [
+      {
+        "path": "vendor/build-inputs/NWayland-eec3112551ed2bc02bce88b5429304fcfda52671.tar.gz",
+        "sha256": "084fc4d11e5c02f2e4218c53fd1257b57539ae74eaa4b3e308ed2b90fdbc225f"
+      }
+    ]
+  },
+  {
+    "destination": "artifacts/relink-sources/wlr-protocols-bf4fc79abc359eea5a0edec0ac6d4a2b2955f82a.tar.gz",
+    "sha256": "9e0fd2be5ba7c84b81acdd086f84c2da2c2b5e4946a17bda3e9850c62e14057f",
+    "parts": [
+      {
+        "path": "vendor/build-inputs/wlr-protocols-bf4fc79abc359eea5a0edec0ac6d4a2b2955f82a.tar.gz",
+        "sha256": "9e0fd2be5ba7c84b81acdd086f84c2da2c2b5e4946a17bda3e9850c62e14057f"
+      }
+    ]
+  },
+  {
+    "destination": "artifacts/linux-overlay/feed/Avalonia.X11.12.1.4.1.nupkg",
+    "sha256": "77fd4f204395bef15c543e903886d9eaea296a89998888ddb302ef5c117346c1",
+    "parts": [
+      {
+        "path": "vendor/build-inputs/Avalonia.X11.12.1.4.1.nupkg",
+        "sha256": "77fd4f204395bef15c543e903886d9eaea296a89998888ddb302ef5c117346c1"
+      }
+    ]
+  },
+  {
+    "destination": "artifacts/linux-overlay/feed/Avalonia.Wayland.12.1.4.1.nupkg",
+    "sha256": "dc294194a9925f1f767a84cfeeae525067eb815ba0e1c21dd309ed7fa89ee6e1",
+    "parts": [
+      {
+        "path": "vendor/build-inputs/Avalonia.Wayland.12.1.4.1.nupkg",
+        "sha256": "dc294194a9925f1f767a84cfeeae525067eb815ba0e1c21dd309ed7fa89ee6e1"
+      }
+    ]
+  },
+  {
+    "destination": "artifacts/linux-overlay/feed/Avalonia.Skia.12.1.4.1.nupkg",
+    "sha256": "0bcf9068d9f16eb7cdc44d8f223e3b41d8bcd2a4831d119663de8e34013ec52b",
+    "parts": [
+      {
+        "path": "vendor/build-inputs/Avalonia.Skia.12.1.4.1.nupkg",
+        "sha256": "0bcf9068d9f16eb7cdc44d8f223e3b41d8bcd2a4831d119663de8e34013ec52b"
+      }
+    ]
+  }
+]

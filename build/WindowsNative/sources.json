@@ -1,0 +1,9 @@
+{
+  "sdk": "10.0.26100",
+  "crt": "14.44.17.14",
+  "visual_studio": "17.14.42+37806.7",
+  "channel_manifest_sha256": "4f0f290bb4d58a061a49a2fa893357a8c9e7e2b49fc91873f533ab8f791e4fa0",
+  "sdk_libraries_sha256": "8f644924a22e63606400837a45cfff10f55de8aa6dcc3b0fe617fdfb526d79fe",
+  "xwin": "0.10.0",
+  "xwin_archive_sha256": "d870eb4b2f390878af6da1ccd3cf321d22fcb72720984853b4be732ae597fc88"
+}

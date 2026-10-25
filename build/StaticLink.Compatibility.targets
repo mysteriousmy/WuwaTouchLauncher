@@ -1,0 +1,28 @@
+<Project>
+  <!-- Bounded adaptation for StaticLink 12.1.4.1 + AotAnywhere 1.1.0.
+       The caller must identify a compatible Linux system-library directory.
+       Do not silence duplicate symbols: .NET and Zig unwind have different ABIs. -->
+  <Target Name="WuwaStaticLinuxRuntime"
+          BeforeTargets="SetupOSSpecificProps" DependsOnTargets="StaticLinkAvaloniaAddZigRuntime"
+          Condition="'$(PublishAot)' == 'true' and '$(RuntimeIdentifier)' == 'linux-x64' and '$(_StaticLinkAvaloniaNativeRoot)' != ''">
+    <Error Condition="'$(WuwaLinuxSystemLibraryDir)' == '' or '$(WuwaLinuxGlibcVersion)' == ''"
+           Text="WUWA002: Set WuwaLinuxSystemLibraryDir and WuwaLinuxGlibcVersion for the target sysroot. See tools/publish-gui.py and docs/NATIVEAOT.md." />
+    <Error Condition="!Exists('$(WuwaLinuxSystemLibraryDir)/libgcc_s.so.1')"
+           Text="WUWA003: Target libgcc_s.so.1 not found in WuwaLinuxSystemLibraryDir." />
+    <PropertyGroup><LinkerFlavor /></PropertyGroup>
+    <ItemGroup>
+      <NativeSystemLibrary Remove="stdc++;gcc_eh" />
+      <LinkerArg Remove="-Wl,-z,nostart-stop-gc;-Wl,--allow-multiple-definition" />
+      <LinkerArg Include="-L&quot;$(WuwaLinuxSystemLibraryDir)&quot;" />
+      <!-- An explicit file avoids Zig treating -lgcc_s as its own libunwind. -->
+      <NativeLibrary Include="$(WuwaLinuxSystemLibraryDir)/libgcc_s.so.1" />
+    </ItemGroup>
+  </Target>
+  <Target Name="WuwaStaticLinuxTarget" AfterTargets="OverwriteTargetTriple"
+          Condition="'$(PublishAot)' == 'true' and '$(RuntimeIdentifier)' == 'linux-x64' and '$(_StaticLinkAvaloniaNativeRoot)' != ''">
+    <ItemGroup>
+      <LinkerArg Remove="--target=x86_64-linux-gnu" />
+      <LinkerArg Include="--target=x86_64-linux-gnu.$(WuwaLinuxGlibcVersion)" />
+    </ItemGroup>
+  </Target>
+</Project>

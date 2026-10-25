@@ -1,0 +1,35 @@
+<Project>
+  <!-- Enabled by the compact Linux release entry point; P0 probes remain separate. -->
+  <PropertyGroup Condition="'$(WuwaCompactLinux)' == 'true' and '$(RuntimeIdentifier)' == 'linux-x64'">
+    <OptimizationPreference>Size</OptimizationPreference>
+    <WuwaCompressIcu Condition="'$(WuwaCompressIcu)' == ''">true</WuwaCompressIcu>
+    <_WuwaSizeTools>$(MSBuildThisFileDirectory)</_WuwaSizeTools>
+    <EmbedIcuDataPath />
+  </PropertyGroup>
+  <Target Name="WuwaCompactIcu" BeforeTargets="SetupOSSpecificProps"
+          Condition="'$(WuwaCompactLinux)' == 'true' and '$(RuntimeIdentifier)' == 'linux-x64'">
+    <PropertyGroup>
+      <EmbedIcuDataPath />
+      <EmbedIcuDataPath Condition="'$(WuwaCompressIcu)' == 'false'">$(WuwaCompactIcuDirectory)/icudt78l.dat</EmbedIcuDataPath>
+    </PropertyGroup>
+    <Error Condition="'$(StaticICULinking)' != 'true' or !Exists('$(WuwaCompactIcuDirectory)/loader.o') or !Exists('$(WuwaCompactIcuDirectory)/data.o')"
+           Text="KOTO_SIZE001: Prepare the pinned compact ICU data and loader before publishing." />
+    <Error Condition="'$(InvariantGlobalization)' != 'false' or '$(OptimizationPreference)' != 'Size'"
+           Text="KOTO_SIZE002: Compact Linux releases require full globalization and size optimization." />
+    <!-- CMake caches the previous raw-data header even when its argument becomes empty. -->
+    <RemoveDir Directories="$(IntermediateOutputPath)libs/System.Globalization.Native/build" />
+    <ItemGroup Condition="'$(WuwaCompressIcu)' != 'false'">
+      <NativeLibrary Include="$(WuwaCompactIcuDirectory)/loader.o;$(WuwaCompactIcuDirectory)/data.o" />
+    </ItemGroup>
+  </Target>
+  <Target Name="WuwaSizeLinker" BeforeTargets="AotAnywhereDirectLinkNative"
+          DependsOnTargets="SetPathToZig;PointLinkerToZig"
+          Condition="'$(WuwaCompactLinux)' == 'true' and '$(RuntimeIdentifier)' == 'linux-x64'">
+    <PropertyGroup>
+      <_WuwaLinkLauncher>$(MSBuildProjectDirectory)/$(IntermediateOutputPath)wuwa-zig-link</_WuwaLinkLauncher>
+      <_WuwaIcuWrapArg Condition="'$(WuwaCompressIcu)' != 'false'">--wrap GlobalizationNative_LoadICU --defer-object &quot;$(WuwaCompactIcuDirectory)/loader.o&quot;</_WuwaIcuWrapArg>
+    </PropertyGroup>
+    <Exec Command="python3 &quot;$(_WuwaSizeTools)zig_link.py&quot; --zig &quot;$(_AotAnywhereZigExe)&quot; --create-launcher &quot;$(_WuwaLinkLauncher)&quot; $(_WuwaIcuWrapArg)" />
+    <PropertyGroup><_AotAnywhereZigExe>$(_WuwaLinkLauncher)</_AotAnywhereZigExe></PropertyGroup>
+  </Target>
+</Project>

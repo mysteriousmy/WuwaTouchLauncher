@@ -1,0 +1,1926 @@
+{
+  "fonts/isolated/libbrotlicommon.a": {
+    "source": "fonts/isolated/libbrotlicommon.a",
+    "sha256": "d776171e0904a60ab8c4e568ca4e59de012e2b664df1cc6bc45c74ba1830d78c"
+  },
+  "fonts/isolated/libbrotlidec.a": {
+    "source": "fonts/isolated/libbrotlidec.a",
+    "sha256": "b5ed6cbe5aa91d559071b955117b9c32735c3b61f99d53a8f34c32f016591062"
+  },
+  "fonts/isolated/libbz2.a": {
+    "source": "fonts/isolated/libbz2.a",
+    "sha256": "bfdfee419a3a6783d4ac39b2c51f9c47635eda409c5dbfb74c760c52c62df9e7"
+  },
+  "fonts/isolated/libexpat.a": {
+    "source": "fonts/isolated/libexpat.a",
+    "sha256": "afa36764901eac5571ade26a46167aeef4e3005da31d8325ff4ec823472648d2"
+  },
+  "fonts/isolated/libfontconfig.a": {
+    "source": "fonts/isolated/libfontconfig.a",
+    "sha256": "baa415f38f0c56df27d4020eef196cae56a3bffdd0062e924137cb0b06fe698f"
+  },
+  "fonts/isolated/libfreetype.a": {
+    "source": "fonts/isolated/libfreetype.a",
+    "sha256": "1f9b04d633b2cb4d45addff4dba7f6274c9e46f7ec5bc22ae66dc3cdae79f4bd"
+  },
+  "fonts/isolated/libharfbuzz.a": {
+    "source": "fonts/isolated/libharfbuzz.a",
+    "sha256": "3768c5e83ed9291db4d93ee8e688e66fe7a4f30b082753e6e942418d31a9be98"
+  },
+  "fonts/isolated/libpng16.a": {
+    "source": "fonts/isolated/libpng16.a",
+    "sha256": "2bbd3472919262cf5c2329e654b4a4f0f9c5b2a1ed64c917cddcfef7b476aec6"
+  },
+  "fonts/isolated/libsqlite3.a": {
+    "source": "fonts/isolated/libsqlite3.a",
+    "sha256": "b07d2c1912421e61284f0b3f934aa1b42f23a579b06e6cb856089db6b1f2d7a9"
+  },
+  "fonts/isolated/libz.a": {
+    "source": "fonts/isolated/libz.a",
+    "sha256": "c02f412947cea20236573eba0cb57caad27d449e613dc4cf44ccbc2e2f694903"
+  },
+  "fonts/prefix/include/brotli/decode.h": {
+    "source": "fonts/prefix/include/brotli/decode.h",
+    "sha256": "027b91e62e85de6955e6334628b2ba0c77901a449e169fd9f95d6ea1cc91f980"
+  },
+  "fonts/prefix/include/brotli/encode.h": {
+    "source": "fonts/prefix/include/brotli/encode.h",
+    "sha256": "f1842e38da557efac517a35f1b27d288d464a723ef50316d3d20fe03f6046c06"
+  },
+  "fonts/prefix/include/brotli/port.h": {
+    "source": "fonts/prefix/include/brotli/port.h",
+    "sha256": "72b484d7a2561f3a9ad35ebd0d4f97f7a2d9863b619782ada5b083a4b6f40df5"
+  },
+  "fonts/prefix/include/brotli/shared_dictionary.h": {
+    "source": "fonts/prefix/include/brotli/shared_dictionary.h",
+    "sha256": "86230f0aaf533044d85d92f84b5aec8b7e4e231d4b64b098604083e7866e8097"
+  },
+  "fonts/prefix/include/brotli/types.h": {
+    "source": "fonts/prefix/include/brotli/types.h",
+    "sha256": "ebbd136dc411cc8167636d6f54b66ad0c234dc18989265c37a28c242eaae2efd"
+  },
+  "fonts/prefix/include/bzlib.h": {
+    "source": "fonts/prefix/include/bzlib.h",
+    "sha256": "6ac62e811669598ee30c9e1c379b9e627f6ff17a5a3dc1e0b4fa8b8ea75e580d"
+  },
+  "fonts/prefix/include/expat.h": {
+    "source": "fonts/prefix/include/expat.h",
+    "sha256": "805f17ae5f597eeb9f058f60428a1a62268de242a096af17cbcc2e17af111bad"
+  },
+  "fonts/prefix/include/expat_config.h": {
+    "source": "fonts/prefix/include/expat_config.h",
+    "sha256": "0db850573c8172a012bcc0b5aa85528249a536879516678f87cccb66f4fb702f"
+  },
+  "fonts/prefix/include/expat_external.h": {
+    "source": "fonts/prefix/include/expat_external.h",
+    "sha256": "77a02ad7ddc33fef8ae5876f8946d7ddb8fd9172a3f63d4c01b0e62211d386b5"
+  },
+  "fonts/prefix/include/freetype2/dlg/dlg.h": {
+    "source": "fonts/prefix/include/freetype2/dlg/dlg.h",
+    "sha256": "d4b983841fd8810f4e26912a8122956d07d48ce43f07b40e7f3042be5f706925"
+  },
+  "fonts/prefix/include/freetype2/dlg/output.h": {
+    "source": "fonts/prefix/include/freetype2/dlg/output.h",
+    "sha256": "d659aad12eea8c26d317ad2601bb9d2ceabff1f7dcb0fbf8ab3038f6d1c457d1"
+  },
+  "fonts/prefix/include/freetype2/freetype/config/ftconfig.h": {
+    "source": "fonts/prefix/include/freetype2/freetype/config/ftconfig.h",
+    "sha256": "2f8c64d2eaaaff98966291b17fe1ac9c4f286143989c770112d294bee8ae8bda"
+  },
+  "fonts/prefix/include/freetype2/freetype/config/ftheader.h": {
+    "source": "fonts/prefix/include/freetype2/freetype/config/ftheader.h",
+    "sha256": "0b099b85a787ef6a20774dad096bb74e6cbb89e244f198baad8b135709123d0b"
+  },
+  "fonts/prefix/include/freetype2/freetype/config/ftmodule.h": {
+    "source": "fonts/prefix/include/freetype2/freetype/config/ftmodule.h",
+    "sha256": "f695657e4a8b02427296414d144d9dafc5b073538718d5e0c4290ba9d318c579"
+  },
+  "fonts/prefix/include/freetype2/freetype/config/ftoption.h": {
+    "source": "fonts/prefix/include/freetype2/freetype/config/ftoption.h",
+    "sha256": "ed1fa83456abbf1edf3b3e1a208964fecc29d99d1207f45163055b8f6afb4f07"
+  },
+  "fonts/prefix/include/freetype2/freetype/config/ftstdlib.h": {
+    "source": "fonts/prefix/include/freetype2/freetype/config/ftstdlib.h",
+    "sha256": "de81744697b6f9f7fe3a49ca320f2a7ea8f2ae905bb96ff161b5b2d1eed25fe2"
+  },
+  "fonts/prefix/include/freetype2/freetype/config/integer-types.h": {
+    "source": "fonts/prefix/include/freetype2/freetype/config/integer-types.h",
+    "sha256": "0aeaf74f638d1584ccae37f580076a7ac24ef89049749839c3c90dcdda148d5b"
+  },
+  "fonts/prefix/include/freetype2/freetype/config/mac-support.h": {
+    "source": "fonts/prefix/include/freetype2/freetype/config/mac-support.h",
+    "sha256": "be37d3886a1a1ab1bcf894259d6a50d90b5fc71e3284b12e818c57710a9c945d"
+  },
+  "fonts/prefix/include/freetype2/freetype/config/public-macros.h": {
+    "source": "fonts/prefix/include/freetype2/freetype/config/public-macros.h",
+    "sha256": "7557630cb407f98fbc003300c507ae444b0f7449cab99d80c13f5c343710d06e"
+  },
+  "fonts/prefix/include/freetype2/freetype/freetype.h": {
+    "source": "fonts/prefix/include/freetype2/freetype/freetype.h",
+    "sha256": "7a343a0240598631b53adea94284d376979f42cf215e6ad7cfe932d96762497b"
+  },
+  "fonts/prefix/include/freetype2/freetype/ftadvanc.h": {
+    "source": "fonts/prefix/include/freetype2/freetype/ftadvanc.h",
+    "sha256": "6f0c22af9c16eb0459736db8c60e27269db6b774addd196a845e417c851d3813"
+  },
+  "fonts/prefix/include/freetype2/freetype/ftbbox.h": {
+    "source": "fonts/prefix/include/freetype2/freetype/ftbbox.h",
+    "sha256": "4389ec87328ba568415fe4919b9399ff38fa766956b0940e494fbccd1427a6da"
+  },
+  "fonts/prefix/include/freetype2/freetype/ftbdf.h": {
+    "source": "fonts/prefix/include/freetype2/freetype/ftbdf.h",
+    "sha256": "d394c0d427d75efbb04ee06d55e2793bfab969d6ca94dba9f743707b109adbcd"
+  },
+  "fonts/prefix/include/freetype2/freetype/ftbitmap.h": {
+    "source": "fonts/prefix/include/freetype2/freetype/ftbitmap.h",
+    "sha256": "92b63e93b151d96fd985cfaba4ec60e47204bbc922f3bee82412ae2fc426fb03"
+  },
+  "fonts/prefix/include/freetype2/freetype/ftbzip2.h": {
+    "source": "fonts/prefix/include/freetype2/freetype/ftbzip2.h",
+    "sha256": "be324bc70ad4b355d7a2ae78a540019db17146a140cdcc59676079afc174ca38"
+  },
+  "fonts/prefix/include/freetype2/freetype/ftcache.h": {
+    "source": "fonts/prefix/include/freetype2/freetype/ftcache.h",
+    "sha256": "ba20c0391cc39373474ce3d57adb65559e3954d413d98c2100d77d40bf82bf07"
+  },
+  "fonts/prefix/include/freetype2/freetype/ftchapters.h": {
+    "source": "fonts/prefix/include/freetype2/freetype/ftchapters.h",
+    "sha256": "c7d1c2ca13903fb6d0b3b37850344d805280856fb87c7597087ce2352573f752"
+  },
+  "fonts/prefix/include/freetype2/freetype/ftcid.h": {
+    "source": "fonts/prefix/include/freetype2/freetype/ftcid.h",
+    "sha256": "e71180811abd5f87bb9c5eb058904b32c037ed29f8666e8a9b3561936b5b6ecc"
+  },
+  "fonts/prefix/include/freetype2/freetype/ftcolor.h": {
+    "source": "fonts/prefix/include/freetype2/freetype/ftcolor.h",
+    "sha256": "217af290dc25ceba7b77ed62bf7710e17d6396d6a20438072ab3a0685f4b2137"
+  },
+  "fonts/prefix/include/freetype2/freetype/ftdriver.h": {
+    "source": "fonts/prefix/include/freetype2/freetype/ftdriver.h",
+    "sha256": "459e4688340c8fc66545768e360b7fa126a4939c8de33d729181ca23572cf695"
+  },
+  "fonts/prefix/include/freetype2/freetype/fterrdef.h": {
+    "source": "fonts/prefix/include/freetype2/freetype/fterrdef.h",
+    "sha256": "376e05cbda2fe270031ef19722c6f9d76b9c4c444ff9e0e9c97cf9e3a016111f"
+  },
+  "fonts/prefix/include/freetype2/freetype/fterrors.h": {
+    "source": "fonts/prefix/include/freetype2/freetype/fterrors.h",
+    "sha256": "a7547172143ce6309f89492b47ab0e6e69c7fb7f7caa8c81635811fd42673050"
+  },
+  "fonts/prefix/include/freetype2/freetype/ftfntfmt.h": {
+    "source": "fonts/prefix/include/freetype2/freetype/ftfntfmt.h",
+    "sha256": "54f23d9c103f0c485e837ea1a9db5f0736372b7d781d1adafb8cff6aa950d4d1"
+  },
+  "fonts/prefix/include/freetype2/freetype/ftgasp.h": {
+    "source": "fonts/prefix/include/freetype2/freetype/ftgasp.h",
+    "sha256": "a1453a8faeba8845c7b35bcdbbfc43afcc51bfaea89470f813e344a5c9fb06af"
+  },
+  "fonts/prefix/include/freetype2/freetype/ftglyph.h": {
+    "source": "fonts/prefix/include/freetype2/freetype/ftglyph.h",
+    "sha256": "79a94788388fee750f7cb1deac0c2dfe23d6a6232f29eb9bc056ca4d5a74f137"
+  },
+  "fonts/prefix/include/freetype2/freetype/ftgxval.h": {
+    "source": "fonts/prefix/include/freetype2/freetype/ftgxval.h",
+    "sha256": "06bb3bd9450ac2534f738849df72de6e618313a61d4b4866bc0bdf44ecefdbcf"
+  },
+  "fonts/prefix/include/freetype2/freetype/ftgzip.h": {
+    "source": "fonts/prefix/include/freetype2/freetype/ftgzip.h",
+    "sha256": "75f54dfef82233d9a9a1f9d4b4560a258b052784aff9859137cc232f468805df"
+  },
+  "fonts/prefix/include/freetype2/freetype/ftimage.h": {
+    "source": "fonts/prefix/include/freetype2/freetype/ftimage.h",
+    "sha256": "779afe61188e7b91dca89a3b9665b8db2d70e57b7bf1c2ec322c5a5fcc1c6816"
+  },
+  "fonts/prefix/include/freetype2/freetype/ftincrem.h": {
+    "source": "fonts/prefix/include/freetype2/freetype/ftincrem.h",
+    "sha256": "073a9dd3b7585989ee68540b3688a1e11bbd3498dd8210809b0869529861df05"
+  },
+  "fonts/prefix/include/freetype2/freetype/ftlcdfil.h": {
+    "source": "fonts/prefix/include/freetype2/freetype/ftlcdfil.h",
+    "sha256": "462073b97096be0c7e485d802fee6e6046f1aa36050c14f7771c31b99bab30fa"
+  },
+  "fonts/prefix/include/freetype2/freetype/ftlist.h": {
+    "source": "fonts/prefix/include/freetype2/freetype/ftlist.h",
+    "sha256": "fea6f521193148308630725ae5de0ec736c135910704239967c541c8ab3e0cd1"
+  },
+  "fonts/prefix/include/freetype2/freetype/ftlogging.h": {
+    "source": "fonts/prefix/include/freetype2/freetype/ftlogging.h",
+    "sha256": "3c353c71c09de36f847cdc209f6e7d92dd92304b1d11c1d8d7300d439a24ef88"
+  },
+  "fonts/prefix/include/freetype2/freetype/ftlzw.h": {
+    "source": "fonts/prefix/include/freetype2/freetype/ftlzw.h",
+    "sha256": "fd8b72704427c0d8d4c6f2efdd30fdbfc55a7d1246a3c627dcb82661b324aae3"
+  },
+  "fonts/prefix/include/freetype2/freetype/ftmac.h": {
+    "source": "fonts/prefix/include/freetype2/freetype/ftmac.h",
+    "sha256": "4203c770c57d3f09ea16e1dd6535da3a1bda62673cb9bedaacab90ac4b736bad"
+  },
+  "fonts/prefix/include/freetype2/freetype/ftmm.h": {
+    "source": "fonts/prefix/include/freetype2/freetype/ftmm.h",
+    "sha256": "5d134d486b89d9a3dbaa54e581168be3868d04951c1ec3260542d852a14dddb1"
+  },
+  "fonts/prefix/include/freetype2/freetype/ftmodapi.h": {
+    "source": "fonts/prefix/include/freetype2/freetype/ftmodapi.h",
+    "sha256": "1e526ff1f741cce96bf8d5e935bd9f1ba8db4afdd5c76f387ac54964b25d3fde"
+  },
+  "fonts/prefix/include/freetype2/freetype/ftmoderr.h": {
+    "source": "fonts/prefix/include/freetype2/freetype/ftmoderr.h",
+    "sha256": "27a2a1aabbc9f2a99d77c65292272151f12626d10a37ad29571e1847984c4ad6"
+  },
+  "fonts/prefix/include/freetype2/freetype/ftotval.h": {
+    "source": "fonts/prefix/include/freetype2/freetype/ftotval.h",
+    "sha256": "da5bfb9e509556bfc16ce899a161ea26555cc3ff019cdcc67e6b3af3723f6361"
+  },
+  "fonts/prefix/include/freetype2/freetype/ftoutln.h": {
+    "source": "fonts/prefix/include/freetype2/freetype/ftoutln.h",
+    "sha256": "db0585ea338debdb9b721adc5f6d138ec7f88df30ff44cf6fb3cac79a70982f8"
+  },
+  "fonts/prefix/include/freetype2/freetype/ftparams.h": {
+    "source": "fonts/prefix/include/freetype2/freetype/ftparams.h",
+    "sha256": "4db8f53c9b62aa5adfd2f89877a96c522198e9a780402be7aafba9fdace5f485"
+  },
+  "fonts/prefix/include/freetype2/freetype/ftpfr.h": {
+    "source": "fonts/prefix/include/freetype2/freetype/ftpfr.h",
+    "sha256": "dd40f7a041f345c8ae12664f52d2def53ec5dd2a49e65aba2b95bdef5b63a1d0"
+  },
+  "fonts/prefix/include/freetype2/freetype/ftrender.h": {
+    "source": "fonts/prefix/include/freetype2/freetype/ftrender.h",
+    "sha256": "9579d3d9ff09e98ee09a49c8588d97a910c8fe698fe465a3f33965921fea77ec"
+  },
+  "fonts/prefix/include/freetype2/freetype/ftsizes.h": {
+    "source": "fonts/prefix/include/freetype2/freetype/ftsizes.h",
+    "sha256": "2afecd7a4dabbf89e9f76d373829b4e8e70a5c593ecccb7646e190c47a2b398e"
+  },
+  "fonts/prefix/include/freetype2/freetype/ftsnames.h": {
+    "source": "fonts/prefix/include/freetype2/freetype/ftsnames.h",
+    "sha256": "621faad855dfd4cc5e9a90b5a4554b706767653c5c2d41acd1b03d2e118b52dd"
+  },
+  "fonts/prefix/include/freetype2/freetype/ftstroke.h": {
+    "source": "fonts/prefix/include/freetype2/freetype/ftstroke.h",
+    "sha256": "ba4ed8f81ac66e9e6a2cdf772b69da02a0085fc5576cd233e4da661c6fb1967c"
+  },
+  "fonts/prefix/include/freetype2/freetype/ftsynth.h": {
+    "source": "fonts/prefix/include/freetype2/freetype/ftsynth.h",
+    "sha256": "f75aa75f8cb754c37db6ac16e1c9648997e06d280d8b28490d502838e6c649ca"
+  },
+  "fonts/prefix/include/freetype2/freetype/ftsystem.h": {
+    "source": "fonts/prefix/include/freetype2/freetype/ftsystem.h",
+    "sha256": "9a41ef1877a9f5f7e5debbf0d701bd393e53e2ae36fb6c34faebf26b8cbc43f2"
+  },
+  "fonts/prefix/include/freetype2/freetype/fttrigon.h": {
+    "source": "fonts/prefix/include/freetype2/freetype/fttrigon.h",
+    "sha256": "924526c9b662973f64eb5b4f5034ae897684cb08b9cca7262aba097e49471ade"
+  },
+  "fonts/prefix/include/freetype2/freetype/fttypes.h": {
+    "source": "fonts/prefix/include/freetype2/freetype/fttypes.h",
+    "sha256": "dcaa79e39c7495d8f622555bd64b2ea87d6ddcfb8c9bbe9f8c33befcdda4eb9b"
+  },
+  "fonts/prefix/include/freetype2/freetype/ftwinfnt.h": {
+    "source": "fonts/prefix/include/freetype2/freetype/ftwinfnt.h",
+    "sha256": "a2d77ef372f2c874d61179687b71a2d034e1d51430266c46ec0854593d02b779"
+  },
+  "fonts/prefix/include/freetype2/freetype/otsvg.h": {
+    "source": "fonts/prefix/include/freetype2/freetype/otsvg.h",
+    "sha256": "3f7b2484cf4980c5dfb568e8f57b687d3add3b7cc499054f46164ca6d2690e53"
+  },
+  "fonts/prefix/include/freetype2/freetype/t1tables.h": {
+    "source": "fonts/prefix/include/freetype2/freetype/t1tables.h",
+    "sha256": "3bf63affe3fd88daa017ee7fcd894e37e961be9abdcd168b39a328ad3e6db3ba"
+  },
+  "fonts/prefix/include/freetype2/freetype/ttnameid.h": {
+    "source": "fonts/prefix/include/freetype2/freetype/ttnameid.h",
+    "sha256": "c7f9f5b9d7f90bb77f0b5e5fb643039f47ded753130b9c4521d6070fe7dcd7ce"
+  },
+  "fonts/prefix/include/freetype2/freetype/tttables.h": {
+    "source": "fonts/prefix/include/freetype2/freetype/tttables.h",
+    "sha256": "7fd1ce25de661e802dbff67ad5e9927bcdef1730527a5d453120586f13698280"
+  },
+  "fonts/prefix/include/freetype2/freetype/tttags.h": {
+    "source": "fonts/prefix/include/freetype2/freetype/tttags.h",
+    "sha256": "7b177ab5c05aa1ed60e23649745242886e2587f8c1a34f31dae5ea00ef4835e8"
+  },
+  "fonts/prefix/include/freetype2/ft2build.h": {
+    "source": "fonts/prefix/include/freetype2/ft2build.h",
+    "sha256": "1e8028d455a85db4dd19b2019a721d56409f802c2223e78ab5199c22f8b33397"
+  },
+  "fonts/prefix/include/harfbuzz/hb-aat-layout.h": {
+    "source": "fonts/prefix/include/harfbuzz/hb-aat-layout.h",
+    "sha256": "19260855effa365dabbea60543813bdb88c67835aa347b7970e416906f3ff392"
+  },
+  "fonts/prefix/include/harfbuzz/hb-aat.h": {
+    "source": "fonts/prefix/include/harfbuzz/hb-aat.h",
+    "sha256": "bce10093cad39cfbd5355d763368b22a04ae2bec9289ef0642e5f752bd6e79ff"
+  },
+  "fonts/prefix/include/harfbuzz/hb-blob.h": {
+    "source": "fonts/prefix/include/harfbuzz/hb-blob.h",
+    "sha256": "710fe0a1be3b3a344154939be9bf6cc30674f6abd4ae0fcc0d3144b9d6b9a6bd"
+  },
+  "fonts/prefix/include/harfbuzz/hb-buffer.h": {
+    "source": "fonts/prefix/include/harfbuzz/hb-buffer.h",
+    "sha256": "c9d608ef2ab9fdcbe3b285418a3662fb075a579fb7fd3010e75cfb1ae8263566"
+  },
+  "fonts/prefix/include/harfbuzz/hb-common.h": {
+    "source": "fonts/prefix/include/harfbuzz/hb-common.h",
+    "sha256": "5238d77823c4fc37ad37aff7422b1fe5157fcd10c706862db7c37dcb975e3b37"
+  },
+  "fonts/prefix/include/harfbuzz/hb-cplusplus.hh": {
+    "source": "fonts/prefix/include/harfbuzz/hb-cplusplus.hh",
+    "sha256": "e6aa3fee07a1384316172a4ab28ba2b710cc2710c952d2bdbfead348c7887b0e"
+  },
+  "fonts/prefix/include/harfbuzz/hb-deprecated.h": {
+    "source": "fonts/prefix/include/harfbuzz/hb-deprecated.h",
+    "sha256": "d0b32b536185fc9ee042e5371b581c330fb871d546a7c8a775f7d6d635b7dfb5"
+  },
+  "fonts/prefix/include/harfbuzz/hb-draw.h": {
+    "source": "fonts/prefix/include/harfbuzz/hb-draw.h",
+    "sha256": "c121d6ffed28256074ff4ac921231d330e47f81ac51c65aff9a534a60ddf6af4"
+  },
+  "fonts/prefix/include/harfbuzz/hb-face.h": {
+    "source": "fonts/prefix/include/harfbuzz/hb-face.h",
+    "sha256": "fd53fe46728fbd055f2e7232d9c38510320a879ee508147e7c1a2b1c9b5cbaba"
+  },
+  "fonts/prefix/include/harfbuzz/hb-features.h": {
+    "source": "fonts/prefix/include/harfbuzz/hb-features.h",
+    "sha256": "342c8cf9a74ea653b2b475160dddb924ea1552c27d788fd31aa0c887d8849346"
+  },
+  "fonts/prefix/include/harfbuzz/hb-font.h": {
+    "source": "fonts/prefix/include/harfbuzz/hb-font.h",
+    "sha256": "a7b0cb846e3cad88578a2435483bf64f6b164d4a63a53e4d79e6228bc0053e73"
+  },
+  "fonts/prefix/include/harfbuzz/hb-gpu.h": {
+    "source": "fonts/prefix/include/harfbuzz/hb-gpu.h",
+    "sha256": "39554d8253c91678618054c568f68d49a8b5561725b6bd53bb644cab1531c490"
+  },
+  "fonts/prefix/include/harfbuzz/hb-map.h": {
+    "source": "fonts/prefix/include/harfbuzz/hb-map.h",
+    "sha256": "b073aa19718e43e3535caeddc0015a4e45a89032a76059cc5ab8f3f0d220bece"
+  },
+  "fonts/prefix/include/harfbuzz/hb-ot-color.h": {
+    "source": "fonts/prefix/include/harfbuzz/hb-ot-color.h",
+    "sha256": "187e95990bb37e5e124ba7fc2fa8b42975717502531759a0f298916df17d5158"
+  },
+  "fonts/prefix/include/harfbuzz/hb-ot-deprecated.h": {
+    "source": "fonts/prefix/include/harfbuzz/hb-ot-deprecated.h",
+    "sha256": "c3a9878ac0633d5e6d7e16821114ad4555458a6924100581f0d16fef5728b1c4"
+  },
+  "fonts/prefix/include/harfbuzz/hb-ot-fetch.h": {
+    "source": "fonts/prefix/include/harfbuzz/hb-ot-fetch.h",
+    "sha256": "e574d686e1a00e3df6d31f2b92849b8330ba295012556bb190056fc7a5d00296"
+  },
+  "fonts/prefix/include/harfbuzz/hb-ot-font.h": {
+    "source": "fonts/prefix/include/harfbuzz/hb-ot-font.h",
+    "sha256": "e62d178aa73ef9c80b08d3c076db3e99bb8cb4e8219e978e793ef7ffe965f8f1"
+  },
+  "fonts/prefix/include/harfbuzz/hb-ot-layout.h": {
+    "source": "fonts/prefix/include/harfbuzz/hb-ot-layout.h",
+    "sha256": "c7b0024750a50cef84cc81d49188e5ceab441ed0c24809fcb63ddcc449691f1c"
+  },
+  "fonts/prefix/include/harfbuzz/hb-ot-math.h": {
+    "source": "fonts/prefix/include/harfbuzz/hb-ot-math.h",
+    "sha256": "4e737e5ed9dcb3db18a64534a1ff2faf638ef720dc30db0ee821324099432f90"
+  },
+  "fonts/prefix/include/harfbuzz/hb-ot-meta.h": {
+    "source": "fonts/prefix/include/harfbuzz/hb-ot-meta.h",
+    "sha256": "1d38c9bcbc0d417f8b7e0e818c2f5f9b83d2abddc39f2f116cc0ae84157a572d"
+  },
+  "fonts/prefix/include/harfbuzz/hb-ot-metrics.h": {
+    "source": "fonts/prefix/include/harfbuzz/hb-ot-metrics.h",
+    "sha256": "c65239f100590cf1b1f647bba6ccd1a548a4e89cb80978601ca3050e9884e724"
+  },
+  "fonts/prefix/include/harfbuzz/hb-ot-name.h": {
+    "source": "fonts/prefix/include/harfbuzz/hb-ot-name.h",
+    "sha256": "5be924687f71a0f98149b1987f3de3fd766ed9e84c4e144250e97048a36cb1ac"
+  },
+  "fonts/prefix/include/harfbuzz/hb-ot-shape.h": {
+    "source": "fonts/prefix/include/harfbuzz/hb-ot-shape.h",
+    "sha256": "fd484f67e5c0d99cd428a2debadface7e80f7163b9c1be150cf1860fabe050c6"
+  },
+  "fonts/prefix/include/harfbuzz/hb-ot-var.h": {
+    "source": "fonts/prefix/include/harfbuzz/hb-ot-var.h",
+    "sha256": "9c438bc34f43afcc95c3f5f390b929903156af93e19473fc29daa650d98cf20e"
+  },
+  "fonts/prefix/include/harfbuzz/hb-ot.h": {
+    "source": "fonts/prefix/include/harfbuzz/hb-ot.h",
+    "sha256": "b1f9eb217039400ca9031f6a84a85cb879fc16fa0ca927ed453c17d2c3e05429"
+  },
+  "fonts/prefix/include/harfbuzz/hb-paint.h": {
+    "source": "fonts/prefix/include/harfbuzz/hb-paint.h",
+    "sha256": "ba9e2d78eebed719ef0b7c21229d4fe0d55466e891d15abcde7e1f94de17788d"
+  },
+  "fonts/prefix/include/harfbuzz/hb-raster.h": {
+    "source": "fonts/prefix/include/harfbuzz/hb-raster.h",
+    "sha256": "0e5af11e15e0deead79312f823a88863945564b7e454cf145c6f3cf0099a448c"
+  },
+  "fonts/prefix/include/harfbuzz/hb-script-list.h": {
+    "source": "fonts/prefix/include/harfbuzz/hb-script-list.h",
+    "sha256": "898de25adaf9253471d9f1351a6c90e3547e1470dd2f468ab19a86561868182b"
+  },
+  "fonts/prefix/include/harfbuzz/hb-set.h": {
+    "source": "fonts/prefix/include/harfbuzz/hb-set.h",
+    "sha256": "f19c6a8dea1733d749f6cebe6a7366a9ece37a0020bd1153b233f1fbb72d3440"
+  },
+  "fonts/prefix/include/harfbuzz/hb-shape-plan.h": {
+    "source": "fonts/prefix/include/harfbuzz/hb-shape-plan.h",
+    "sha256": "03555c82558fa347e96549ec99698fae790c2cfb9ee795c5ea48ff4134e06224"
+  },
+  "fonts/prefix/include/harfbuzz/hb-shape.h": {
+    "source": "fonts/prefix/include/harfbuzz/hb-shape.h",
+    "sha256": "3adfcf510853bc118a120b7633c0e4d15134e4ac4bdf7911cb85511887e7e328"
+  },
+  "fonts/prefix/include/harfbuzz/hb-style.h": {
+    "source": "fonts/prefix/include/harfbuzz/hb-style.h",
+    "sha256": "6e88aec3ae6db176b37e4d6089923f78859134a26fd12b33b40b772e91673b5a"
+  },
+  "fonts/prefix/include/harfbuzz/hb-subset-depend.h": {
+    "source": "fonts/prefix/include/harfbuzz/hb-subset-depend.h",
+    "sha256": "40a7aa1a4093732ec63339f335a1c7fe3e9fddd2bc02c9c0bdaadb8a0f2ab35c"
+  },
+  "fonts/prefix/include/harfbuzz/hb-subset-serialize.h": {
+    "source": "fonts/prefix/include/harfbuzz/hb-subset-serialize.h",
+    "sha256": "3c6e7ba4adabe6d07c80c7cfa6f8e731a7b10bc64b195c806810025a13277241"
+  },
+  "fonts/prefix/include/harfbuzz/hb-subset.h": {
+    "source": "fonts/prefix/include/harfbuzz/hb-subset.h",
+    "sha256": "7d44add80a70f9e0dd9b32ca8a1e7163808f019f116d9dc320e86fe095bbf31d"
+  },
+  "fonts/prefix/include/harfbuzz/hb-unicode.h": {
+    "source": "fonts/prefix/include/harfbuzz/hb-unicode.h",
+    "sha256": "6131f0eb9e411fa392101f58793f4e4347ec3bc6fe45226736b186004cea8038"
+  },
+  "fonts/prefix/include/harfbuzz/hb-vector.h": {
+    "source": "fonts/prefix/include/harfbuzz/hb-vector.h",
+    "sha256": "c9f480bfba4b09c20dc60e54807d73291fbefd9ce7f675dee39e04790b1f15c7"
+  },
+  "fonts/prefix/include/harfbuzz/hb-version.h": {
+    "source": "fonts/prefix/include/harfbuzz/hb-version.h",
+    "sha256": "110e75e9904f1e1a987ece9a17bf7f3c40ad43af685768a56f26a82540d12d5a"
+  },
+  "fonts/prefix/include/harfbuzz/hb.h": {
+    "source": "fonts/prefix/include/harfbuzz/hb.h",
+    "sha256": "31a1b53db3ee4395916e6d4f105b2c64772b8037bbb97d0e6d1e4a905eb6c6c9"
+  },
+  "fonts/prefix/include/libpng16/png.h": {
+    "source": "fonts/prefix/include/libpng16/png.h",
+    "sha256": "5758258cb691e429bafbf16057210e2d9bfa2c33b6c4636a6db562480f39b273"
+  },
+  "fonts/prefix/include/libpng16/pngconf.h": {
+    "source": "fonts/prefix/include/libpng16/pngconf.h",
+    "sha256": "3f1d9e8b05ec5165b65744f99af0ef3d0d10d77d6866551715b80ac884a0bf47"
+  },
+  "fonts/prefix/include/libpng16/pnglibconf.h": {
+    "source": "fonts/prefix/include/libpng16/pnglibconf.h",
+    "sha256": "e1007103b3094ab8b97e883bd80bccc05d1d9995ceb671364e55f6177bebde77"
+  },
+  "fonts/prefix/include/png.h": {
+    "source": "fonts/prefix/include/png.h",
+    "sha256": "5758258cb691e429bafbf16057210e2d9bfa2c33b6c4636a6db562480f39b273"
+  },
+  "fonts/prefix/include/pngconf.h": {
+    "source": "fonts/prefix/include/pngconf.h",
+    "sha256": "3f1d9e8b05ec5165b65744f99af0ef3d0d10d77d6866551715b80ac884a0bf47"
+  },
+  "fonts/prefix/include/pnglibconf.h": {
+    "source": "fonts/prefix/include/pnglibconf.h",
+    "sha256": "e1007103b3094ab8b97e883bd80bccc05d1d9995ceb671364e55f6177bebde77"
+  },
+  "fonts/prefix/include/zconf.h": {
+    "source": "fonts/prefix/include/zconf.h",
+    "sha256": "dcb0a2b20ac38181012fbc430d1c229cf6eb7758ce8ab26a618c8a0808c3e76e"
+  },
+  "fonts/prefix/include/zlib.h": {
+    "source": "fonts/prefix/include/zlib.h",
+    "sha256": "8bc935aeb8909d05fe58f9286a0fe2c674a41638c374786ee888485ab5ff4409"
+  },
+  "fonts/prefix/include/zlib_name_mangling.h": {
+    "source": "fonts/prefix/include/zlib_name_mangling.h",
+    "sha256": "38e51a846d6c2bd6100298c55328dba4437c08fa1dceda4eb2e06ecb1d142058"
+  },
+  "runtime/openssl36-prefix/include/openssl/aes.h": {
+    "source": "runtime/openssl36-prefix/include/openssl/aes.h",
+    "sha256": "130e304c466bda5db6de2fdbca3a970905070ab935d702e61c8371334851ea27"
+  },
+  "runtime/openssl36-prefix/include/openssl/asn1.h": {
+    "source": "runtime/openssl36-prefix/include/openssl/asn1.h",
+    "sha256": "12ebcf8ca6bb0d96c97b056800dba19d5b504bef331fef12718b0ece3fe20b63"
+  },
+  "runtime/openssl36-prefix/include/openssl/asn1err.h": {
+    "source": "runtime/openssl36-prefix/include/openssl/asn1err.h",
+    "sha256": "9d60638b3d0c52170d390fe566c0b96a6381590590cc3dd71339eb85140fe1d6"
+  },
+  "runtime/openssl36-prefix/include/openssl/asn1t.h": {
+    "source": "runtime/openssl36-prefix/include/openssl/asn1t.h",
+    "sha256": "febedcfe28cbcfa9b9718caaaebc532085aaa349d13e6e06914692fcf7964689"
+  },
+  "runtime/openssl36-prefix/include/openssl/async.h": {
+    "source": "runtime/openssl36-prefix/include/openssl/async.h",
+    "sha256": "708d52ecd7bb5ca83d243ddecb132db0693b0809f65c093eabda549156934030"
+  },
+  "runtime/openssl36-prefix/include/openssl/asyncerr.h": {
+    "source": "runtime/openssl36-prefix/include/openssl/asyncerr.h",
+    "sha256": "eb6ea0f0389aa7846ea5b8f5b7b8d2a82a7b52e7dbfa105bc137e52be1399a69"
+  },
+  "runtime/openssl36-prefix/include/openssl/bio.h": {
+    "source": "runtime/openssl36-prefix/include/openssl/bio.h",
+    "sha256": "d927b58ab0993cee60b6520f29b9d632b35fc2601e71836c8e70b7456b6291d9"
+  },
+  "runtime/openssl36-prefix/include/openssl/bioerr.h": {
+    "source": "runtime/openssl36-prefix/include/openssl/bioerr.h",
+    "sha256": "fe1bf57251e4eaab30d2a6aa2048ee93deb1f0f15ef6634f61093b4d405586c6"
+  },
+  "runtime/openssl36-prefix/include/openssl/blowfish.h": {
+    "source": "runtime/openssl36-prefix/include/openssl/blowfish.h",
+    "sha256": "97064924914f71425e48f5d53893abca0f07f329dde7a8b93b581dc9ee2e837a"
+  },
+  "runtime/openssl36-prefix/include/openssl/bn.h": {
+    "source": "runtime/openssl36-prefix/include/openssl/bn.h",
+    "sha256": "da179e5d98e8351e3e29f148bd88b42cba84fe60c7927a584f213bf2d09c38ed"
+  },
+  "runtime/openssl36-prefix/include/openssl/bnerr.h": {
+    "source": "runtime/openssl36-prefix/include/openssl/bnerr.h",
+    "sha256": "beeb78746fbcc2c09e1f833f4c2ea72e845e757390aad7dc8699f7787b580204"
+  },
+  "runtime/openssl36-prefix/include/openssl/buffer.h": {
+    "source": "runtime/openssl36-prefix/include/openssl/buffer.h",
+    "sha256": "c7b9803f89bb492176a1e2738999dad86195ab8048a26e8ec9ef6948b8882e8a"
+  },
+  "runtime/openssl36-prefix/include/openssl/buffererr.h": {
+    "source": "runtime/openssl36-prefix/include/openssl/buffererr.h",
+    "sha256": "4dea6e8ec7f09bfbdaa85fa3e75572b95d2ea62a813e7420a04f5f56ee7ccdfd"
+  },
+  "runtime/openssl36-prefix/include/openssl/byteorder.h": {
+    "source": "runtime/openssl36-prefix/include/openssl/byteorder.h",
+    "sha256": "f062018f5fbe9f8459967dffaaa8e27f34596fb0da21fc011d0d556384a0305c"
+  },
+  "runtime/openssl36-prefix/include/openssl/camellia.h": {
+    "source": "runtime/openssl36-prefix/include/openssl/camellia.h",
+    "sha256": "e03acf0f3406032e5322e4f3368e8e48e5b73e8846955c3bcb3a4f1cb54d2ebc"
+  },
+  "runtime/openssl36-prefix/include/openssl/cast.h": {
+    "source": "runtime/openssl36-prefix/include/openssl/cast.h",
+    "sha256": "4fafc375a53d88fe4c709d8ee5fb74dc0fcaf91915837c3c6b4df0d916b07f0a"
+  },
+  "runtime/openssl36-prefix/include/openssl/cmac.h": {
+    "source": "runtime/openssl36-prefix/include/openssl/cmac.h",
+    "sha256": "048677b08aab6fd862d2b8b15556db8355d2142b93a9431ffba1d75a25912847"
+  },
+  "runtime/openssl36-prefix/include/openssl/cmp.h": {
+    "source": "runtime/openssl36-prefix/include/openssl/cmp.h",
+    "sha256": "585b6bde0459ebb49ccd57c12949286f3d2e67060cf0f32712649067a6a3b098"
+  },
+  "runtime/openssl36-prefix/include/openssl/cmp_util.h": {
+    "source": "runtime/openssl36-prefix/include/openssl/cmp_util.h",
+    "sha256": "16c51c48c83c930b018ff711553e107f1870f1cedd32d94c06f15709b080c321"
+  },
+  "runtime/openssl36-prefix/include/openssl/cmperr.h": {
+    "source": "runtime/openssl36-prefix/include/openssl/cmperr.h",
+    "sha256": "220d1a903b66e25fa1de92f3ee8b3f5ef27de6dface0a4ea68e683a19e3549a7"
+  },
+  "runtime/openssl36-prefix/include/openssl/cms.h": {
+    "source": "runtime/openssl36-prefix/include/openssl/cms.h",
+    "sha256": "26b86512ef09a490e189d267e3382e8cde72c2628ec534a2b292d55bd8a031bd"
+  },
+  "runtime/openssl36-prefix/include/openssl/cmserr.h": {
+    "source": "runtime/openssl36-prefix/include/openssl/cmserr.h",
+    "sha256": "9faf0de7e75f3f14ef712186ee81770fe95631fc1000b2e96d2f1da289252db1"
+  },
+  "runtime/openssl36-prefix/include/openssl/comp.h": {
+    "source": "runtime/openssl36-prefix/include/openssl/comp.h",
+    "sha256": "b3179eef857a2b5ecc733acabdc791bf3b88b107937806b9b7e0b7cb844c7c28"
+  },
+  "runtime/openssl36-prefix/include/openssl/comperr.h": {
+    "source": "runtime/openssl36-prefix/include/openssl/comperr.h",
+    "sha256": "03faa7ac9cf7ec99350a55758a685056dae8f75992887e0411c23b0d8c5d83b0"
+  },
+  "runtime/openssl36-prefix/include/openssl/conf.h": {
+    "source": "runtime/openssl36-prefix/include/openssl/conf.h",
+    "sha256": "5ecd0c5f7f8b2f5bdc3bfd7f69687ec499ad0bf49d0b0f40d8dae56774dcc0bb"
+  },
+  "runtime/openssl36-prefix/include/openssl/conf_api.h": {
+    "source": "runtime/openssl36-prefix/include/openssl/conf_api.h",
+    "sha256": "38dce9e9e0a438fcaf1d173c26e61c821bfd3756e221e3be76cf010580ac52f7"
+  },
+  "runtime/openssl36-prefix/include/openssl/conferr.h": {
+    "source": "runtime/openssl36-prefix/include/openssl/conferr.h",
+    "sha256": "ea9346e399d5dd1fbcca4f34078e1acb5039333602ecaf72faa04e32cdd55484"
+  },
+  "runtime/openssl36-prefix/include/openssl/configuration.h": {
+    "source": "runtime/openssl36-prefix/include/openssl/configuration.h",
+    "sha256": "2575ecaad27f4c366030147728100866e7f94fd64aa526fcabd3200e2b6b639f"
+  },
+  "runtime/openssl36-prefix/include/openssl/conftypes.h": {
+    "source": "runtime/openssl36-prefix/include/openssl/conftypes.h",
+    "sha256": "496997cc0f4c32b840677eeefd3ecb488453254be6e228b8cd34d4a4061a9e28"
+  },
+  "runtime/openssl36-prefix/include/openssl/core.h": {
+    "source": "runtime/openssl36-prefix/include/openssl/core.h",
+    "sha256": "4d4e63e2e01d06530515adbbe3c93601c5f0f5e1a96754d34d3470bccfcbdbc3"
+  },
+  "runtime/openssl36-prefix/include/openssl/core_dispatch.h": {
+    "source": "runtime/openssl36-prefix/include/openssl/core_dispatch.h",
+    "sha256": "e1e5f63565543509d1377e50f64034ae29b2091caae3f1b8635bce5af0b29032"
+  },
+  "runtime/openssl36-prefix/include/openssl/core_names.h": {
+    "source": "runtime/openssl36-prefix/include/openssl/core_names.h",
+    "sha256": "0a74d2a3ef842b4e8d8b2ba9bd6366bc07ea91f125f3df73a2adb36ba0a0149f"
+  },
+  "runtime/openssl36-prefix/include/openssl/core_object.h": {
+    "source": "runtime/openssl36-prefix/include/openssl/core_object.h",
+    "sha256": "e8fa8c62ad1367bd325d59d721214d1a7afd5423205134152f60cc39a8590c8a"
+  },
+  "runtime/openssl36-prefix/include/openssl/crmf.h": {
+    "source": "runtime/openssl36-prefix/include/openssl/crmf.h",
+    "sha256": "f249d3fb8c64e48572ecfdbc96e1ef137726e6c3bd9d6c9ae24de849cd66b0a2"
+  },
+  "runtime/openssl36-prefix/include/openssl/crmferr.h": {
+    "source": "runtime/openssl36-prefix/include/openssl/crmferr.h",
+    "sha256": "9f2ff7a468b5048d543fef0324b39abdea63fa07bc915f62ff42a1937d7258c2"
+  },
+  "runtime/openssl36-prefix/include/openssl/crypto.h": {
+    "source": "runtime/openssl36-prefix/include/openssl/crypto.h",
+    "sha256": "159455d9d79f1a1de3e50cc094b913e580513f53ed28a4edb891fdca77ef3d68"
+  },
+  "runtime/openssl36-prefix/include/openssl/cryptoerr.h": {
+    "source": "runtime/openssl36-prefix/include/openssl/cryptoerr.h",
+    "sha256": "c457c0591449551657a69ff9727784a79cc1afd899ac733c682c1a41fefdaa19"
+  },
+  "runtime/openssl36-prefix/include/openssl/cryptoerr_legacy.h": {
+    "source": "runtime/openssl36-prefix/include/openssl/cryptoerr_legacy.h",
+    "sha256": "985664cb71a62441b2822028340bb4ad5e3f98d6c74ba4c1bc7c997e188b97d3"
+  },
+  "runtime/openssl36-prefix/include/openssl/ct.h": {
+    "source": "runtime/openssl36-prefix/include/openssl/ct.h",
+    "sha256": "b9963346dff7fcfe2ff7f01fc30df12138d1265a6c3e107d2ef9ae42236a53ae"
+  },
+  "runtime/openssl36-prefix/include/openssl/cterr.h": {
+    "source": "runtime/openssl36-prefix/include/openssl/cterr.h",
+    "sha256": "26d971ab2166ba4473864506dcd933290fa6c321956ef46220eb61fb33a04c89"
+  },
+  "runtime/openssl36-prefix/include/openssl/decoder.h": {
+    "source": "runtime/openssl36-prefix/include/openssl/decoder.h",
+    "sha256": "72dbf52e4dc4efbfaddbf31ab6f2bec3e9a5c22eed865d057b960a014a4b9ec8"
+  },
+  "runtime/openssl36-prefix/include/openssl/decodererr.h": {
+    "source": "runtime/openssl36-prefix/include/openssl/decodererr.h",
+    "sha256": "c6818c667bdf8c37c5423580e0551359c69efc884198d28675db23e9fc70946e"
+  },
+  "runtime/openssl36-prefix/include/openssl/des.h": {
+    "source": "runtime/openssl36-prefix/include/openssl/des.h",
+    "sha256": "420afefcf27f28046912c5f156bc9e93d71a2c8a47bf0f605695a13f391cd5f9"
+  },
+  "runtime/openssl36-prefix/include/openssl/dh.h": {
+    "source": "runtime/openssl36-prefix/include/openssl/dh.h",
+    "sha256": "25080c32c48d5a88053c4b83c326e8f024b68249a0ef65d3c45af4f9aab6e0c6"
+  },
+  "runtime/openssl36-prefix/include/openssl/dherr.h": {
+    "source": "runtime/openssl36-prefix/include/openssl/dherr.h",
+    "sha256": "70f9e260865a9aae4c5f9a72d42d878e4dc216c906709245a8da2cceb79c3a14"
+  },
+  "runtime/openssl36-prefix/include/openssl/dsa.h": {
+    "source": "runtime/openssl36-prefix/include/openssl/dsa.h",
+    "sha256": "dac47d9779f83eb4e5a4f57c234e6eb25277cea68001384360e16c8859c38338"
+  },
+  "runtime/openssl36-prefix/include/openssl/dsaerr.h": {
+    "source": "runtime/openssl36-prefix/include/openssl/dsaerr.h",
+    "sha256": "b8fb8dae664d18298ae4b0c5444378e3f5c5d095256acb50764230159b1a15d6"
+  },
+  "runtime/openssl36-prefix/include/openssl/dtls1.h": {
+    "source": "runtime/openssl36-prefix/include/openssl/dtls1.h",
+    "sha256": "3477022a712ecbb2bfb61b297c57026f1c354d52c638dfb22292183bd68d2e8f"
+  },
+  "runtime/openssl36-prefix/include/openssl/e_os2.h": {
+    "source": "runtime/openssl36-prefix/include/openssl/e_os2.h",
+    "sha256": "d7300e16ec04f764e8fd45ae5288c37ab5af09dd1ea204d17c54c0155c69921c"
+  },
+  "runtime/openssl36-prefix/include/openssl/e_ostime.h": {
+    "source": "runtime/openssl36-prefix/include/openssl/e_ostime.h",
+    "sha256": "0528cffa1548778b3ad52d4abb527e5f31590fb1bab4b0f55aad391efd79fd68"
+  },
+  "runtime/openssl36-prefix/include/openssl/ebcdic.h": {
+    "source": "runtime/openssl36-prefix/include/openssl/ebcdic.h",
+    "sha256": "f50d3c91cb24772cf3155fe6464d811219b8f7c65ea3d4f974f58c03c3f27ab5"
+  },
+  "runtime/openssl36-prefix/include/openssl/ec.h": {
+    "source": "runtime/openssl36-prefix/include/openssl/ec.h",
+    "sha256": "2cc0edb6a18c4c1199bfce6799ca56362a6c27d41dfdfee62177a3d53a8c9a65"
+  },
+  "runtime/openssl36-prefix/include/openssl/ecdh.h": {
+    "source": "runtime/openssl36-prefix/include/openssl/ecdh.h",
+    "sha256": "5b99fdd1dfea38640ed8a506fb9b66db381cc26a1254448a81cc6b161e41850f"
+  },
+  "runtime/openssl36-prefix/include/openssl/ecdsa.h": {
+    "source": "runtime/openssl36-prefix/include/openssl/ecdsa.h",
+    "sha256": "5b99fdd1dfea38640ed8a506fb9b66db381cc26a1254448a81cc6b161e41850f"
+  },
+  "runtime/openssl36-prefix/include/openssl/ecerr.h": {
+    "source": "runtime/openssl36-prefix/include/openssl/ecerr.h",
+    "sha256": "c072432649cd1e4bd1eb8c1f636bc2b57045d6f620d69d61c85f589d1c6b63e3"
+  },
+  "runtime/openssl36-prefix/include/openssl/encoder.h": {
+    "source": "runtime/openssl36-prefix/include/openssl/encoder.h",
+    "sha256": "73459b25f863cf9bbb3de66f04ffe7ddaf9450f3c26afb1d5827325fa0a89fd9"
+  },
+  "runtime/openssl36-prefix/include/openssl/encodererr.h": {
+    "source": "runtime/openssl36-prefix/include/openssl/encodererr.h",
+    "sha256": "d010ca78b1df89c7fe3410d2aa5674179bf6750a445382ab8a0314c20a5b9799"
+  },
+  "runtime/openssl36-prefix/include/openssl/engine.h": {
+    "source": "runtime/openssl36-prefix/include/openssl/engine.h",
+    "sha256": "185311cc9702aa00fcafefad6f83ca1f597659d5075b66100c61053e1be5f47d"
+  },
+  "runtime/openssl36-prefix/include/openssl/engineerr.h": {
+    "source": "runtime/openssl36-prefix/include/openssl/engineerr.h",
+    "sha256": "2732c698916f320ba12ba690a80c1ef0651112015c5eac6141b1c3c315d1f5fc"
+  },
+  "runtime/openssl36-prefix/include/openssl/err.h": {
+    "source": "runtime/openssl36-prefix/include/openssl/err.h",
+    "sha256": "0d673984ff62d55d1fb4534d8136b7325e5264efeeb0b911cc94a4922681e080"
+  },
+  "runtime/openssl36-prefix/include/openssl/ess.h": {
+    "source": "runtime/openssl36-prefix/include/openssl/ess.h",
+    "sha256": "6cea782ca664e3dac149656e81a91fb32dbc98abd7b97e82c5e8e91c54dee626"
+  },
+  "runtime/openssl36-prefix/include/openssl/esserr.h": {
+    "source": "runtime/openssl36-prefix/include/openssl/esserr.h",
+    "sha256": "9ab984787cce1224e1426be57987e7726d8c5d38651dd96802a7d433c5288ae4"
+  },
+  "runtime/openssl36-prefix/include/openssl/evp.h": {
+    "source": "runtime/openssl36-prefix/include/openssl/evp.h",
+    "sha256": "0c2e950834c4cd0ac8a887f039400932e7cb1d6aaf2f80da73698a8ed5c3b318"
+  },
+  "runtime/openssl36-prefix/include/openssl/evperr.h": {
+    "source": "runtime/openssl36-prefix/include/openssl/evperr.h",
+    "sha256": "ee0a462f1985667434a2b8a91d5df67ce2ee74e4ad9246f660dece5fafcf4474"
+  },
+  "runtime/openssl36-prefix/include/openssl/fips_names.h": {
+    "source": "runtime/openssl36-prefix/include/openssl/fips_names.h",
+    "sha256": "95f0ddd1271d1bb609acbe42924e903a2dda8e224cced9eb56f5680a6ae75a8e"
+  },
+  "runtime/openssl36-prefix/include/openssl/fipskey.h": {
+    "source": "runtime/openssl36-prefix/include/openssl/fipskey.h",
+    "sha256": "2ace9db2041934a211c6edb082798db0aace37506fcdbdd4e7e899767fc41014"
+  },
+  "runtime/openssl36-prefix/include/openssl/hmac.h": {
+    "source": "runtime/openssl36-prefix/include/openssl/hmac.h",
+    "sha256": "9caf0b993c6ae2b3c75b9b585c8539dd358ca5f4edc42447295f87fc504eb1b9"
+  },
+  "runtime/openssl36-prefix/include/openssl/hpke.h": {
+    "source": "runtime/openssl36-prefix/include/openssl/hpke.h",
+    "sha256": "58f81dab37eddc03b86db9dd640980fca872ddf19f4477482826a64f20454cb9"
+  },
+  "runtime/openssl36-prefix/include/openssl/http.h": {
+    "source": "runtime/openssl36-prefix/include/openssl/http.h",
+    "sha256": "1f8d65d9633d54a74e8477396f2e3d34f5cdafc753fa8d56a5ee31753f5b734f"
+  },
+  "runtime/openssl36-prefix/include/openssl/httperr.h": {
+    "source": "runtime/openssl36-prefix/include/openssl/httperr.h",
+    "sha256": "56b740a25198f30d19c8ed57b36679bbb32f8f2d97291155d4b3091c347ae423"
+  },
+  "runtime/openssl36-prefix/include/openssl/idea.h": {
+    "source": "runtime/openssl36-prefix/include/openssl/idea.h",
+    "sha256": "d114cb69e2e820008c508b7ad9002586806d82e3006e88162bd4a7c2dcd1e801"
+  },
+  "runtime/openssl36-prefix/include/openssl/indicator.h": {
+    "source": "runtime/openssl36-prefix/include/openssl/indicator.h",
+    "sha256": "4be987d4fe4a4b39feac27c2ee85000e1b6ca7188d8ca9f75689a8205c2b4563"
+  },
+  "runtime/openssl36-prefix/include/openssl/kdf.h": {
+    "source": "runtime/openssl36-prefix/include/openssl/kdf.h",
+    "sha256": "c704d177a651fed1c617ddf3bed2eb8c9e35f453ac7b1187dc6f02c88b76fe3b"
+  },
+  "runtime/openssl36-prefix/include/openssl/kdferr.h": {
+    "source": "runtime/openssl36-prefix/include/openssl/kdferr.h",
+    "sha256": "cbf4bd667f0a53459163f546920c2c98ce6d10b0db99176c779d8bf32f04e8b7"
+  },
+  "runtime/openssl36-prefix/include/openssl/lhash.h": {
+    "source": "runtime/openssl36-prefix/include/openssl/lhash.h",
+    "sha256": "ba50a0dc4caa9662e138f913566c44454a68f6e59c405c761c1f387f58855af4"
+  },
+  "runtime/openssl36-prefix/include/openssl/macros.h": {
+    "source": "runtime/openssl36-prefix/include/openssl/macros.h",
+    "sha256": "756bc73d844bb73b62f3e5b5e6141ec5c912a230f58310e1fea6b44f3a7244d7"
+  },
+  "runtime/openssl36-prefix/include/openssl/md2.h": {
+    "source": "runtime/openssl36-prefix/include/openssl/md2.h",
+    "sha256": "a8eb0a1cdd0ced053d0f5dc5d1f63fe67f96a83c1cc37b6bf7adde85a567a631"
+  },
+  "runtime/openssl36-prefix/include/openssl/md4.h": {
+    "source": "runtime/openssl36-prefix/include/openssl/md4.h",
+    "sha256": "75d0ff7b22daa2ab31a0cd03ce9ca10cef64f431d32c49def33d0f0164e36f0d"
+  },
+  "runtime/openssl36-prefix/include/openssl/md5.h": {
+    "source": "runtime/openssl36-prefix/include/openssl/md5.h",
+    "sha256": "e22e567d09253eebf2c17f620783808f407bc7b969aa90bf3b44ac9001f6d329"
+  },
+  "runtime/openssl36-prefix/include/openssl/mdc2.h": {
+    "source": "runtime/openssl36-prefix/include/openssl/mdc2.h",
+    "sha256": "740c2361d9b0ab5330ae0054e368f573416c401cb3855b72323967b29232421f"
+  },
+  "runtime/openssl36-prefix/include/openssl/ml_kem.h": {
+    "source": "runtime/openssl36-prefix/include/openssl/ml_kem.h",
+    "sha256": "58ecec9d4d95ab5172290a4c5725b7b6940149ecdbff5a33b93cc67ede1b25f7"
+  },
+  "runtime/openssl36-prefix/include/openssl/modes.h": {
+    "source": "runtime/openssl36-prefix/include/openssl/modes.h",
+    "sha256": "8ea97ace0601cdce6a12d0e1e92aefec062c299d0fcb5ff6477e3d752a9b9763"
+  },
+  "runtime/openssl36-prefix/include/openssl/obj_mac.h": {
+    "source": "runtime/openssl36-prefix/include/openssl/obj_mac.h",
+    "sha256": "cc17d91b8603c09df02b5cb060557484f56e2a04e7d5a2756282e7bf08f059f0"
+  },
+  "runtime/openssl36-prefix/include/openssl/objects.h": {
+    "source": "runtime/openssl36-prefix/include/openssl/objects.h",
+    "sha256": "b6227db488aa39ed20a29e67d48fe8fefb2f649a1afcc3149cba22ac26510057"
+  },
+  "runtime/openssl36-prefix/include/openssl/objectserr.h": {
+    "source": "runtime/openssl36-prefix/include/openssl/objectserr.h",
+    "sha256": "fc14e6c9e71fb550363394f912cb72e6078dd11e300bdddfdd17ec118c88dc4b"
+  },
+  "runtime/openssl36-prefix/include/openssl/ocsp.h": {
+    "source": "runtime/openssl36-prefix/include/openssl/ocsp.h",
+    "sha256": "a99653642b9c65cc6bcad62fffb1364d7df07865d3c0b9cb1159a0e2d8aa7520"
+  },
+  "runtime/openssl36-prefix/include/openssl/ocsperr.h": {
+    "source": "runtime/openssl36-prefix/include/openssl/ocsperr.h",
+    "sha256": "51b319980fb406b70ff0aee9c145c260553f4ff6516305b9c2864643096cc30c"
+  },
+  "runtime/openssl36-prefix/include/openssl/opensslconf.h": {
+    "source": "runtime/openssl36-prefix/include/openssl/opensslconf.h",
+    "sha256": "7f4b522c049d0bd0d651e6f6ebe71d6df0c37231a94e32524da3f4642ebda3be"
+  },
+  "runtime/openssl36-prefix/include/openssl/opensslv.h": {
+    "source": "runtime/openssl36-prefix/include/openssl/opensslv.h",
+    "sha256": "80d9b9534fdbdab12c29cb8c62887ede14bbb7112b93e838a63d6815400f5f0b"
+  },
+  "runtime/openssl36-prefix/include/openssl/ossl_typ.h": {
+    "source": "runtime/openssl36-prefix/include/openssl/ossl_typ.h",
+    "sha256": "8d430751bbcd1d9695f3dd85b16958fd6255dfbf55775207923f67cba1754548"
+  },
+  "runtime/openssl36-prefix/include/openssl/param_build.h": {
+    "source": "runtime/openssl36-prefix/include/openssl/param_build.h",
+    "sha256": "f078c5549e172b49da9993ef68c7b7fedafd66b05255c9bf8a37154f0a40bdb7"
+  },
+  "runtime/openssl36-prefix/include/openssl/params.h": {
+    "source": "runtime/openssl36-prefix/include/openssl/params.h",
+    "sha256": "881a034dbf0d1077df0e0505faa75591625dd60940f3e0dd3c3210b3baa4f5ef"
+  },
+  "runtime/openssl36-prefix/include/openssl/pem.h": {
+    "source": "runtime/openssl36-prefix/include/openssl/pem.h",
+    "sha256": "9098124ff7a21c8f1db5ddead59b1cf092f88c9f44bf88dacd3c8de9c67ade76"
+  },
+  "runtime/openssl36-prefix/include/openssl/pem2.h": {
+    "source": "runtime/openssl36-prefix/include/openssl/pem2.h",
+    "sha256": "5bd104c872bbfee2d16f5af88c01b0aeee9f177ecc88c0dd237c9c9948eeedc6"
+  },
+  "runtime/openssl36-prefix/include/openssl/pemerr.h": {
+    "source": "runtime/openssl36-prefix/include/openssl/pemerr.h",
+    "sha256": "18c1dbdde2452416b1d49c7512b7c4b8bf26ac7b83f5c0ee5e27e9bec454d2fb"
+  },
+  "runtime/openssl36-prefix/include/openssl/pkcs12.h": {
+    "source": "runtime/openssl36-prefix/include/openssl/pkcs12.h",
+    "sha256": "44ccd1ee3a68e178c2514a388a764784bbba19ed976b8f80a2e56d4874d573a7"
+  },
+  "runtime/openssl36-prefix/include/openssl/pkcs12err.h": {
+    "source": "runtime/openssl36-prefix/include/openssl/pkcs12err.h",
+    "sha256": "fbf4142e0ee58b6c6841890d873f07ba0362e21ad74702d70552122e01c096e9"
+  },
+  "runtime/openssl36-prefix/include/openssl/pkcs7.h": {
+    "source": "runtime/openssl36-prefix/include/openssl/pkcs7.h",
+    "sha256": "2136c5de0065017dd22f38aabfd8fd216af12b0aae71d8e146378bb7471ae8c0"
+  },
+  "runtime/openssl36-prefix/include/openssl/pkcs7err.h": {
+    "source": "runtime/openssl36-prefix/include/openssl/pkcs7err.h",
+    "sha256": "717e017e7d0981928b33820660e19d5c264a06a5e824b94194036a8be92be07c"
+  },
+  "runtime/openssl36-prefix/include/openssl/prov_ssl.h": {
+    "source": "runtime/openssl36-prefix/include/openssl/prov_ssl.h",
+    "sha256": "23b96759ae94e17c7c0e7ee32a531676be2a276a6d9802828e80268e20f224fd"
+  },
+  "runtime/openssl36-prefix/include/openssl/proverr.h": {
+    "source": "runtime/openssl36-prefix/include/openssl/proverr.h",
+    "sha256": "e95d9c1c8ed617e092a6e099ee144dc521538b92fadd65a27a7ac2532948769f"
+  },
+  "runtime/openssl36-prefix/include/openssl/provider.h": {
+    "source": "runtime/openssl36-prefix/include/openssl/provider.h",
+    "sha256": "dac4bfad226a8e5513cecf472e41e0b7ed93c95374a0ec3fd56f7b046e0aeff1"
+  },
+  "runtime/openssl36-prefix/include/openssl/quic.h": {
+    "source": "runtime/openssl36-prefix/include/openssl/quic.h",
+    "sha256": "a80af6c42394132eaad8de7177c6b0b3f747711730e8dd687acdc34284b3c2f8"
+  },
+  "runtime/openssl36-prefix/include/openssl/rand.h": {
+    "source": "runtime/openssl36-prefix/include/openssl/rand.h",
+    "sha256": "cb240ffedfd9516ec7a8cd0796951d46a4707c0460f940371620c83f7bafd037"
+  },
+  "runtime/openssl36-prefix/include/openssl/randerr.h": {
+    "source": "runtime/openssl36-prefix/include/openssl/randerr.h",
+    "sha256": "a6acbb47da2f26fe5e572f232eb9d9ebcd65bb7c01d5984ab26229e5bf0bd45e"
+  },
+  "runtime/openssl36-prefix/include/openssl/rc2.h": {
+    "source": "runtime/openssl36-prefix/include/openssl/rc2.h",
+    "sha256": "b86a429de0c73aca6e0504b8833c1dcd9e8c7cdf65c2b31b38d0d0c7b19cc5e9"
+  },
+  "runtime/openssl36-prefix/include/openssl/rc4.h": {
+    "source": "runtime/openssl36-prefix/include/openssl/rc4.h",
+    "sha256": "1bb4fa9d14861cdcf0a721d8d1026be80ce019da459ffdd8b5c1d12365110e78"
+  },
+  "runtime/openssl36-prefix/include/openssl/rc5.h": {
+    "source": "runtime/openssl36-prefix/include/openssl/rc5.h",
+    "sha256": "dd71ab468383a2a8ca4ff34f9273b481c1ed518c380da6d1ab82e9ca6b7edbd9"
+  },
+  "runtime/openssl36-prefix/include/openssl/ripemd.h": {
+    "source": "runtime/openssl36-prefix/include/openssl/ripemd.h",
+    "sha256": "4457b36942bc0e298c993b48468ef8f3f00331a9d67bd0b894dd5bc5f58ab35d"
+  },
+  "runtime/openssl36-prefix/include/openssl/rsa.h": {
+    "source": "runtime/openssl36-prefix/include/openssl/rsa.h",
+    "sha256": "2c9780f9b4b35c3f14271962938e16b8505e9f5d38566c104bce9a82be23a0e1"
+  },
+  "runtime/openssl36-prefix/include/openssl/rsaerr.h": {
+    "source": "runtime/openssl36-prefix/include/openssl/rsaerr.h",
+    "sha256": "b4f87b5dddc672b81de0dfd7f3c4e6409887bd08b286c99ded8f1255e5836804"
+  },
+  "runtime/openssl36-prefix/include/openssl/safestack.h": {
+    "source": "runtime/openssl36-prefix/include/openssl/safestack.h",
+    "sha256": "ed039123a68c410992dd65ac365c08a2d1a29d767fd4f5274e90affd866e3fef"
+  },
+  "runtime/openssl36-prefix/include/openssl/seed.h": {
+    "source": "runtime/openssl36-prefix/include/openssl/seed.h",
+    "sha256": "75a00b017f40beba051fdaad04876e18d3c80d1b1f1c21d78fafc69ae8e3b034"
+  },
+  "runtime/openssl36-prefix/include/openssl/self_test.h": {
+    "source": "runtime/openssl36-prefix/include/openssl/self_test.h",
+    "sha256": "e4d46353b1be292b162984c2a388fef89db037c39770c62f91e53c19883174e4"
+  },
+  "runtime/openssl36-prefix/include/openssl/sha.h": {
+    "source": "runtime/openssl36-prefix/include/openssl/sha.h",
+    "sha256": "7e006accd6565cc97dee672c097acc5e38482be7cd4fa1e0c316bf466425b895"
+  },
+  "runtime/openssl36-prefix/include/openssl/srp.h": {
+    "source": "runtime/openssl36-prefix/include/openssl/srp.h",
+    "sha256": "0d86508bcf50e521eae5632966536da1ce95f9485c1ea8eafaa482e2f40b0adf"
+  },
+  "runtime/openssl36-prefix/include/openssl/srtp.h": {
+    "source": "runtime/openssl36-prefix/include/openssl/srtp.h",
+    "sha256": "6efa8edb1f040ba35cb05a671efc74c1494b9d4badc32d47cd5bb99e1a9cda38"
+  },
+  "runtime/openssl36-prefix/include/openssl/ssl.h": {
+    "source": "runtime/openssl36-prefix/include/openssl/ssl.h",
+    "sha256": "29f1ff501f1ac10dc23b750dc1c64634acd267e430c12ccc6bd78c1d05c2f58f"
+  },
+  "runtime/openssl36-prefix/include/openssl/ssl2.h": {
+    "source": "runtime/openssl36-prefix/include/openssl/ssl2.h",
+    "sha256": "d33dc2afbcdee20f20ffcdd5cda6777c5e49a7cc37d513e4618b71a99129af20"
+  },
+  "runtime/openssl36-prefix/include/openssl/ssl3.h": {
+    "source": "runtime/openssl36-prefix/include/openssl/ssl3.h",
+    "sha256": "f98e0eb1702bf99614e92e2d09f1af5b59309e156441e40ab711df7d661536aa"
+  },
+  "runtime/openssl36-prefix/include/openssl/sslerr.h": {
+    "source": "runtime/openssl36-prefix/include/openssl/sslerr.h",
+    "sha256": "7a9dab7a198ea5c17fe5cf8e1905a54ae88c0044a86c1accf1e7cc9e7de374e2"
+  },
+  "runtime/openssl36-prefix/include/openssl/sslerr_legacy.h": {
+    "source": "runtime/openssl36-prefix/include/openssl/sslerr_legacy.h",
+    "sha256": "988c235994713d83d73ee904804f7edb4f6e321b4ab94c5aa5a9a0c7134fb499"
+  },
+  "runtime/openssl36-prefix/include/openssl/stack.h": {
+    "source": "runtime/openssl36-prefix/include/openssl/stack.h",
+    "sha256": "68e5e154c9af4d0c70f1101a4c5d94a45c42f371acac2538a1fec925a1a21d8a"
+  },
+  "runtime/openssl36-prefix/include/openssl/store.h": {
+    "source": "runtime/openssl36-prefix/include/openssl/store.h",
+    "sha256": "8b02d55b78c95f3b49ea00ff4abf9b33f794c63c4ddfecaf9101ad1b2a5c7f8b"
+  },
+  "runtime/openssl36-prefix/include/openssl/storeerr.h": {
+    "source": "runtime/openssl36-prefix/include/openssl/storeerr.h",
+    "sha256": "e13ecdf3c46b4dde5d857f8a7a3e2c0a444e309aa05d789bf99d73ecefab87aa"
+  },
+  "runtime/openssl36-prefix/include/openssl/symhacks.h": {
+    "source": "runtime/openssl36-prefix/include/openssl/symhacks.h",
+    "sha256": "2b54552189bfbf4204c28c6a421b21702a3cd3dba37570dbcdadb7ee648f155b"
+  },
+  "runtime/openssl36-prefix/include/openssl/thread.h": {
+    "source": "runtime/openssl36-prefix/include/openssl/thread.h",
+    "sha256": "583716b74d6aa0596c1d1b06cb16f657d4d9fb9c13cf30505ec0327046af6baf"
+  },
+  "runtime/openssl36-prefix/include/openssl/tls1.h": {
+    "source": "runtime/openssl36-prefix/include/openssl/tls1.h",
+    "sha256": "d34b3d17f1aedf83a072240cb81c6ae0927826f0200bc9e56926897e9b943d48"
+  },
+  "runtime/openssl36-prefix/include/openssl/trace.h": {
+    "source": "runtime/openssl36-prefix/include/openssl/trace.h",
+    "sha256": "5b7f86a453e6b404ff019e23e84de856c2a25b8243d4bfb92c92471a3735e332"
+  },
+  "runtime/openssl36-prefix/include/openssl/ts.h": {
+    "source": "runtime/openssl36-prefix/include/openssl/ts.h",
+    "sha256": "3de4eecd9a731d9a05a1b7baab18cb1c62f59f8a9f9e5ed049525a8ada9207b8"
+  },
+  "runtime/openssl36-prefix/include/openssl/tserr.h": {
+    "source": "runtime/openssl36-prefix/include/openssl/tserr.h",
+    "sha256": "27e66bf494926dea06d8c3800823f2485cf1a7f8f41f5628ff4a443f9bcceb87"
+  },
+  "runtime/openssl36-prefix/include/openssl/txt_db.h": {
+    "source": "runtime/openssl36-prefix/include/openssl/txt_db.h",
+    "sha256": "cbd03be764d6d12e12895703756fbe5f2b7611d4cd55d343837d48e8e6e60523"
+  },
+  "runtime/openssl36-prefix/include/openssl/types.h": {
+    "source": "runtime/openssl36-prefix/include/openssl/types.h",
+    "sha256": "de5422d2e621df11c17ab18473ea4f2368ecc64b1e45311c4890cc62b31f81c5"
+  },
+  "runtime/openssl36-prefix/include/openssl/ui.h": {
+    "source": "runtime/openssl36-prefix/include/openssl/ui.h",
+    "sha256": "52e7db7b23f582212969fc895c0fa7a2bf5577b215d847e1bee710f13f9c214b"
+  },
+  "runtime/openssl36-prefix/include/openssl/uierr.h": {
+    "source": "runtime/openssl36-prefix/include/openssl/uierr.h",
+    "sha256": "a21be118ee97343a03dc28256370839e5751c82a2a7bcb4c60fcbd97a9e2bef5"
+  },
+  "runtime/openssl36-prefix/include/openssl/whrlpool.h": {
+    "source": "runtime/openssl36-prefix/include/openssl/whrlpool.h",
+    "sha256": "d38ef40783400956d571e442d4f459e9c611239d719eb128e19bc64982d01922"
+  },
+  "runtime/openssl36-prefix/include/openssl/x509.h": {
+    "source": "runtime/openssl36-prefix/include/openssl/x509.h",
+    "sha256": "e9e8314bc5cff5126285aacc922002c39c65d9f43cdac9c083243362db967dcf"
+  },
+  "runtime/openssl36-prefix/include/openssl/x509_acert.h": {
+    "source": "runtime/openssl36-prefix/include/openssl/x509_acert.h",
+    "sha256": "3c1c961dc311f7a88eb09b11364c69098b6a47d842f9b399c96201a99830ab9e"
+  },
+  "runtime/openssl36-prefix/include/openssl/x509_vfy.h": {
+    "source": "runtime/openssl36-prefix/include/openssl/x509_vfy.h",
+    "sha256": "73e2b36cf94ecf752540c01f153ba9afe8c189d275ff5633a2b554fb8faccd5f"
+  },
+  "runtime/openssl36-prefix/include/openssl/x509err.h": {
+    "source": "runtime/openssl36-prefix/include/openssl/x509err.h",
+    "sha256": "be93ee6c9d58aadb5f836d5e293ec93c94ffc603c46a1d8d1c8b31cf83959fb9"
+  },
+  "runtime/openssl36-prefix/include/openssl/x509v3.h": {
+    "source": "runtime/openssl36-prefix/include/openssl/x509v3.h",
+    "sha256": "c6254a21c99db7156953a8b06ac15ba945c66fa5c143cf28c6f0ba0e0c67e7f4"
+  },
+  "runtime/openssl36-prefix/include/openssl/x509v3err.h": {
+    "source": "runtime/openssl36-prefix/include/openssl/x509v3err.h",
+    "sha256": "b9be8b0429bfaefb973531e81d598e40779b3788e129c4cc9e33651d2308b990"
+  },
+  "runtime/openssl36-prefix/lib/libcrypto.a": {
+    "source": "runtime/openssl36-prefix/lib/libcrypto.a",
+    "sha256": "79c38c42319869b035c33260b503e818fc13d2f6966ae7fa14fb0b3be93eacf9"
+  },
+  "runtime/openssl36-prefix/lib/libssl.a": {
+    "source": "runtime/openssl36-prefix/lib/libssl.a",
+    "sha256": "26097b8b4e4a17a21b78df1e19ad755a9059b47a09c84cba6700fec4c402ab7b"
+  },
+  "runtime/prefix/include/unicode/alphaindex.h": {
+    "source": "runtime/prefix/include/unicode/alphaindex.h",
+    "sha256": "a3fb15e34131d5c43c8db86005a639b8b6e0ced9f2458410d8e94d61c100338a"
+  },
+  "runtime/prefix/include/unicode/appendable.h": {
+    "source": "runtime/prefix/include/unicode/appendable.h",
+    "sha256": "fe3468123be9d08fd4bf3d7673cd8c1721c3271cf7752139ba7d719c9f002f89"
+  },
+  "runtime/prefix/include/unicode/basictz.h": {
+    "source": "runtime/prefix/include/unicode/basictz.h",
+    "sha256": "c2bbbdbd0e332099aab50c8f6461a7c279b0394480a5b0548fb7c2a73d45b713"
+  },
+  "runtime/prefix/include/unicode/brkiter.h": {
+    "source": "runtime/prefix/include/unicode/brkiter.h",
+    "sha256": "d9bfa585fabd56ed858fd2e6167066cf809b9bfc942639b317103ecfdce2f1d3"
+  },
+  "runtime/prefix/include/unicode/bytestream.h": {
+    "source": "runtime/prefix/include/unicode/bytestream.h",
+    "sha256": "f0a0bcc1c5517cc16286cfd1e9b3772c72456bd75e70639e87d0cf940211fdef"
+  },
+  "runtime/prefix/include/unicode/bytestrie.h": {
+    "source": "runtime/prefix/include/unicode/bytestrie.h",
+    "sha256": "7065d64e47f4629bd6593bacebf8a4f9f5618cfd176d70f8c0151251bdd5ad22"
+  },
+  "runtime/prefix/include/unicode/bytestriebuilder.h": {
+    "source": "runtime/prefix/include/unicode/bytestriebuilder.h",
+    "sha256": "60b6a1bf94a1818b6bafec5b1c1344a905a00e3578ca399554b7f0a131a5ac5a"
+  },
+  "runtime/prefix/include/unicode/calendar.h": {
+    "source": "runtime/prefix/include/unicode/calendar.h",
+    "sha256": "57b4c5a7a956f8cefa56bbb6528243b52c2592566f298236f246e21b4379929f"
+  },
+  "runtime/prefix/include/unicode/caniter.h": {
+    "source": "runtime/prefix/include/unicode/caniter.h",
+    "sha256": "5385d099e69b791f28daa2b2dbe03ec2e88d5611de21dca7389d9a07a2b77f1f"
+  },
+  "runtime/prefix/include/unicode/casemap.h": {
+    "source": "runtime/prefix/include/unicode/casemap.h",
+    "sha256": "ce15018c74f49bed22f8d6d599a14f265f29e6331728142f993b0413d3c71f29"
+  },
+  "runtime/prefix/include/unicode/char16ptr.h": {
+    "source": "runtime/prefix/include/unicode/char16ptr.h",
+    "sha256": "0720982a9554282d15326e3818e3985da2effa76b402a0ed46a2468da87fd738"
+  },
+  "runtime/prefix/include/unicode/chariter.h": {
+    "source": "runtime/prefix/include/unicode/chariter.h",
+    "sha256": "7d6483c56995dc51f73cfcdd75b21a17f8442387bc1f050441cac3c3f2676e00"
+  },
+  "runtime/prefix/include/unicode/choicfmt.h": {
+    "source": "runtime/prefix/include/unicode/choicfmt.h",
+    "sha256": "e3668a9fb58f87106aec28647b76438ce46c078cb509a2877de72ffd60bc8715"
+  },
+  "runtime/prefix/include/unicode/coleitr.h": {
+    "source": "runtime/prefix/include/unicode/coleitr.h",
+    "sha256": "fac24d0dd7a7bae2eabe5b9583f461726c7a6b99ea2f5fe8cfefec17a23985de"
+  },
+  "runtime/prefix/include/unicode/coll.h": {
+    "source": "runtime/prefix/include/unicode/coll.h",
+    "sha256": "e55d66b72729447ceacaa72a6342d721ef8c1437a0b8d5e9cdf98d1c02741f55"
+  },
+  "runtime/prefix/include/unicode/compactdecimalformat.h": {
+    "source": "runtime/prefix/include/unicode/compactdecimalformat.h",
+    "sha256": "d8c2ea41c5ebdf4ad0a0d012f05b6953c655e4f9f1305a93e51cbb704b7f8b50"
+  },
+  "runtime/prefix/include/unicode/curramt.h": {
+    "source": "runtime/prefix/include/unicode/curramt.h",
+    "sha256": "4f87f7cfec440d1df4756134a81d0fe72908f1dbf75e307c4af2548e4b43ae5e"
+  },
+  "runtime/prefix/include/unicode/currpinf.h": {
+    "source": "runtime/prefix/include/unicode/currpinf.h",
+    "sha256": "6bdf1611b4bdaa1914ac92a7cd926702da85f06f277f54f09c2bba237ee9fd9f"
+  },
+  "runtime/prefix/include/unicode/currunit.h": {
+    "source": "runtime/prefix/include/unicode/currunit.h",
+    "sha256": "f33eee7431555b5f92115d9e29a2bdf729da1766d990d3919a52ccd082270787"
+  },
+  "runtime/prefix/include/unicode/datefmt.h": {
+    "source": "runtime/prefix/include/unicode/datefmt.h",
+    "sha256": "b246c310fe5bfa60f4f0a566c0295cf5a5dc7006f6a887f478b3e22ee1baa0e2"
+  },
+  "runtime/prefix/include/unicode/dbbi.h": {
+    "source": "runtime/prefix/include/unicode/dbbi.h",
+    "sha256": "e581695e25e5eb36d29444d67efe125a5c59b96d80b69fc590673a4edbc90d82"
+  },
+  "runtime/prefix/include/unicode/dcfmtsym.h": {
+    "source": "runtime/prefix/include/unicode/dcfmtsym.h",
+    "sha256": "b67e7a462932cc84ad2483fa5fb55763073868b18daadefdd067f2f3ae16605b"
+  },
+  "runtime/prefix/include/unicode/decimfmt.h": {
+    "source": "runtime/prefix/include/unicode/decimfmt.h",
+    "sha256": "65ebed77dc174a258ac6a0141e7e2d5552e70b4f5c8adbf5b6b6c8d6d9a9ddc8"
+  },
+  "runtime/prefix/include/unicode/displayoptions.h": {
+    "source": "runtime/prefix/include/unicode/displayoptions.h",
+    "sha256": "f5cd643267e806718c20546d9216e79f7b8ee612c2c68971d0d8e9fe1830a96d"
+  },
+  "runtime/prefix/include/unicode/docmain.h": {
+    "source": "runtime/prefix/include/unicode/docmain.h",
+    "sha256": "2c7027e1ca22e1de782202f4762027adeddf14ea70f7f04312d80690d456cb18"
+  },
+  "runtime/prefix/include/unicode/dtfmtsym.h": {
+    "source": "runtime/prefix/include/unicode/dtfmtsym.h",
+    "sha256": "608c8b6824a5e578bf57e63a21c352cf12a3ee94ebb799df8415b98ca2d1ff14"
+  },
+  "runtime/prefix/include/unicode/dtintrv.h": {
+    "source": "runtime/prefix/include/unicode/dtintrv.h",
+    "sha256": "e218dcba30f80b369dcf6b875fbfc1096a4938a56d9ec9c861f6830db553cfad"
+  },
+  "runtime/prefix/include/unicode/dtitvfmt.h": {
+    "source": "runtime/prefix/include/unicode/dtitvfmt.h",
+    "sha256": "ecb81beab08f0d6c9f8397b278f5f852e91ccacd1ac9e5469869069f3c479f85"
+  },
+  "runtime/prefix/include/unicode/dtitvinf.h": {
+    "source": "runtime/prefix/include/unicode/dtitvinf.h",
+    "sha256": "8339f482aa51b74c6d72048f601f8e648c31f2b055a3b2206b0751b036363991"
+  },
+  "runtime/prefix/include/unicode/dtptngen.h": {
+    "source": "runtime/prefix/include/unicode/dtptngen.h",
+    "sha256": "7d09a4b3bbb17b05b205b741d641b891aa1ec65bf6b66662d244196cc1b23a35"
+  },
+  "runtime/prefix/include/unicode/dtrule.h": {
+    "source": "runtime/prefix/include/unicode/dtrule.h",
+    "sha256": "55ed2079e84912b88ea304afa10080630a52abbc1283c66f28612b07c80f679c"
+  },
+  "runtime/prefix/include/unicode/edits.h": {
+    "source": "runtime/prefix/include/unicode/edits.h",
+    "sha256": "183ce7b5104ad0e24638a71f82fc6b3a25472322f9a72cb9f55a15644b4d9f72"
+  },
+  "runtime/prefix/include/unicode/enumset.h": {
+    "source": "runtime/prefix/include/unicode/enumset.h",
+    "sha256": "714e52368f8c204a118440c04587c6ed953a3000e2243004631ec5522bfaef04"
+  },
+  "runtime/prefix/include/unicode/errorcode.h": {
+    "source": "runtime/prefix/include/unicode/errorcode.h",
+    "sha256": "e299e97e2f11f8ead9c3e7cfe24a785a98bab94ef86500a97f0b1df55efc5d1d"
+  },
+  "runtime/prefix/include/unicode/fieldpos.h": {
+    "source": "runtime/prefix/include/unicode/fieldpos.h",
+    "sha256": "1cb1abc1d60ab4240157b7aff64301c0ad8ab282db1585ef5d5b0a7c0b6dd2b0"
+  },
+  "runtime/prefix/include/unicode/filteredbrk.h": {
+    "source": "runtime/prefix/include/unicode/filteredbrk.h",
+    "sha256": "945a4366e5a11fd17ff77a4c325dd26df4fb02eb4c3b71d67b468843271938fc"
+  },
+  "runtime/prefix/include/unicode/fmtable.h": {
+    "source": "runtime/prefix/include/unicode/fmtable.h",
+    "sha256": "bcdece58e392f298f069bfe189fe31dbce9d987ff87c31b9ad3f15e250ab3be9"
+  },
+  "runtime/prefix/include/unicode/format.h": {
+    "source": "runtime/prefix/include/unicode/format.h",
+    "sha256": "7a07d51942b9c844870b5aecfe0db107b3c686ce5328294b2ea3221bc9c1385a"
+  },
+  "runtime/prefix/include/unicode/formattednumber.h": {
+    "source": "runtime/prefix/include/unicode/formattednumber.h",
+    "sha256": "737661765917c8434b6a186c00290a87897b7ad11682d8edf77ba0923ecff557"
+  },
+  "runtime/prefix/include/unicode/formattedvalue.h": {
+    "source": "runtime/prefix/include/unicode/formattedvalue.h",
+    "sha256": "33c0e70172c87d3e1dcb3d656c08f23efd927d96d19d1c4f7264a757f0a5e238"
+  },
+  "runtime/prefix/include/unicode/fpositer.h": {
+    "source": "runtime/prefix/include/unicode/fpositer.h",
+    "sha256": "d6d7ad9ac5cce345c5f611bad6807eca4b622bf88109b3fb81c26c42a5b02d25"
+  },
+  "runtime/prefix/include/unicode/gender.h": {
+    "source": "runtime/prefix/include/unicode/gender.h",
+    "sha256": "60023d302e5204cbd934e216730278e91468bd20694045c5136d5d7f2420d519"
+  },
+  "runtime/prefix/include/unicode/gregocal.h": {
+    "source": "runtime/prefix/include/unicode/gregocal.h",
+    "sha256": "57fd2c3d5146530c9e36f0d85df4da7d8e236ccde0afe1172a39d65a09c56219"
+  },
+  "runtime/prefix/include/unicode/icudataver.h": {
+    "source": "runtime/prefix/include/unicode/icudataver.h",
+    "sha256": "5b127ee0c08b297cc97db14da06f9f52ab119e54c6fcc8732c89ff50d0e69ae8"
+  },
+  "runtime/prefix/include/unicode/icuplug.h": {
+    "source": "runtime/prefix/include/unicode/icuplug.h",
+    "sha256": "b44cfed0aa6f238de470936a5a133e6764c77c36b92927a911c188daec56175e"
+  },
+  "runtime/prefix/include/unicode/idna.h": {
+    "source": "runtime/prefix/include/unicode/idna.h",
+    "sha256": "fd763ab6b40370412aca8a96ba31736422bd657ebc58e9949465eac4c2249cd0"
+  },
+  "runtime/prefix/include/unicode/listformatter.h": {
+    "source": "runtime/prefix/include/unicode/listformatter.h",
+    "sha256": "0c4d621f5f7b30b38f5d932f404305f55668836b89372a2d5664aafc004a48d1"
+  },
+  "runtime/prefix/include/unicode/localebuilder.h": {
+    "source": "runtime/prefix/include/unicode/localebuilder.h",
+    "sha256": "005253dfa6df1251bbdad62939b3d7d2a239aeea43f1af0ffc677e1c8335c440"
+  },
+  "runtime/prefix/include/unicode/localematcher.h": {
+    "source": "runtime/prefix/include/unicode/localematcher.h",
+    "sha256": "c8331dbbc8ce5aaf5bf8b020b0fb196842a1be80a1c6a90be80512d1a7b4034d"
+  },
+  "runtime/prefix/include/unicode/localpointer.h": {
+    "source": "runtime/prefix/include/unicode/localpointer.h",
+    "sha256": "3bdafd3a1dc02f54d265684c5cfb9264811f95bf840918f8f1fd2b98a23270a4"
+  },
+  "runtime/prefix/include/unicode/locdspnm.h": {
+    "source": "runtime/prefix/include/unicode/locdspnm.h",
+    "sha256": "823ddebeaea6229b9d9cf85e8cf3ced7afb53476c8bbccd5bcf3c15c0d967e2c"
+  },
+  "runtime/prefix/include/unicode/locid.h": {
+    "source": "runtime/prefix/include/unicode/locid.h",
+    "sha256": "e72d146cff4befc809c53c24db9bb30f11ce767273cf14dafa881f1379ff3ddd"
+  },
+  "runtime/prefix/include/unicode/measfmt.h": {
+    "source": "runtime/prefix/include/unicode/measfmt.h",
+    "sha256": "57cd5e67808ae3c762b8232a84dc14d6dfb49a0acaa1562e7df0d0b306df971a"
+  },
+  "runtime/prefix/include/unicode/measunit.h": {
+    "source": "runtime/prefix/include/unicode/measunit.h",
+    "sha256": "594309ff98c7a3f436cc3c688262a77fb7cdda4297300e0aee3bf91bbe567e0a"
+  },
+  "runtime/prefix/include/unicode/measure.h": {
+    "source": "runtime/prefix/include/unicode/measure.h",
+    "sha256": "6c757cfb6896d88844a133aa2f438dcb0ce74c91b0cd4092afb196e2862886b6"
+  },
+  "runtime/prefix/include/unicode/messageformat2.h": {
+    "source": "runtime/prefix/include/unicode/messageformat2.h",
+    "sha256": "1a0fbb187f3b1bfda61ccafa35e0e9c7564e7ab8aecf60cdbf09c5f766eecbc1"
+  },
+  "runtime/prefix/include/unicode/messageformat2_arguments.h": {
+    "source": "runtime/prefix/include/unicode/messageformat2_arguments.h",
+    "sha256": "70443776dd8a44c2512ba9faaaa9d84e651c4459de3f201b01bbde0a892bb59a"
+  },
+  "runtime/prefix/include/unicode/messageformat2_data_model.h": {
+    "source": "runtime/prefix/include/unicode/messageformat2_data_model.h",
+    "sha256": "685db0364776bce164ae80a2ab0a054dde27292d4a590b457515a456f75cef63"
+  },
+  "runtime/prefix/include/unicode/messageformat2_data_model_names.h": {
+    "source": "runtime/prefix/include/unicode/messageformat2_data_model_names.h",
+    "sha256": "bb0a47f78c1561ba3613556b32e11ce3fb922109cc20a2ab5598588e0edcf3f7"
+  },
+  "runtime/prefix/include/unicode/messageformat2_formattable.h": {
+    "source": "runtime/prefix/include/unicode/messageformat2_formattable.h",
+    "sha256": "a1fb04d1e66a3d40acf238a959e7c80274dad7988dbe1ac1ebb8edb5dd28c8eb"
+  },
+  "runtime/prefix/include/unicode/messageformat2_function_registry.h": {
+    "source": "runtime/prefix/include/unicode/messageformat2_function_registry.h",
+    "sha256": "fd4caa2dbad919dd7c92422341c87cede05a1e6b430c7984c6285853cfc37f84"
+  },
+  "runtime/prefix/include/unicode/messagepattern.h": {
+    "source": "runtime/prefix/include/unicode/messagepattern.h",
+    "sha256": "29a1d825fc142989795abda83bbf51cef8364ad82fe2948bf398f7fcbeb2026d"
+  },
+  "runtime/prefix/include/unicode/msgfmt.h": {
+    "source": "runtime/prefix/include/unicode/msgfmt.h",
+    "sha256": "1cdc1ceebb242eb02e552a3922f5c9eb849c1dd11f1fd7530051fde9e9bff500"
+  },
+  "runtime/prefix/include/unicode/normalizer2.h": {
+    "source": "runtime/prefix/include/unicode/normalizer2.h",
+    "sha256": "ed4a4585f6b7077c999faae5f5f186f500031a2018e1856341397b5c9f0165a7"
+  },
+  "runtime/prefix/include/unicode/normlzr.h": {
+    "source": "runtime/prefix/include/unicode/normlzr.h",
+    "sha256": "89a2cad849536ce51a6b7940c5b2ea369b0f7f0c481aa5339f2ed2118eeba0e1"
+  },
+  "runtime/prefix/include/unicode/nounit.h": {
+    "source": "runtime/prefix/include/unicode/nounit.h",
+    "sha256": "1451bb22dd6e00ee945dc26740cf2714672f04563077c5cb8560d33d40ce57bf"
+  },
+  "runtime/prefix/include/unicode/numberformatter.h": {
+    "source": "runtime/prefix/include/unicode/numberformatter.h",
+    "sha256": "e467c2b77b694fdcbe2e9922eec0b25b04b16a3916dc98d2253bf995e90075ae"
+  },
+  "runtime/prefix/include/unicode/numberrangeformatter.h": {
+    "source": "runtime/prefix/include/unicode/numberrangeformatter.h",
+    "sha256": "bef3632c29082d650dc5e87ef1265da62ea1fe5fcb97c0798f7e486513818d33"
+  },
+  "runtime/prefix/include/unicode/numfmt.h": {
+    "source": "runtime/prefix/include/unicode/numfmt.h",
+    "sha256": "1c38f10d7747ffee9bbb97d6c1a494aa636fc2433d8a319de448517e18402c98"
+  },
+  "runtime/prefix/include/unicode/numsys.h": {
+    "source": "runtime/prefix/include/unicode/numsys.h",
+    "sha256": "1ddf0e494c432adb08576763769d6771ae222312455e2c5f1b82f856d6aa4a76"
+  },
+  "runtime/prefix/include/unicode/parseerr.h": {
+    "source": "runtime/prefix/include/unicode/parseerr.h",
+    "sha256": "85336d61449740ae90a0c2c36cfd671e0aa3200c92d94e07afc3e82aacb19b35"
+  },
+  "runtime/prefix/include/unicode/parsepos.h": {
+    "source": "runtime/prefix/include/unicode/parsepos.h",
+    "sha256": "5113e87ac6365e7bf4b061c76ee62d2d7243a0953463ac5fe0e89682a9551b70"
+  },
+  "runtime/prefix/include/unicode/platform.h": {
+    "source": "runtime/prefix/include/unicode/platform.h",
+    "sha256": "92f8ce13d9c575ae7d33f455d77ef604a594c0ea14f14e92e78cb2213f7328f5"
+  },
+  "runtime/prefix/include/unicode/plurfmt.h": {
+    "source": "runtime/prefix/include/unicode/plurfmt.h",
+    "sha256": "ecd63a90eff92989a0bf68fd7f128aab1da8b2b224cbae743fbcf2392cb8e066"
+  },
+  "runtime/prefix/include/unicode/plurrule.h": {
+    "source": "runtime/prefix/include/unicode/plurrule.h",
+    "sha256": "cdfa432b21be9e868e0c253f9ce738b3fcaf70f35e2841fa972095562ae094f9"
+  },
+  "runtime/prefix/include/unicode/ptypes.h": {
+    "source": "runtime/prefix/include/unicode/ptypes.h",
+    "sha256": "38d6cb8bfd4fa9a86ed741e373a1a4198521183bac55329a518ff1e28ab91be7"
+  },
+  "runtime/prefix/include/unicode/putil.h": {
+    "source": "runtime/prefix/include/unicode/putil.h",
+    "sha256": "2583f4ea86136be8366527c79121721d4f917ed4b21137667333249ff83b1fad"
+  },
+  "runtime/prefix/include/unicode/rbbi.h": {
+    "source": "runtime/prefix/include/unicode/rbbi.h",
+    "sha256": "ff5c26d03db88777ed9a05d0276455baa5faf0bd282d8316710c7e2598eb91c3"
+  },
+  "runtime/prefix/include/unicode/rbnf.h": {
+    "source": "runtime/prefix/include/unicode/rbnf.h",
+    "sha256": "90bf65ad67e247de42e3df711bd33655bd9688aac66bfa180df3ee5c8bbcccea"
+  },
+  "runtime/prefix/include/unicode/rbtz.h": {
+    "source": "runtime/prefix/include/unicode/rbtz.h",
+    "sha256": "372ac26952b8cb3aa5b5733d4dcb3fa53b89a11cc6c6ac9317eeab9d409e14fe"
+  },
+  "runtime/prefix/include/unicode/regex.h": {
+    "source": "runtime/prefix/include/unicode/regex.h",
+    "sha256": "0684d6723b84ca8fd44bb35329a28b73e4919006d56155a77408d7ba00abdd25"
+  },
+  "runtime/prefix/include/unicode/region.h": {
+    "source": "runtime/prefix/include/unicode/region.h",
+    "sha256": "49caadba94d869ce3cc78e6a47d5270ab2751d95088aeea2522d136796e02465"
+  },
+  "runtime/prefix/include/unicode/reldatefmt.h": {
+    "source": "runtime/prefix/include/unicode/reldatefmt.h",
+    "sha256": "e64a8bc6a0569f834fb568e3ec22bcb7c8e0b4bf1973b884ca132ad14cc9fd5c"
+  },
+  "runtime/prefix/include/unicode/rep.h": {
+    "source": "runtime/prefix/include/unicode/rep.h",
+    "sha256": "bb52f48eefd0855baf716002f2792162fc4d5d22f90c9409e8d5db3b6cb279b0"
+  },
+  "runtime/prefix/include/unicode/resbund.h": {
+    "source": "runtime/prefix/include/unicode/resbund.h",
+    "sha256": "7e9102a5d67183f3ead769cd00c6b97fc47379a33da6627114b4e6daa2e9c596"
+  },
+  "runtime/prefix/include/unicode/schriter.h": {
+    "source": "runtime/prefix/include/unicode/schriter.h",
+    "sha256": "d236cceb9784ea301ecf0b14ca6fa7f9d4f338d398c47dcfdc60265ea3726bd2"
+  },
+  "runtime/prefix/include/unicode/scientificnumberformatter.h": {
+    "source": "runtime/prefix/include/unicode/scientificnumberformatter.h",
+    "sha256": "72b42cde8149d05439510be75ceaa74f71c37a6d07d847fc0561b392bf51864f"
+  },
+  "runtime/prefix/include/unicode/search.h": {
+    "source": "runtime/prefix/include/unicode/search.h",
+    "sha256": "9bb0c0ed49d53732f3b6914914588be3db224f7ec81873e50e3d892198c7937f"
+  },
+  "runtime/prefix/include/unicode/selfmt.h": {
+    "source": "runtime/prefix/include/unicode/selfmt.h",
+    "sha256": "be0ec4c9c2008be01b0e735c1d9dcc37ffa6874752c108e79bced0b1fcf4b432"
+  },
+  "runtime/prefix/include/unicode/simpleformatter.h": {
+    "source": "runtime/prefix/include/unicode/simpleformatter.h",
+    "sha256": "92ac5b590ad0947ab0d5d95d8fcb60dfa6ad0b2fe1bf7b504f340b3102ae9227"
+  },
+  "runtime/prefix/include/unicode/simplenumberformatter.h": {
+    "source": "runtime/prefix/include/unicode/simplenumberformatter.h",
+    "sha256": "5989ac246508781328c21c265abf895add71fd641572a99f0cd3652bb206ee8c"
+  },
+  "runtime/prefix/include/unicode/simpletz.h": {
+    "source": "runtime/prefix/include/unicode/simpletz.h",
+    "sha256": "48caca80de435fd3057409495fe11e7c00cbd732b6ca90ca72bd7fc17c9754ec"
+  },
+  "runtime/prefix/include/unicode/smpdtfmt.h": {
+    "source": "runtime/prefix/include/unicode/smpdtfmt.h",
+    "sha256": "63593cadb8709ab8b0d7c3209d97403335411dbe0e1af3e5877a54889b947a9b"
+  },
+  "runtime/prefix/include/unicode/sortkey.h": {
+    "source": "runtime/prefix/include/unicode/sortkey.h",
+    "sha256": "bc5f5fb8a5d9900f0026c6b6025ec46cee3bf3744dd2c300463e0fcf195ed87f"
+  },
+  "runtime/prefix/include/unicode/std_string.h": {
+    "source": "runtime/prefix/include/unicode/std_string.h",
+    "sha256": "2f5197b3e654925b3aeddae520a362f2544dd95242c140d3cf32b67ca83f6489"
+  },
+  "runtime/prefix/include/unicode/strenum.h": {
+    "source": "runtime/prefix/include/unicode/strenum.h",
+    "sha256": "d1ae793b03bf22e92e748a2e8271dc5bb6e3a679f08ee7e2bf53c1bb2400e5b5"
+  },
+  "runtime/prefix/include/unicode/stringoptions.h": {
+    "source": "runtime/prefix/include/unicode/stringoptions.h",
+    "sha256": "931533a849801ebb07e324f877f9e5d65c16b782d708d678f4918bf7fa206908"
+  },
+  "runtime/prefix/include/unicode/stringpiece.h": {
+    "source": "runtime/prefix/include/unicode/stringpiece.h",
+    "sha256": "a57e1856b0487c87b598077171d7012db9bcadb9e2cf2526350813d811ea2e27"
+  },
+  "runtime/prefix/include/unicode/stringtriebuilder.h": {
+    "source": "runtime/prefix/include/unicode/stringtriebuilder.h",
+    "sha256": "19aed2d8a5f80aee3b3544c41c62b75302c6fd18ed4a312f4d1da7ed37b82d46"
+  },
+  "runtime/prefix/include/unicode/stsearch.h": {
+    "source": "runtime/prefix/include/unicode/stsearch.h",
+    "sha256": "fd4e6b793ddd33e103e1faed5716456e295026cc7abc69c91ec20df8458d2d62"
+  },
+  "runtime/prefix/include/unicode/symtable.h": {
+    "source": "runtime/prefix/include/unicode/symtable.h",
+    "sha256": "c73d4df7d8975ff4eeafe3a44ec6e8f7d72d0233fdedc3a7c505580bba9256b2"
+  },
+  "runtime/prefix/include/unicode/tblcoll.h": {
+    "source": "runtime/prefix/include/unicode/tblcoll.h",
+    "sha256": "94bf8255c3db536da7132a3eaa0e9b6f814e7d64fbc6e8c83d827115ec99c8a5"
+  },
+  "runtime/prefix/include/unicode/timezone.h": {
+    "source": "runtime/prefix/include/unicode/timezone.h",
+    "sha256": "87be735d4ad55bec161cb05c00bcc57c005de3f8bb7878b7688ed5c7c0cc9797"
+  },
+  "runtime/prefix/include/unicode/tmunit.h": {
+    "source": "runtime/prefix/include/unicode/tmunit.h",
+    "sha256": "8d8c7928483fdcdd49f4c36df408f92c0f0619e6f09797277f1f3c16d03ba1b7"
+  },
+  "runtime/prefix/include/unicode/tmutamt.h": {
+    "source": "runtime/prefix/include/unicode/tmutamt.h",
+    "sha256": "6b5e608c55395618ffa4d715af802d73a53af7db88103aa2e575f16041c53cc4"
+  },
+  "runtime/prefix/include/unicode/tmutfmt.h": {
+    "source": "runtime/prefix/include/unicode/tmutfmt.h",
+    "sha256": "b6505fa5bc73679994da3a8cc0a56f2d2214674ace9f3495ddf547fc2b5fce12"
+  },
+  "runtime/prefix/include/unicode/translit.h": {
+    "source": "runtime/prefix/include/unicode/translit.h",
+    "sha256": "03e1796bdaa59e70a0edb59c84d1cad46411075fc0608f9cd4cce166d278a875"
+  },
+  "runtime/prefix/include/unicode/tzfmt.h": {
+    "source": "runtime/prefix/include/unicode/tzfmt.h",
+    "sha256": "ee035b5920b29fab0b2c546cfb8395c393dac21ae207e61d225ea186786668a4"
+  },
+  "runtime/prefix/include/unicode/tznames.h": {
+    "source": "runtime/prefix/include/unicode/tznames.h",
+    "sha256": "3be9176a172bf987cbaa282a9278808f1c01a7b3076656c8ef6ee54ee673293d"
+  },
+  "runtime/prefix/include/unicode/tzrule.h": {
+    "source": "runtime/prefix/include/unicode/tzrule.h",
+    "sha256": "999747ab299f959603c295f8a6708c1f6b39906ad9631a5b7d8e2afdd7dcd38d"
+  },
+  "runtime/prefix/include/unicode/tztrans.h": {
+    "source": "runtime/prefix/include/unicode/tztrans.h",
+    "sha256": "dfc1367805e62e85a13494b3ca77d0d899f332e5d739f020b482dd64f023c92a"
+  },
+  "runtime/prefix/include/unicode/ubidi.h": {
+    "source": "runtime/prefix/include/unicode/ubidi.h",
+    "sha256": "6582eaa35054fea17fbcc756d1ce8ce9765b6b934fd2347cd46ef861c24cc01b"
+  },
+  "runtime/prefix/include/unicode/ubiditransform.h": {
+    "source": "runtime/prefix/include/unicode/ubiditransform.h",
+    "sha256": "a447338adc4b448fc6a6daa7a771d646b4dea95aff5c10f2711aacaa21587533"
+  },
+  "runtime/prefix/include/unicode/ubrk.h": {
+    "source": "runtime/prefix/include/unicode/ubrk.h",
+    "sha256": "6462fbec833cab11c23e3230c7b875986b478d1298c2b34fe347ce577cd7aaab"
+  },
+  "runtime/prefix/include/unicode/ucal.h": {
+    "source": "runtime/prefix/include/unicode/ucal.h",
+    "sha256": "25ad4c36daf9a0eceedce5085ec5ca738abd993cecd43a0c6d0477973d35330a"
+  },
+  "runtime/prefix/include/unicode/ucasemap.h": {
+    "source": "runtime/prefix/include/unicode/ucasemap.h",
+    "sha256": "0419ae48e74674e3d84464f35413c1a1ab195702fa9f959a0a1d6a6627fd7e5a"
+  },
+  "runtime/prefix/include/unicode/ucat.h": {
+    "source": "runtime/prefix/include/unicode/ucat.h",
+    "sha256": "0a1990e56a7384fad3114fe0abc88561087a516acabdbfe9a30ed4c1619d4ec6"
+  },
+  "runtime/prefix/include/unicode/uchar.h": {
+    "source": "runtime/prefix/include/unicode/uchar.h",
+    "sha256": "911b76cdee1723f681fcee98994bc09b8f32a4b8f4d00461ad0bed810ec86cea"
+  },
+  "runtime/prefix/include/unicode/ucharstrie.h": {
+    "source": "runtime/prefix/include/unicode/ucharstrie.h",
+    "sha256": "0b86db254b334d9771df14343adc4eb008e0fcb63d2c707f55351eedc710d9b3"
+  },
+  "runtime/prefix/include/unicode/ucharstriebuilder.h": {
+    "source": "runtime/prefix/include/unicode/ucharstriebuilder.h",
+    "sha256": "f9dc4e91a2a68f3eb425fcc6e0bd02ac0b8f747aadd1a945bb1013673e7ca86f"
+  },
+  "runtime/prefix/include/unicode/uchriter.h": {
+    "source": "runtime/prefix/include/unicode/uchriter.h",
+    "sha256": "7855cec3242bf70d9d1fcfb194f72a02fb532807fd4c7343457aec202941c609"
+  },
+  "runtime/prefix/include/unicode/uclean.h": {
+    "source": "runtime/prefix/include/unicode/uclean.h",
+    "sha256": "288a65c760f66ab4a00780ecf898923c38890f63e7528cd51afa8c6dd7e6f784"
+  },
+  "runtime/prefix/include/unicode/ucnv.h": {
+    "source": "runtime/prefix/include/unicode/ucnv.h",
+    "sha256": "c980b0b06839e96ec80b0c081097424e8fc649b8cb97a7de0fa58a0a8c887d53"
+  },
+  "runtime/prefix/include/unicode/ucnv_cb.h": {
+    "source": "runtime/prefix/include/unicode/ucnv_cb.h",
+    "sha256": "ecac71191cbd4574ddcc7e7fb88f514af6ccc0271524819eff57bfc3ce082ea7"
+  },
+  "runtime/prefix/include/unicode/ucnv_err.h": {
+    "source": "runtime/prefix/include/unicode/ucnv_err.h",
+    "sha256": "b9b5001cfdd9cde9df391b7ec350816c8d266a325ee8423a45a0266b5030181d"
+  },
+  "runtime/prefix/include/unicode/ucnvsel.h": {
+    "source": "runtime/prefix/include/unicode/ucnvsel.h",
+    "sha256": "05b117f548a535ae125ef2e3851eba3f8db1baa9cf1bae064cc13e64d4e7b9c4"
+  },
+  "runtime/prefix/include/unicode/ucol.h": {
+    "source": "runtime/prefix/include/unicode/ucol.h",
+    "sha256": "a6b696625c2f0dba2f08c642fca49ddfe005698f7a36b51e38c615157afa175a"
+  },
+  "runtime/prefix/include/unicode/ucoleitr.h": {
+    "source": "runtime/prefix/include/unicode/ucoleitr.h",
+    "sha256": "c9636f96e2a04d5b59ec89d805151e46524fe150c32ef0a871561514e477520a"
+  },
+  "runtime/prefix/include/unicode/uconfig.h": {
+    "source": "runtime/prefix/include/unicode/uconfig.h",
+    "sha256": "12708680c633e73fa2cbdaec82bf30f0fc104cd135f46354d39e9e9002a92514"
+  },
+  "runtime/prefix/include/unicode/ucpmap.h": {
+    "source": "runtime/prefix/include/unicode/ucpmap.h",
+    "sha256": "e29a3d648799fbd8d756768a080e580dfe61a5da55cf2bdb9f45e8a03b78c80b"
+  },
+  "runtime/prefix/include/unicode/ucptrie.h": {
+    "source": "runtime/prefix/include/unicode/ucptrie.h",
+    "sha256": "186e73fc293da8e6583cd6ea06d17afab51a823cf7b453ff5daf576e650eef7c"
+  },
+  "runtime/prefix/include/unicode/ucsdet.h": {
+    "source": "runtime/prefix/include/unicode/ucsdet.h",
+    "sha256": "927f80ff49d9997edcbfef9b5a77e972b5f77df7c6ab8045a53b4b0bb2cf3317"
+  },
+  "runtime/prefix/include/unicode/ucurr.h": {
+    "source": "runtime/prefix/include/unicode/ucurr.h",
+    "sha256": "2b41a7cbc53896b256080a386703523601218dc196276dc1bfc74e7af132e355"
+  },
+  "runtime/prefix/include/unicode/udat.h": {
+    "source": "runtime/prefix/include/unicode/udat.h",
+    "sha256": "dcc1549dcda254e0a8fda095c7f600501a383b7f37aa4ba342b9a715c93d3b90"
+  },
+  "runtime/prefix/include/unicode/udata.h": {
+    "source": "runtime/prefix/include/unicode/udata.h",
+    "sha256": "010c67952762696bd3eeb3e568cc0371aa2511724b4134fb3f976dc36d11906b"
+  },
+  "runtime/prefix/include/unicode/udateintervalformat.h": {
+    "source": "runtime/prefix/include/unicode/udateintervalformat.h",
+    "sha256": "d77cf70386e72c9b935950e6ef7dc2935f4dc424253a00ce66259aa775e0ed01"
+  },
+  "runtime/prefix/include/unicode/udatpg.h": {
+    "source": "runtime/prefix/include/unicode/udatpg.h",
+    "sha256": "ff17ebb6ba814b81619d9bb7ae51f6d41b86b84da50f27aea3af09501e58377f"
+  },
+  "runtime/prefix/include/unicode/udisplaycontext.h": {
+    "source": "runtime/prefix/include/unicode/udisplaycontext.h",
+    "sha256": "e93cb0753e3a73e0c3115aa94302ac24639d2ab8be3589823dcafeb7be1189a6"
+  },
+  "runtime/prefix/include/unicode/udisplayoptions.h": {
+    "source": "runtime/prefix/include/unicode/udisplayoptions.h",
+    "sha256": "c02c968355e45bd0182c939ab2c415cfc12ff95fe5cd5680ecf53781ea49f7bf"
+  },
+  "runtime/prefix/include/unicode/uenum.h": {
+    "source": "runtime/prefix/include/unicode/uenum.h",
+    "sha256": "a27a3bcba0fe695d96647bdb0982e15e8cca0d55df01d544fbb287e4944029e2"
+  },
+  "runtime/prefix/include/unicode/ufieldpositer.h": {
+    "source": "runtime/prefix/include/unicode/ufieldpositer.h",
+    "sha256": "8d11d66f9798b20e81921fa44278ab66345a45945aad83cebd9a501563daac58"
+  },
+  "runtime/prefix/include/unicode/uformattable.h": {
+    "source": "runtime/prefix/include/unicode/uformattable.h",
+    "sha256": "29ab86f391609a1026ef6ec4753605d3dae754fa9ad453a1cf9fa7d78bcf2dbf"
+  },
+  "runtime/prefix/include/unicode/uformattednumber.h": {
+    "source": "runtime/prefix/include/unicode/uformattednumber.h",
+    "sha256": "7b0c30394bdc621e55ea822c2c499300e6e0871c7c0a1cb8cbcc8854d2b314be"
+  },
+  "runtime/prefix/include/unicode/uformattedvalue.h": {
+    "source": "runtime/prefix/include/unicode/uformattedvalue.h",
+    "sha256": "dd20bb3e987f42107b64b8d5a287f7a2cd61e8b964696a40fe036df97c714af3"
+  },
+  "runtime/prefix/include/unicode/ugender.h": {
+    "source": "runtime/prefix/include/unicode/ugender.h",
+    "sha256": "58248eb398ac7e3985927b19eccd29d541afa684f2cd6e462d821a8ff0ac0c5a"
+  },
+  "runtime/prefix/include/unicode/uidna.h": {
+    "source": "runtime/prefix/include/unicode/uidna.h",
+    "sha256": "4c99120063c20d8f4fd920c80e13c5d8527c2efae57c21e3086ec3ae3fff8b81"
+  },
+  "runtime/prefix/include/unicode/uiter.h": {
+    "source": "runtime/prefix/include/unicode/uiter.h",
+    "sha256": "79177406907ab5ecd861cf729238d1da884f84f0db0e3e3ea48b4e0b8601e901"
+  },
+  "runtime/prefix/include/unicode/uldnames.h": {
+    "source": "runtime/prefix/include/unicode/uldnames.h",
+    "sha256": "32ae18a86a1427ca4aac01ec13c96d28f7cd7b8fd02bd9bbd2bfe83a3b2939fa"
+  },
+  "runtime/prefix/include/unicode/ulistformatter.h": {
+    "source": "runtime/prefix/include/unicode/ulistformatter.h",
+    "sha256": "64f1a741a64210c6e7f44dad23a2a97b864b5f58e6f6af3286c7f227d4ac7f7b"
+  },
+  "runtime/prefix/include/unicode/uloc.h": {
+    "source": "runtime/prefix/include/unicode/uloc.h",
+    "sha256": "1523822fb76d61ab009a331e375586e5832a88ef893b3b5e76975e270c9d078d"
+  },
+  "runtime/prefix/include/unicode/ulocale.h": {
+    "source": "runtime/prefix/include/unicode/ulocale.h",
+    "sha256": "8bd8a93fd2381ce3051f199b8ef8452287d7c3df84fc2ba084ad477eab162e1a"
+  },
+  "runtime/prefix/include/unicode/ulocbuilder.h": {
+    "source": "runtime/prefix/include/unicode/ulocbuilder.h",
+    "sha256": "d3b3d57c98c72bdb3c485907bd73e56dc834b2c10dc21af43239d74be3082395"
+  },
+  "runtime/prefix/include/unicode/ulocdata.h": {
+    "source": "runtime/prefix/include/unicode/ulocdata.h",
+    "sha256": "a2fb165abd7b51d325ff6b763f2ddbc9a482a92a177b1d04af5ea728f35be562"
+  },
+  "runtime/prefix/include/unicode/umachine.h": {
+    "source": "runtime/prefix/include/unicode/umachine.h",
+    "sha256": "a66233f12532fe25dbdbeaff4816e8a13511a37af224f598264903059d63c4b6"
+  },
+  "runtime/prefix/include/unicode/umisc.h": {
+    "source": "runtime/prefix/include/unicode/umisc.h",
+    "sha256": "d473d64e27ebff77b4f582d2d11ef3a0fd505e6b7d147f5e0c32f76a9e6e2322"
+  },
+  "runtime/prefix/include/unicode/umsg.h": {
+    "source": "runtime/prefix/include/unicode/umsg.h",
+    "sha256": "afcdc924e1de120678c0f688e769a76c24925a1d79b2dc5c991f2e1e3a7d730d"
+  },
+  "runtime/prefix/include/unicode/umutablecptrie.h": {
+    "source": "runtime/prefix/include/unicode/umutablecptrie.h",
+    "sha256": "d7aafce91d4497b5fc0dc50cedce20780510c65d63efa18df1badd2b8f7cd795"
+  },
+  "runtime/prefix/include/unicode/unifilt.h": {
+    "source": "runtime/prefix/include/unicode/unifilt.h",
+    "sha256": "d9dd3ea20f64d17fdfa3f0fc668368d7c66678c5e7a9c38ad82aff77bc2814d9"
+  },
+  "runtime/prefix/include/unicode/unifunct.h": {
+    "source": "runtime/prefix/include/unicode/unifunct.h",
+    "sha256": "3af306c8dc156b4a8768fa3881629c75fd934e4808402ddcf296f9d558c60099"
+  },
+  "runtime/prefix/include/unicode/unimatch.h": {
+    "source": "runtime/prefix/include/unicode/unimatch.h",
+    "sha256": "fc795abfa0bafa028cc14ebefb1f6726ddfecbaf28786fc9416a560d2dd7a040"
+  },
+  "runtime/prefix/include/unicode/unirepl.h": {
+    "source": "runtime/prefix/include/unicode/unirepl.h",
+    "sha256": "69f5cf697cbff3cc1e097bff33f3c2fe089ee3f33128aa897f007050a37aa604"
+  },
+  "runtime/prefix/include/unicode/uniset.h": {
+    "source": "runtime/prefix/include/unicode/uniset.h",
+    "sha256": "51dd4f8d0dc62ea14aaa86f0dc859c22b2ec3438a9639d968bf9340b3d8a2753"
+  },
+  "runtime/prefix/include/unicode/unistr.h": {
+    "source": "runtime/prefix/include/unicode/unistr.h",
+    "sha256": "c8ecaf1b48c20f83a20e1f3ed39c2a713d7939e59ed584791f93ea0ced3dd40a"
+  },
+  "runtime/prefix/include/unicode/unorm.h": {
+    "source": "runtime/prefix/include/unicode/unorm.h",
+    "sha256": "3c4e6918c77b1a857953a646d2a17bc19300b41298ed428e6e20e771a1aa63ab"
+  },
+  "runtime/prefix/include/unicode/unorm2.h": {
+    "source": "runtime/prefix/include/unicode/unorm2.h",
+    "sha256": "63b999232e50b0e69faf58aeb0e64a5bc92c5a3da2f7631bec5f9554b5627be9"
+  },
+  "runtime/prefix/include/unicode/unum.h": {
+    "source": "runtime/prefix/include/unicode/unum.h",
+    "sha256": "140c398fe2f59a2cdd27edb78f517eaebfadd075b51203950d4b73c6aba87699"
+  },
+  "runtime/prefix/include/unicode/unumberformatter.h": {
+    "source": "runtime/prefix/include/unicode/unumberformatter.h",
+    "sha256": "916709fd918ab8b0dc36f9ff805a58f61535b9b72010b62e3b0b443ef9cd3069"
+  },
+  "runtime/prefix/include/unicode/unumberoptions.h": {
+    "source": "runtime/prefix/include/unicode/unumberoptions.h",
+    "sha256": "695da5215f3950ccc969c812cd1143f77ce880b72cdef716c96c18d907efec03"
+  },
+  "runtime/prefix/include/unicode/unumberrangeformatter.h": {
+    "source": "runtime/prefix/include/unicode/unumberrangeformatter.h",
+    "sha256": "833d43cb997eb1bf8507eac342fdde8eeec42a46c4ae3a65223d8aaa861b9997"
+  },
+  "runtime/prefix/include/unicode/unumsys.h": {
+    "source": "runtime/prefix/include/unicode/unumsys.h",
+    "sha256": "a3ac9ab2207b898873781380498d0f371e4a99b3bf10f64aea47c0a45f329644"
+  },
+  "runtime/prefix/include/unicode/uobject.h": {
+    "source": "runtime/prefix/include/unicode/uobject.h",
+    "sha256": "be4ffdc514e780c91cfe0d6fdb5c109b329c8a4c632df9f45c0f2dcce9d94ce7"
+  },
+  "runtime/prefix/include/unicode/upluralrules.h": {
+    "source": "runtime/prefix/include/unicode/upluralrules.h",
+    "sha256": "25ca023eaef36e25fdeeac27de073a33f20f94db1f231496cd4725c46c970f06"
+  },
+  "runtime/prefix/include/unicode/uregex.h": {
+    "source": "runtime/prefix/include/unicode/uregex.h",
+    "sha256": "cb069fb56ec8807cab04560ba64ef3fde37d535e67f74b4d33b4f32be13e9b4b"
+  },
+  "runtime/prefix/include/unicode/uregion.h": {
+    "source": "runtime/prefix/include/unicode/uregion.h",
+    "sha256": "38e3fad54db2129215b3d88342b0e83a554eb19509469970ac24af9d3e122507"
+  },
+  "runtime/prefix/include/unicode/ureldatefmt.h": {
+    "source": "runtime/prefix/include/unicode/ureldatefmt.h",
+    "sha256": "c1deef931fb267eaa93cb1c39a4862221e53b2583d68549ce321b9f021cd30a0"
+  },
+  "runtime/prefix/include/unicode/urename.h": {
+    "source": "runtime/prefix/include/unicode/urename.h",
+    "sha256": "e147332f874ffcd839bd510daff8a50c4d944a988586abd7740a7bc5997ade20"
+  },
+  "runtime/prefix/include/unicode/urep.h": {
+    "source": "runtime/prefix/include/unicode/urep.h",
+    "sha256": "45327525a9a08ac044f401d7edcf60c7574a7cdbc29d2930d533987d6a214a48"
+  },
+  "runtime/prefix/include/unicode/ures.h": {
+    "source": "runtime/prefix/include/unicode/ures.h",
+    "sha256": "0b3b89478bb87d4b48c16231a0af531ed0b08989b40f991de925334cd51ab313"
+  },
+  "runtime/prefix/include/unicode/uscript.h": {
+    "source": "runtime/prefix/include/unicode/uscript.h",
+    "sha256": "293adf40390583c1c5394d3dc1794ed1669e8356cdf292ca5eaac145a2a5d1e0"
+  },
+  "runtime/prefix/include/unicode/usearch.h": {
+    "source": "runtime/prefix/include/unicode/usearch.h",
+    "sha256": "42209f2378dcfb8824a5488efb4dead91549d2399ed91fc3a9be2dc1571dd9a9"
+  },
+  "runtime/prefix/include/unicode/uset.h": {
+    "source": "runtime/prefix/include/unicode/uset.h",
+    "sha256": "6316da5a6fd0f36813a2d38353de2a0d2862f8b05a9c2330f7c23907441fb576"
+  },
+  "runtime/prefix/include/unicode/usetiter.h": {
+    "source": "runtime/prefix/include/unicode/usetiter.h",
+    "sha256": "7e4aa843700673ac87d73e1003395f6fe99c4bf53f32d6e04f5292f9b7351bb0"
+  },
+  "runtime/prefix/include/unicode/ushape.h": {
+    "source": "runtime/prefix/include/unicode/ushape.h",
+    "sha256": "f81bb11d208a5dd0f44925ad0b2220e8bc0ad5ccd03285e9d59e0d87433c409c"
+  },
+  "runtime/prefix/include/unicode/usimplenumberformatter.h": {
+    "source": "runtime/prefix/include/unicode/usimplenumberformatter.h",
+    "sha256": "735ba473e6a346814b7dfdaf0b3763f14ef6e9a21bdbd95cf9c0d73a1cee9d51"
+  },
+  "runtime/prefix/include/unicode/uspoof.h": {
+    "source": "runtime/prefix/include/unicode/uspoof.h",
+    "sha256": "68c035bdeeeae564e10517aa355b5de05a6bb4b2ff609bdfc7368ad68718c84b"
+  },
+  "runtime/prefix/include/unicode/usprep.h": {
+    "source": "runtime/prefix/include/unicode/usprep.h",
+    "sha256": "999242c7048f3fc5da8f7b552df180182bab482cbdf1185541907a2a6c29c627"
+  },
+  "runtime/prefix/include/unicode/ustdio.h": {
+    "source": "runtime/prefix/include/unicode/ustdio.h",
+    "sha256": "695e299313d3eeacf3e1fcabf2e06f3c8346a5e0a337d5fc51784b9187173027"
+  },
+  "runtime/prefix/include/unicode/ustream.h": {
+    "source": "runtime/prefix/include/unicode/ustream.h",
+    "sha256": "7843c061c7b88335e8afe4e719577444ba69de8a6d23873060f722b69dca3c5a"
+  },
+  "runtime/prefix/include/unicode/ustring.h": {
+    "source": "runtime/prefix/include/unicode/ustring.h",
+    "sha256": "df37f16b046e32105ce3845eea1af70a159fd02c32576d35a713361c5fcb8758"
+  },
+  "runtime/prefix/include/unicode/ustringtrie.h": {
+    "source": "runtime/prefix/include/unicode/ustringtrie.h",
+    "sha256": "5c9caacdad2a74a72890e24071fa6b1a96cd0ebb774452afba79e1d1ff7aa4eb"
+  },
+  "runtime/prefix/include/unicode/utext.h": {
+    "source": "runtime/prefix/include/unicode/utext.h",
+    "sha256": "3cb8aff2ac169bff208cd0cd4f962a73371e6c3ab591fe0861622b1bcc68168f"
+  },
+  "runtime/prefix/include/unicode/utf.h": {
+    "source": "runtime/prefix/include/unicode/utf.h",
+    "sha256": "2ffaf48902db98fa656ed94a54dd2eadd71faf94d829816a11ea4dc930450955"
+  },
+  "runtime/prefix/include/unicode/utf16.h": {
+    "source": "runtime/prefix/include/unicode/utf16.h",
+    "sha256": "020083494bab47cb5d1cfd9b626bd6214a445d3d12fa0742ae38889faad27972"
+  },
+  "runtime/prefix/include/unicode/utf32.h": {
+    "source": "runtime/prefix/include/unicode/utf32.h",
+    "sha256": "5d011b08161a4ad3cbe0d31bfeb0c76fffb6c6fe832eb9c76f4d2fde1e00b1c6"
+  },
+  "runtime/prefix/include/unicode/utf8.h": {
+    "source": "runtime/prefix/include/unicode/utf8.h",
+    "sha256": "114be262bddb1385e1287ebc0dd93e51413069b39fc98f704a9f5c22c990ed43"
+  },
+  "runtime/prefix/include/unicode/utf_old.h": {
+    "source": "runtime/prefix/include/unicode/utf_old.h",
+    "sha256": "812e249c68d3a45846428a1b6284250077fcd9aa3a418ecbfa9f6448b00a45f7"
+  },
+  "runtime/prefix/include/unicode/utfiterator.h": {
+    "source": "runtime/prefix/include/unicode/utfiterator.h",
+    "sha256": "5f5d5f6cab98aa37bfd7edf0f6c8d6ae9ee205dd6ad593a1b0d28a15fae19fe8"
+  },
+  "runtime/prefix/include/unicode/utfstring.h": {
+    "source": "runtime/prefix/include/unicode/utfstring.h",
+    "sha256": "72feead7894aa00108f0efe0384c890c93c78de9fd18e00c2e73404e78053d18"
+  },
+  "runtime/prefix/include/unicode/utmscale.h": {
+    "source": "runtime/prefix/include/unicode/utmscale.h",
+    "sha256": "fe47d8d7ec43b5b753d4a0b75fa59dad351e15a9755c2f861a5b91f52466e8f4"
+  },
+  "runtime/prefix/include/unicode/utrace.h": {
+    "source": "runtime/prefix/include/unicode/utrace.h",
+    "sha256": "7961fc39b7cc8dfacd408e1c902e8367e76a79ecf55251484c44a4da51e77991"
+  },
+  "runtime/prefix/include/unicode/utrans.h": {
+    "source": "runtime/prefix/include/unicode/utrans.h",
+    "sha256": "344ed6e76086019e72e30ffd68fd6e49333439fc30972e1b8b6d1d11a2d9b7b1"
+  },
+  "runtime/prefix/include/unicode/utypes.h": {
+    "source": "runtime/prefix/include/unicode/utypes.h",
+    "sha256": "065f3c26156af0f4b7374e07b1a772a2ed1a9cb5231c3566ec54ed37095fc7a7"
+  },
+  "runtime/prefix/include/unicode/uvernum.h": {
+    "source": "runtime/prefix/include/unicode/uvernum.h",
+    "sha256": "13cd24940babf5c6c1016131c9917742fc6cf198228689904d88116bb7d04118"
+  },
+  "runtime/prefix/include/unicode/uversion.h": {
+    "source": "runtime/prefix/include/unicode/uversion.h",
+    "sha256": "ff9d0a8d4725cc9ff16c43ddbe2e32e320207922aca3c28b6445c37b1a76c79a"
+  },
+  "runtime/prefix/include/unicode/vtzone.h": {
+    "source": "runtime/prefix/include/unicode/vtzone.h",
+    "sha256": "8eac48f18fd22ad041242a9d87c706d4329cd4b8b24816c38b26d379f21c185b"
+  },
+  "runtime/prefix/lib/libicudata.a": {
+    "source": "runtime/prefix/lib/libicudata.a",
+    "sha256": "f796590cedbc37fd22872eff348952ea880343d4b87504263ef6e122f62329e2"
+  },
+  "runtime/prefix/lib/libicui18n.a": {
+    "source": "runtime/prefix/lib/libicui18n.a",
+    "sha256": "91ec388f433b47197b47f2cc652a0c85eb00b010463a58d0a6d085eeec6028f3"
+  },
+  "runtime/prefix/lib/libicuio.a": {
+    "source": "runtime/prefix/lib/libicuio.a",
+    "sha256": "e6a4e877138a742fe58e65a69dc5053d5968ce0c2f0529acbd0f4be75c250de1"
+  },
+  "runtime/prefix/lib/libicutu.a": {
+    "source": "runtime/prefix/lib/libicutu.a",
+    "sha256": "0daccd98646dfe6ab57bb00bd4d5681b70ec56bbaea4054733a7aefc8860cfc2"
+  },
+  "runtime/prefix/lib/libicuuc.a": {
+    "source": "runtime/prefix/lib/libicuuc.a",
+    "sha256": "2f8018e0b60036e6437deeb1352d9a16cd8f2e40907691353da312795975b57b"
+  },
+  "runtime/prefix/share/icu/78.3/icudt78l.dat": {
+    "source": "runtime/prefix/share/icu/78.3/icudt78l.dat",
+    "sha256": "d5cf2a40dccbe471781ec7af85693bff542ff12f0b670c9630c4e72d60714b8b"
+  },
+  "runtime/prefix/bin/icupkg": {
+    "source": "runtime/src/icu/source/bin/icupkg",
+    "sha256": "fa9d9e2ac3e41315352b586bbcc4ce28c5fd97925d915d08ec402101591b31e8"
+  },
+  "unwind/libgcc_eh.a": {
+    "source": "unwind/libgcc_eh.a",
+    "sha256": "37636779903b9fae29fbef200eb4ed89577a1ba1e5df4a6876ba3b017f90cd7c"
+  }
+}
